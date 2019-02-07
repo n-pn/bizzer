@@ -1,0 +1,32 @@
+{
+  "grouping_slug": "mua-ban-may-tinh-bang",
+  "name": "Kích cỡ màn hình",
+  "slug": "kich-co-man-hinh",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "< 7 inch",
+      "slug": "duoi-7-inch"
+    },
+    {
+      "name": "7 - 7.9 inch",
+      "slug": "7-7-9-inch"
+    },
+    {
+      "name": "8 - 8.9 inch",
+      "slug": "8-8-9-inch"
+    },
+    {
+      "name": "9 - 9.9 inch",
+      "slug": "9-9-9-inch"
+    },
+    {
+      "name": "10 - 10.9 inch",
+      "slug": "10-10-9-inch"
+    },
+    {
+      "name": "> 10.9 inch",
+      "slug": "tren-10-9-inch"
+    }
+  ]
+}

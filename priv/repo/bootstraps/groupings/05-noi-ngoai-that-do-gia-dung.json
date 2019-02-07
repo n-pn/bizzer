@@ -1,0 +1,26 @@
+{
+  "name": "Nội ngoại thất, đồ gia dụng",
+  "slug": "noi-ngoai-that-do-gia-dung",
+  "children": [
+    {
+      "name": "Đồ điện gia dụng",
+      "slug": "do-dien-gia-dung"
+    },
+    {
+      "name": "Giường, tủ, bàn ghế",
+      "slug": "giuong-tu-ban-ghe"
+    },
+    {
+      "name": "Thiết bị phòng bếp, vệ sinh",
+      "slug": "thiet-bi-phong-bep-ve-sinh"
+    },
+    {
+      "name": "Ngoại thất, cây cảnh, cá cảnh",
+      "slug": "ngoai-that-cay-canh-ca-canh"
+    },
+    {
+      "name": "Các loại nội ngoại thất khác",
+      "slug": "cac-loai-noi-ngoai-that-khac"
+    }
+  ]
+}

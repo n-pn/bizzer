@@ -1,0 +1,28 @@
+{
+  "grouping_slug": "ngoai-that-cay-canh-ca-canh",
+  "name": "Thể loại",
+  "slug": "the-loai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Cây cảnh",
+      "slug": "cay-canh"
+    },
+    {
+      "name": "Cá cảnh",
+      "slug": "ca-canh"
+    },
+    {
+      "name": "Cổng",
+      "slug": "cong"
+    },
+    {
+      "name": "Khoá",
+      "slug": "khoa"
+    },
+    {
+      "name": "Các loại khác",
+      "slug": "cac-loai-khac"
+    }
+  ]
+}

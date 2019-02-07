@@ -1,0 +1,1689 @@
+{
+  "grouping_slug": "mua-ban-dien-thoai",
+  "name": "Dòng máy di động",
+  "parent_slug": "hang-may-di-dong",
+  "slug": "dong-may-di-dong",
+  "query_type": "select",
+  "propvals": [
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 3G/3GS",
+      "slug": "apple-iphone-3g-3gs"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 4",
+      "slug": "apple-iphone-4"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 4S",
+      "slug": "apple-iphone-4s"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 5",
+      "slug": "apple-iphone-5"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 5C",
+      "slug": "apple-iphone-5c"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 5S",
+      "slug": "apple-iphone-5s"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 6",
+      "slug": "apple-iphone-6"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 6 plus",
+      "slug": "apple-iphone-6-plus"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 6S",
+      "slug": "apple-iphone-6s"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 6S plus",
+      "slug": "apple-iphone-6s-plus"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 7",
+      "slug": "apple-iphone-7"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 7 plus",
+      "slug": "apple-iphone-7-plus"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone SE",
+      "slug": "apple-iphone-se"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 8",
+      "slug": "apple-iphone-8"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone 8 plus",
+      "slug": "apple-iphone-8-plus"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Iphone X",
+      "slug": "apple-iphone-x"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Dòng Iphone khác",
+      "slug": "dong-iphone-khac"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy A3",
+      "slug": "samsung-galaxy-a3"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy A5",
+      "slug": "samsung-galaxy-a5"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy A7",
+      "slug": "samsung-galaxy-a7"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy A8",
+      "slug": "samsung-galaxy-a8"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy A9 Pro",
+      "slug": "samsung-galaxy-a9-pro"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy J",
+      "slug": "samsung-galaxy-j"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy J1",
+      "slug": "samsung-galaxy-j1"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy J1 mini",
+      "slug": "samsung-galaxy-j1-mini"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy J2",
+      "slug": "samsung-galaxy-j2"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy J3",
+      "slug": "samsung-galaxy-j3"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy J5",
+      "slug": "samsung-galaxy-j5"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy J7",
+      "slug": "samsung-galaxy-j7"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy J7 Prime",
+      "slug": "samsung-galaxy-j7-prime"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Note 2",
+      "slug": "samsung-galaxy-note-2"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Note 3",
+      "slug": "samsung-galaxy-note-3"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Note 3 Neo",
+      "slug": "samsung-galaxy-note-3-neo"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Note 4",
+      "slug": "samsung-galaxy-note-4"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Note 5",
+      "slug": "samsung-galaxy-note-5"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Note 7",
+      "slug": "samsung-galaxy-note-7"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Note Edge",
+      "slug": "samsung-galaxy-note-edge"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy S2",
+      "slug": "samsung-galaxy-s2"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy S3",
+      "slug": "samsung-galaxy-s3"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy S4",
+      "slug": "samsung-galaxy-s4"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy S5",
+      "slug": "samsung-galaxy-s5"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy S6",
+      "slug": "samsung-galaxy-s6"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy S6 Edge",
+      "slug": "samsung-galaxy-s6-edge"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy S6 Edge Plus",
+      "slug": "samsung-galaxy-s6-edge-plus"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy S7",
+      "slug": "samsung-galaxy-s7"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy S7 Edge",
+      "slug": "samsung-galaxy-s7-edge"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy S8",
+      "slug": "samsung-galaxy-s8"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy S8+",
+      "slug": "samsung-galaxy-s8-plus"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy A9",
+      "slug": "samsung-galaxy-a9"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Note 8",
+      "slug": "samsung-galaxy-note-8"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy A8 Plus",
+      "slug": "samsung-galaxy-a8-plus"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy C9 Pro",
+      "slug": "samsung-galaxy-c9-pro"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy J3 Pro",
+      "slug": "samsung-galaxy-j3-pro"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy J7 Pro",
+      "slug": "samsung-galaxy-j7-pro"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy J7+",
+      "slug": "samsung-galaxy-j7-plus"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy S9",
+      "slug": "samsung-galaxy-s9"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy S9 Plus",
+      "slug": "samsung-galaxy-s9-plus"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Note Fan Edition",
+      "slug": "samsung-note-fan-edition"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Dòng Samsung khác",
+      "slug": "dong-samsung-khac"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus Zenfone 2",
+      "slug": "asus-zenfone-2"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus Zenfone 3",
+      "slug": "asus-zenfone-3"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus Zenfone 4",
+      "slug": "asus-zenfone-4"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus Zenfone 5",
+      "slug": "asus-zenfone-5"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus Zenfone Max",
+      "slug": "asus-zenfone-max"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus Zenfone Selfie",
+      "slug": "asus-zenfone-selfie"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus Zenfone Go",
+      "slug": "asus-zenfone-go"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus ZenFone Live",
+      "slug": "asus-zenfone-live"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus Zenfone Max Plus M1",
+      "slug": "asus-zenfone-max-plus-m1"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Dòng Zenfone khác",
+      "slug": "dong-zenfone-khac"
+    },
+    {
+      "parent_slug": "blackberry",
+      "name": "Blackberry DTEK50",
+      "slug": "blackberry-dtek50"
+    },
+    {
+      "parent_slug": "blackberry",
+      "name": "Blackberry Passport",
+      "slug": "blackberry-passport"
+    },
+    {
+      "parent_slug": "blackberry",
+      "name": "Blackberry PRIV",
+      "slug": "blackberry-priv"
+    },
+    {
+      "parent_slug": "blackberry",
+      "name": "Blackberry Q series (Q5/Q10)",
+      "slug": "blackberry-q-series-q5-q10"
+    },
+    {
+      "parent_slug": "blackberry",
+      "name": "Blackberry Z series (Z3/Z10/Z30)",
+      "slug": "blackberry-z-series-z3-z10-z30"
+    },
+    {
+      "parent_slug": "blackberry",
+      "name": "Blackberry Bold",
+      "slug": "blackberry-bold"
+    },
+    {
+      "parent_slug": "blackberry",
+      "name": "Blackberry Classic",
+      "slug": "blackberry-classic"
+    },
+    {
+      "parent_slug": "blackberry",
+      "name": "Blackberry DTEK60",
+      "slug": "blackberry-dtek60"
+    },
+    {
+      "parent_slug": "blackberry",
+      "name": "Blackberry Porsche Design",
+      "slug": "blackberry-porsche-design"
+    },
+    {
+      "parent_slug": "blackberry",
+      "name": "Dòng Blackberry khác",
+      "slug": "dong-blackberry-khac"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC 8x",
+      "slug": "htc-8x"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC Desire",
+      "slug": "htc-desire"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC One M7",
+      "slug": "htc-one-m7"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC One M8",
+      "slug": "htc-one-m8"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC One M9",
+      "slug": "htc-one-m9"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC One E8",
+      "slug": "htc-one-e8"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC One E9",
+      "slug": "htc-one-e9"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC One A9",
+      "slug": "htc-one-a9"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC 10 evo",
+      "slug": "htc-10-evo"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC Desire 10 Pro",
+      "slug": "htc-desire-10-pro"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC Desire 628 dual SIM",
+      "slug": "htc-desire-628-dual-sim"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC Desire 728G",
+      "slug": "htc-desire-728g"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC HTC U11 Plus",
+      "slug": "htc-htc-u11-plus"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC One A9/One A9s",
+      "slug": "htc-one-a9-one-a9s"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC One E9 Dual",
+      "slug": "htc-one-e9-dual"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC One ME",
+      "slug": "htc-one-me"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC U Play",
+      "slug": "htc-u-play"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC U Ultra/U Ultra Sapphire",
+      "slug": "htc-u-ultra-u-ultra-sapphire"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "HTC U11",
+      "slug": "htc-u11"
+    },
+    {
+      "parent_slug": "htc",
+      "name": "Dòng HTC khác",
+      "slug": "dong-htc-khac"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "Huawei Ascend G610",
+      "slug": "huawei-ascend-g610"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "Huawei G Play Mini",
+      "slug": "huawei-g-play-mini"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "Huawei G7 Plus",
+      "slug": "huawei-g7-plus"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "Huawei GR5 2017",
+      "slug": "huawei-gr5-2017"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "Huawei GR5/GR5 Mini",
+      "slug": "huawei-gr5-gr5-mini"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "Huawei P8 Lite",
+      "slug": "huawei-p8-lite"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "Huawei P9",
+      "slug": "huawei-p9"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "Huawei Y5",
+      "slug": "huawei-y5"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "Huawei Y6",
+      "slug": "huawei-y6"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "Dòng Huawei khác",
+      "slug": "dong-huawei-khac"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo A2010",
+      "slug": "lenovo-a2010"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo A6600 Plus",
+      "slug": "lenovo-a6600-plus"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo K6 Note",
+      "slug": "lenovo-k6-note"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo K6 Power",
+      "slug": "lenovo-k6-power"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo P70",
+      "slug": "lenovo-p70"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Vibe K5+",
+      "slug": "lenovo-vibe-k5-plus"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Vibe P1",
+      "slug": "lenovo-vibe-p1"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Vibe S1",
+      "slug": "lenovo-vibe-s1"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo K8 Note",
+      "slug": "lenovo-k8-note"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Phab 2",
+      "slug": "lenovo-phab-2"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Phab 2 plus",
+      "slug": "lenovo-phab-2-plus"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Phab 2 Pro",
+      "slug": "lenovo-phab-2-pro"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo s850",
+      "slug": "lenovo-s850"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Dòng Lenovo khác",
+      "slug": "dong-lenovo-khac"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "LG G2",
+      "slug": "lg-g2"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "LG G3",
+      "slug": "lg-g3"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "LG G4",
+      "slug": "lg-g4"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "LG G5",
+      "slug": "lg-g5"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "LG G Pro/G Pro 2",
+      "slug": "lg-g-pro-g-pro-2"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "LG L60",
+      "slug": "lg-l60"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "LG L70",
+      "slug": "lg-l70"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "LG L90",
+      "slug": "lg-l90"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "LG Optimus G",
+      "slug": "lg-optimus-g"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "LG V10",
+      "slug": "lg-v10"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "LG V20",
+      "slug": "lg-v20"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "LG V30",
+      "slug": "lg-v30"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "Dòng LG khác",
+      "slug": "dong-lg-khac"
+    },
+    {
+      "parent_slug": "mobiistar",
+      "name": "Mobiistar B series",
+      "slug": "mobiistar-b-series"
+    },
+    {
+      "parent_slug": "mobiistar",
+      "name": "Mobiistar Buddy",
+      "slug": "mobiistar-buddy"
+    },
+    {
+      "parent_slug": "mobiistar",
+      "name": "Mobiistar Kool Lite",
+      "slug": "mobiistar-kool-lite"
+    },
+    {
+      "parent_slug": "mobiistar",
+      "name": "Mobiistar Lai series",
+      "slug": "mobiistar-lai-series"
+    },
+    {
+      "parent_slug": "mobiistar",
+      "name": "Mobiistar Prime X series",
+      "slug": "mobiistar-prime-x-series"
+    },
+    {
+      "parent_slug": "mobiistar",
+      "name": "Mobiistar Zoro 4G",
+      "slug": "mobiistar-zoro-4g"
+    },
+    {
+      "parent_slug": "mobiistar",
+      "name": "Mobiistar Zumbo Series",
+      "slug": "mobiistar-zumbo-series"
+    },
+    {
+      "parent_slug": "mobiistar",
+      "name": "Dòng Mobiistar khác",
+      "slug": "dong-mobiistar-khac"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 430",
+      "slug": "nokia-lumia-430"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 520",
+      "slug": "nokia-lumia-520"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 525",
+      "slug": "nokia-lumia-525"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 535",
+      "slug": "nokia-lumia-535"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 540",
+      "slug": "nokia-lumia-540"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 625",
+      "slug": "nokia-lumia-625"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 630",
+      "slug": "nokia-lumia-630"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 640",
+      "slug": "nokia-lumia-640"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 720",
+      "slug": "nokia-lumia-720"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 730",
+      "slug": "nokia-lumia-730"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 920",
+      "slug": "nokia-lumia-920"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 925",
+      "slug": "nokia-lumia-925"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 950",
+      "slug": "nokia-lumia-950"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 1020",
+      "slug": "nokia-lumia-1020"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia Lumia 1320",
+      "slug": "nokia-lumia-1320"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia 1",
+      "slug": "nokia-1"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia 2",
+      "slug": "nokia-2"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia 3",
+      "slug": "nokia-3"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia 5",
+      "slug": "nokia-5"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia 6",
+      "slug": "nokia-6"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Nokia 8/8 Sirocco",
+      "slug": "nokia-8-8-sirocco"
+    },
+    {
+      "parent_slug": "nokia",
+      "name": "Dòng Nokia khác",
+      "slug": "dong-nokia-khac"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo A37",
+      "slug": "oppo-a37"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo A39",
+      "slug": "oppo-a39"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo F1",
+      "slug": "oppo-f1"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo F1 Plus",
+      "slug": "oppo-f1-plus"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo F1s",
+      "slug": "oppo-f1s"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo Neo 3",
+      "slug": "oppo-neo-3"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo Neo 5",
+      "slug": "oppo-neo-5"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo Neo 7/7s",
+      "slug": "oppo-neo-7-7s"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo A71",
+      "slug": "oppo-a71"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo F3 / F3 Lite",
+      "slug": "oppo-f3-f3-lite"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo F3 Plus",
+      "slug": "oppo-f3-plus"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo F5",
+      "slug": "oppo-f5"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo R3",
+      "slug": "oppo-r3"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo R7 / R7 Lite",
+      "slug": "oppo-r7-r7-lite"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo R7 Plus",
+      "slug": "oppo-r7-plus"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Oppo R7s",
+      "slug": "oppo-r7s"
+    },
+    {
+      "parent_slug": "oppo",
+      "name": "Dòng Oppo khác",
+      "slug": "dong-oppo-khac"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo V1",
+      "slug": "vivo-v1"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo V1 Max",
+      "slug": "vivo-v1-max"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo V3 Max",
+      "slug": "vivo-v3-max"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo V5",
+      "slug": "vivo-v5"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo V5 Plus",
+      "slug": "vivo-v5-plus"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo Y31",
+      "slug": "vivo-y31"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo Y51",
+      "slug": "vivo-y51"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo Y55",
+      "slug": "vivo-y55"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo V3",
+      "slug": "vivo-v3"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo V5s",
+      "slug": "vivo-v5s"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo V7",
+      "slug": "vivo-v7"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo v7+",
+      "slug": "vivo-v7-plus"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo Y53",
+      "slug": "vivo-y53"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo Y55s",
+      "slug": "vivo-y55s"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Vivo Y69",
+      "slug": "vivo-y69"
+    },
+    {
+      "parent_slug": "vivo",
+      "name": "Dòng Vivo khác",
+      "slug": "dong-vivo-khac"
+    },
+    {
+      "parent_slug": "sky",
+      "name": "Sky A830",
+      "slug": "sky-a830"
+    },
+    {
+      "parent_slug": "sky",
+      "name": "Sky A840",
+      "slug": "sky-a840"
+    },
+    {
+      "parent_slug": "sky",
+      "name": "Sky A850",
+      "slug": "sky-a850"
+    },
+    {
+      "parent_slug": "sky",
+      "name": "Sky A860",
+      "slug": "sky-a860"
+    },
+    {
+      "parent_slug": "sky",
+      "name": "Sky A870",
+      "slug": "sky-a870"
+    },
+    {
+      "parent_slug": "sky",
+      "name": "Sky A890",
+      "slug": "sky-a890"
+    },
+    {
+      "parent_slug": "sky",
+      "name": "Sky A900",
+      "slug": "sky-a900"
+    },
+    {
+      "parent_slug": "sky",
+      "name": "Sky A910",
+      "slug": "sky-a910"
+    },
+    {
+      "parent_slug": "sky",
+      "name": "Sky Pantech V950",
+      "slug": "sky-pantech-v950"
+    },
+    {
+      "parent_slug": "sky",
+      "name": "Dòng Sky khác",
+      "slug": "dong-sky-khac"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia C4/C4 Dual",
+      "slug": "sony-xperia-c4-c4-dual"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia C5 Ultra/C5 Ultra Dual",
+      "slug": "sony-xperia-c5-ultra-c5-ultra-dual"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia XA/XA Ultra",
+      "slug": "sony-xperia-xa-xa-ultra"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia Z",
+      "slug": "sony-xperia-z"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia Z2",
+      "slug": "sony-xperia-z2"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia Z3",
+      "slug": "sony-xperia-z3"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia Z4",
+      "slug": "sony-xperia-z4"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia Z5",
+      "slug": "sony-xperia-z5"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Dòng Sony khác",
+      "slug": "dong-sony-khac"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia M4",
+      "slug": "sony-xperia-m4"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia C5",
+      "slug": "sony-xperia-c5"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia Z1",
+      "slug": "sony-xperia-z1"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony L1 dual",
+      "slug": "sony-l1-dual"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony XA1 Ultra",
+      "slug": "sony-xa1-ultra"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia L1 Dual",
+      "slug": "sony-xperia-l1-dual"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia XA1 Plus",
+      "slug": "sony-xperia-xa1-plus"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia XZ Premium",
+      "slug": "sony-xperia-xz-premium"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia XZ1",
+      "slug": "sony-xperia-xz1"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia XZ2/Xperia XZ2 Compact",
+      "slug": "sony-xperia-xz2-xperia-xz2-compact"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Xperia XZs",
+      "slug": "sony-xperia-xzs"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Mi4",
+      "slug": "xiaomi-mi4"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Mi5",
+      "slug": "xiaomi-mi5"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Mi Note",
+      "slug": "xiaomi-mi-note"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Redmi 3/3S/3X",
+      "slug": "xiaomi-redmi-3-3s-3x"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Redmi 4/4A/4X",
+      "slug": "xiaomi-redmi-4-4a-4x"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Redmi Note 2",
+      "slug": "xiaomi-redmi-note-2"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Redmi Note 3",
+      "slug": "xiaomi-redmi-note-3"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Redmi Note 4/4X",
+      "slug": "xiaomi-redmi-note-4-4x"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Redmi Pro",
+      "slug": "xiaomi-redmi-pro"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Mi 6",
+      "slug": "xiaomi-mi-6"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Mi A1",
+      "slug": "xiaomi-mi-a1"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Mi Max 2 DGW",
+      "slug": "xiaomi-mi-max-2-dgw"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Mi Mix 2",
+      "slug": "xiaomi-mi-mix-2"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Redmi 5/5A",
+      "slug": "xiaomi-redmi-5-5a"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Xiaomi Redmi Note 5A/Note 5A Prime",
+      "slug": "xiaomi-redmi-note-5a-note-5a-prime"
+    },
+    {
+      "parent_slug": "xiaomi",
+      "name": "Dòng Xiaomi khác",
+      "slug": "dong-xiaomi-khac"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel A Series",
+      "slug": "masstel-a-series"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel B Series",
+      "slug": "masstel-b-series"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel I Series",
+      "slug": "masstel-i-series"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel Win Series",
+      "slug": "masstel-win-series"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel Special Phone",
+      "slug": "masstel-special-phone"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel A112",
+      "slug": "masstel-a112"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel F10",
+      "slug": "masstel-f10"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel F20",
+      "slug": "masstel-f20"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel FAMI S",
+      "slug": "masstel-fami-s"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel I200",
+      "slug": "masstel-i200"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel I235",
+      "slug": "masstel-i235"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel Juno Q5 Plus",
+      "slug": "masstel-juno-q5-plus"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel Juno S6",
+      "slug": "masstel-juno-s6"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel N1",
+      "slug": "masstel-n1"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel N6",
+      "slug": "masstel-n6"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Dòng Masstel khác",
+      "slug": "dong-masstel-khac"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Land Rover A8",
+      "slug": "land-rover-a8"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Land Rover A8+",
+      "slug": "land-rover-a8-plus"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Land Rover C12",
+      "slug": "land-rover-c12"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Land Rover S2",
+      "slug": "land-rover-s2"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Land Rover X1",
+      "slug": "land-rover-x1"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Land Rover X5 PLUS",
+      "slug": "land-rover-x5-plus"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Land Rover A12",
+      "slug": "land-rover-a12"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Land Rover C5000",
+      "slug": "land-rover-c5000"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Land Rover K888",
+      "slug": "land-rover-k888"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Land Rover T19",
+      "slug": "land-rover-t19"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Land Rover X6000",
+      "slug": "land-rover-x6000"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Land Rover XP6700",
+      "slug": "land-rover-xp3300"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Land Rover XP6700",
+      "slug": "land-rover-xp6700"
+    },
+    {
+      "parent_slug": "land-rover",
+      "name": "Dòng Land Rover khác",
+      "slug": "dong-land-rover-khac"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) 105",
+      "slug": "nokia-cu-105"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) 1202",
+      "slug": "nokia-cu-1202"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) 1280",
+      "slug": "nokia-cu-1280"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) 6300",
+      "slug": "nokia-cu-6300"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) 6700",
+      "slug": "nokia-cu-6700"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) 8800",
+      "slug": "nokia-cu-8800"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) C3",
+      "slug": "nokia-cu-c3"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) E71",
+      "slug": "nokia-cu-e71"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) E72",
+      "slug": "nokia-cu-e72"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) X2",
+      "slug": "nokia-cu-x2"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) X6",
+      "slug": "nokia-cu-x6"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) 130",
+      "slug": "nokia-cu-130"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) 3310",
+      "slug": "nokia-cu-3310"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) N150",
+      "slug": "nokia-cu-n150"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Nokia (cũ) X2-01",
+      "slug": "nokia-cu-x2-01"
+    },
+    {
+      "parent_slug": "nokia-cu",
+      "name": "Dòng Nokia (cũ) khác",
+      "slug": "dong-nokia-cu-khac"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu M1",
+      "slug": "meizu-m1"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu M2",
+      "slug": "meizu-m2"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu M3S",
+      "slug": "meizu-m3s"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu M3 Note",
+      "slug": "meizu-m3-note"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu M5",
+      "slug": "meizu-m5"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu MX5",
+      "slug": "meizu-mx5"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu MX6",
+      "slug": "meizu-mx6"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu Pro 6",
+      "slug": "meizu-pro-6"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu U20",
+      "slug": "meizu-u20"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu M3 Max",
+      "slug": "meizu-m3-max"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu M5 Note",
+      "slug": "meizu-m5-note"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu M5S",
+      "slug": "meizu-m5s"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu M6",
+      "slug": "meizu-m6"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu M6 Note",
+      "slug": "meizu-m6-note"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu M6S",
+      "slug": "meizu-m6s"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu Pro 7",
+      "slug": "meizu-pro-7"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Meizu Pro 7 Plus",
+      "slug": "meizu-pro-7-plus"
+    },
+    {
+      "parent_slug": "meizu",
+      "name": "Dòng Meizu khác",
+      "slug": "dong-meizu-khac"
+    },
+    {
+      "parent_slug": "hang-khac",
+      "name": "Dòng khác",
+      "slug": "dong-khac"
+    },
+    {
+      "parent_slug": "bkav",
+      "name": "BKAV Bphone 1",
+      "slug": "bkav-bphone-1"
+    },
+    {
+      "parent_slug": "bkav",
+      "name": "BKAV Dòng Bphone khác",
+      "slug": "bkav-dong-bphone-khac"
+    },
+    {
+      "parent_slug": "google",
+      "name": "Google Google Pixel",
+      "slug": "google-google-pixel"
+    },
+    {
+      "parent_slug": "google",
+      "name": "Google Google Pixel XL",
+      "slug": "google-google-pixel-xl"
+    },
+    {
+      "parent_slug": "google",
+      "name": "Google Google Pixel 2",
+      "slug": "google-google-pixel-2"
+    },
+    {
+      "parent_slug": "google",
+      "name": "Google Google Pixel 2 XL",
+      "slug": "google-google-pixel-2-xl"
+    },
+    {
+      "parent_slug": "google",
+      "name": "Dòng Google khác",
+      "slug": "dong-google-khac"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Mobell F3",
+      "slug": "mobell-f3"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Mobell Nova F7 Pro",
+      "slug": "mobell-nova-f7-pro"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Mobell Nova I4",
+      "slug": "mobell-nova-i4"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Mobell Nova I6",
+      "slug": "mobell-nova-i6"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Mobell Nova I7",
+      "slug": "mobell-nova-i7"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Mobell Nova P2",
+      "slug": "mobell-nova-p2"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Mobell Rock 3",
+      "slug": "mobell-rock-3"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Mobell S2",
+      "slug": "mobell-s2"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Mobell S30",
+      "slug": "mobell-s30"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Dòng Mobell khác",
+      "slug": "dong-mobell-khac"
+    },
+    {
+      "parent_slug": "motorola",
+      "name": "Motorola C 4g",
+      "slug": "motorola-c-4g"
+    },
+    {
+      "parent_slug": "motorola",
+      "name": "Motorola C Plus",
+      "slug": "motorola-c-plus"
+    },
+    {
+      "parent_slug": "motorola",
+      "name": "Motorola E4 Plus",
+      "slug": "motorola-e4-plus"
+    },
+    {
+      "parent_slug": "motorola",
+      "name": "Motorola G5s Plus",
+      "slug": "motorola-g5s-plus"
+    },
+    {
+      "parent_slug": "motorola",
+      "name": "Motorola X4",
+      "slug": "motorola-x4"
+    },
+    {
+      "parent_slug": "motorola",
+      "name": "Motorola Z2 Play",
+      "slug": "motorola-z2-play"
+    },
+    {
+      "parent_slug": "motorola",
+      "name": "Dòng Motorola khác",
+      "slug": "dong-motorola-khac"
+    },
+    {
+      "parent_slug": "razer",
+      "name": "Razer Razer phone",
+      "slug": "razer-razer-phone"
+    },
+    {
+      "parent_slug": "razer",
+      "name": "Dòng Razer khác",
+      "slug": "dong-razer-khac"
+    }
+  ]
+}

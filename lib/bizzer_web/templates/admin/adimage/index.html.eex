@@ -1,0 +1,26 @@
+<section class="main-content _full">
+  <div class="adimage-list">
+    <%= for adimage <- @adimages do %>
+      <div class="adimage-item">
+        <a href="<%= admin_adimage_path(@conn, :show, adimage.id) %>" class="adimage-card _<%= adimage.status %>">
+          <div class="adimage-thumb">
+            <img src="<%= adimage.public_url || adimage.static_url || adimage.origin_url %>" alt="">
+          </div>
+          <%= if adimage.status == :edited do %>
+            <p class="adimage-status">Ảnh đã sửa bởi <strong><%= adimage.worker.name %></strong></p>
+          <% else %>
+            <p class="adimage-status">Status: <strong><%= adimage.status %></strong></p>
+          <% end %>
+        </a>
+      </div>
+    <% end %>
+  </div>
+
+  <div class="main-pagi">
+    <%= if @opts[:page] > 1 do %>
+    <a href="<%= admin_adimage_path(@conn, :index, page: @opts[:page] - 1) %>" class="button">Trang trước</a>
+    <% end %>
+    <a href="<%= admin_adimage_path(@conn, :index, page: @opts[:page] + 1) %>" class="button _primary">Trang sau</a>
+  </div>
+</section>
+

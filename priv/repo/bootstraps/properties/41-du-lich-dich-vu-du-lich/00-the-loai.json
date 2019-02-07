@@ -1,0 +1,24 @@
+{
+  "grouping_slug": "du-lich-dich-vu-du-lich",
+  "name": "Thể loại",
+  "slug": "the-loai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Du lịch trong ngoài nước",
+      "slug": "du-lich-trong-ngoai-nuoc"
+    },
+    {
+      "name": "Visa, hộ chiếu",
+      "slug": "visa-ho-chieu"
+    },
+    {
+      "name": "Vé máy bay, tàu xe",
+      "slug": "ve-may-bay-tau-xe"
+    },
+    {
+      "name": "Các loại khác",
+      "slug": "cac-loai-khac"
+    }
+  ]
+}

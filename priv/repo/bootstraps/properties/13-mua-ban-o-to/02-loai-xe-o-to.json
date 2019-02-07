@@ -1,0 +1,44 @@
+{
+  "grouping_slug": "mua-ban-o-to",
+  "name": "Loại xe ô tô",
+  "slug": "loai-xe-o-to",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "Sedan",
+      "slug": "sedan"
+    },
+    {
+      "name": "SUV / Cross over",
+      "slug": "suv-cross-over"
+    },
+    {
+      "name": "Hatchback",
+      "slug": "hatchback"
+    },
+    {
+      "name": "Pick-up (bán tải)",
+      "slug": "pick-up-ban-tai"
+    },
+    {
+      "name": "Minivan (MPV)",
+      "slug": "minivan-mpv"
+    },
+    {
+      "name": "Van",
+      "slug": "van"
+    },
+    {
+      "name": "Coupe (2 cửa)",
+      "slug": "coupe-2-cua"
+    },
+    {
+      "name": "Mui trần",
+      "slug": "mui-tran"
+    },
+    {
+      "name": "Kiểu dáng khác",
+      "slug": "kieu-dang-khac"
+    }
+  ]
+}

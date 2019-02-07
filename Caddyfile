@@ -1,0 +1,13 @@
+bizzer.store, www.bizzer.store, bizzer.com.vn, www.bizzer.com.vn {
+  proxy / localhost:4567
+}
+
+static.bizzer.store, static.bizzer.com.vn {
+  root /srv/web/bizzer-store/priv/static
+  gzip
+}
+
+upload.bizzer.store, upload.bizzer.com.vn {
+  root /srv/web/bizzer-store/uploads
+  gzip
+}

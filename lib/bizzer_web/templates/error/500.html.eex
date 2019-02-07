@@ -1,0 +1,4 @@
+<div class="error">
+  <h1 class="error-title">500 Internal Error</h1>
+  <p class="error-message"><%= @conn.assigns[:message] || "Unknown error" %></p>
+</div>

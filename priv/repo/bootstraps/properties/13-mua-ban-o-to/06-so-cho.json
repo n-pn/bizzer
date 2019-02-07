@@ -1,0 +1,68 @@
+{
+  "grouping_slug": "mua-ban-o-to",
+  "name": "Số chỗ",
+  "slug": "so-cho",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "2",
+      "slug": "2"
+    },
+    {
+      "name": "4",
+      "slug": "4"
+    },
+    {
+      "name": "5",
+      "slug": "5"
+    },
+    {
+      "name": "6",
+      "slug": "6"
+    },
+    {
+      "name": "7",
+      "slug": "7"
+    },
+    {
+      "name": "8",
+      "slug": "8"
+    },
+    {
+      "name": "9",
+      "slug": "9"
+    },
+    {
+      "name": "10",
+      "slug": "10"
+    },
+    {
+      "name": "11",
+      "slug": "11"
+    },
+    {
+      "name": "12",
+      "slug": "12"
+    },
+    {
+      "name": "13",
+      "slug": "13"
+    },
+    {
+      "name": "14",
+      "slug": "14"
+    },
+    {
+      "name": "15",
+      "slug": "15"
+    },
+    {
+      "name": "16",
+      "slug": "16"
+    },
+    {
+      "name": "Khác",
+      "slug": "khac"
+    }
+  ]
+}

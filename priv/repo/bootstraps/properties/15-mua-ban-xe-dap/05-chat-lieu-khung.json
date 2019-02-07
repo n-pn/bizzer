@@ -1,0 +1,32 @@
+{
+  "grouping_slug": "mua-ban-xe-dap",
+  "name": "Chất liệu khung",
+  "slug": "chat-lieu-khung",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Thép",
+      "slug": "thep"
+    },
+    {
+      "name": "Carbon",
+      "slug": "carbon"
+    },
+    {
+      "name": "Inox",
+      "slug": "inox"
+    },
+    {
+      "name": "Nhôm",
+      "slug": "nhom"
+    },
+    {
+      "name": "Sắt",
+      "slug": "sat"
+    },
+    {
+      "name": "Titanium",
+      "slug": "titanium"
+    }
+  ]
+}

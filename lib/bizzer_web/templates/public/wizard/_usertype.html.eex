@@ -1,0 +1,49 @@
+<div class="output js-show-wizard" data-wid="<%= @index %>">
+  <label class="output-label" for="user_type">Bạn là</label>
+  <input type="hidden" name="submit[user_type]" id="output-user_type-value" value="<%= get_value(@chset, :user_type) %>">
+  <%= if print = get_print(@chset, :user_type) do %>
+    <div id="output-user_type-print" class="output-print"><%= print %></div>
+  <% else %>
+    <div id="output-user_type-print" class="output-print _user_type _empty">Cá nhân/Bán chuyên</div>
+  <% end %>
+  <div class="output-error"><%= get_error(@chset, :user_type) %></div>
+</div>
+
+<div id="wizard-<%= @index %>" class="wizard">
+  <%= render "__header.html", title: "Bạn là" %>
+
+  <section class="wizard-content">
+    <div class="wizard-wrapper">
+      <div class="wizard-parent">
+        <div class="wizard-radio">
+          <div class="wizard-radio-item">
+            <button type="button"
+              class="wizard-option _radio js-update-output"
+              data-wid="<%= @index %>"
+              data-input="user_type"
+              data-value="ca-nhan"
+              data-print="Cá nhân"
+            >
+              <span class="wizard-text">Cá nhân</span>
+              <span class="wizard-icon"><i class="icon fe fe-check"></i></span>
+            </button>
+          </div>
+          <div class="wizard-radio-item">
+            <button type="button"
+              class="wizard-option _radio js-update-output"
+              data-wid="<%= @index %>"
+              data-input="user_type"
+              data-value="ban-chuyen"
+              data-print="Bán chuyên"
+            >
+              <span class="wizard-text">Bán chuyên</span>
+              <span class="wizard-icon"><i class="icon fe fe-check"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <%= render "__footer.html", index: @index %>
+</div>

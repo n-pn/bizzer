@@ -1,0 +1,11 @@
+<div class="main-content">
+  <div class="tabs">
+    <a class='tab<%= if @tab == "dang-chay", do: " _active" %>' href="<%= public_user_path(@conn, :show, @user.slug, tab: "dang-chay") %>">Đang chạy</a>
+    <a class='tab<%= if @tab == "da-ngung", do: " _active" %>' href="<%= public_user_path(@conn, :show, @user.slug, tab: "da-ngung") %>">Đã hoàn thành</a>
+  </div>
+
+  <%= render BizzerWeb.PartialView, "adentry-list.html", Map.merge(assigns, %{prev_url: prev_url(@conn), next_url: next_url(@conn)}) %>
+
+</div>
+
+<%= render BizzerWeb.LayoutView, "_sidebar.html", assigns %>

@@ -1,0 +1,60 @@
+{
+  "grouping_slug": "mua-ban-may-tinh-de-ban",
+  "name": "Dung lượng ổ cứng",
+  "slug": "dung-luong-o-cung",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "< 128 GB",
+      "slug": "duoi-128-gb"
+    },
+    {
+      "name": "128 GB",
+      "slug": "128-gb"
+    },
+    {
+      "name": "250 GB",
+      "slug": "250-gb"
+    },
+    {
+      "name": "256 GB",
+      "slug": "256-gb"
+    },
+    {
+      "name": "320 GB",
+      "slug": "320-gb"
+    },
+    {
+      "name": "480 GB",
+      "slug": "480-gb"
+    },
+    {
+      "name": "500 GB",
+      "slug": "500-gb"
+    },
+    {
+      "name": "512 GB",
+      "slug": "512-gb"
+    },
+    {
+      "name": "640 GB",
+      "slug": "640-gb"
+    },
+    {
+      "name": "700 GB",
+      "slug": "700-gb"
+    },
+    {
+      "name": "750 GB",
+      "slug": "750-gb"
+    },
+    {
+      "name": "1 TB",
+      "slug": "1-tb"
+    },
+    {
+      "name": "> 1 TB",
+      "slug": "tren-1-tb"
+    }
+  ]
+}

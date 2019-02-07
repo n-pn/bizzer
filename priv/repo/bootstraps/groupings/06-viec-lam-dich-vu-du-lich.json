@@ -1,0 +1,26 @@
+{
+  "name": "Việc làm, dịch vụ, du lịch",
+  "slug": "viec-lam-dich-vu-du-lich",
+  "children": [
+    {
+      "name": "Việc làm bán thời gian",
+      "slug": "viec-lam-ban-thoi-gian"
+    },
+    {
+      "name": "Việc làm toàn thời gian",
+      "slug": "viec-lam-toan-thoi-gian"
+    },
+    {
+      "name": "Dịch vụ gia đình, văn phòng",
+      "slug": "dich-vu-gia-dinh-van-phong"
+    },
+    {
+      "name": "Dịch vụ sửa chữa, bảo dưỡng",
+      "slug": "dich-vu-sua-chua-bao-duong"
+    },
+    {
+      "name": "Du lịch, dịch vụ du lịch",
+      "slug": "du-lich-dich-vu-du-lich"
+    }
+  ]
+}

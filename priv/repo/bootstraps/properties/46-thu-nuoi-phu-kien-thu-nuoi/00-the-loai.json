@@ -1,0 +1,28 @@
+{
+  "grouping_slug": "thu-nuoi-phu-kien-thu-nuoi",
+  "name": "Thể loại",
+  "slug": "the-loai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Gà",
+      "slug": "ga"
+    },
+    {
+      "name": "Chó",
+      "slug": "cho"
+    },
+    {
+      "name": "Chim",
+      "slug": "chim"
+    },
+    {
+      "name": "Loại khác",
+      "slug": "loai-khac"
+    },
+    {
+      "name": "Phụ kiện",
+      "slug": "phu-kien"
+    }
+  ]
+}

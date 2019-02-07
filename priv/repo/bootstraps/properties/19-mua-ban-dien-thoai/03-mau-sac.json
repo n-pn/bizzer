@@ -1,0 +1,56 @@
+{
+  "grouping_slug": "mua-ban-dien-thoai",
+  "name": "Màu sắc",
+  "slug": "mau-sac",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Bạc",
+      "slug": "bac"
+    },
+    {
+      "name": "Đen",
+      "slug": "den"
+    },
+    {
+      "name": "Đen bóng - Jet black",
+      "slug": "den-bong-jet-black"
+    },
+    {
+      "name": "Đỏ",
+      "slug": "do"
+    },
+    {
+      "name": "Hồng",
+      "slug": "hong"
+    },
+    {
+      "name": "Trắng",
+      "slug": "trang"
+    },
+    {
+      "name": "Vàng",
+      "slug": "vang"
+    },
+    {
+      "name": "Vàng hồng",
+      "slug": "vang-hong"
+    },
+    {
+      "name": "Xám",
+      "slug": "xam"
+    },
+    {
+      "name": "Xanh dương",
+      "slug": "xanh-duong"
+    },
+    {
+      "name": "Xanh lá",
+      "slug": "xanh-la"
+    },
+    {
+      "name": "Màu khác",
+      "slug": "mau-khac"
+    }
+  ]
+}

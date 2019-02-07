@@ -1,0 +1,304 @@
+{
+  "grouping_slug": "mua-ban-may-tinh-bang",
+  "parent_slug": "hang-may-tinh-bang",
+  "name": "Dòng máy tính bảng",
+  "slug": "dong-may-tinh-bang",
+  "query_type": "select",
+  "propvals": [
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad Pro 12.9 inch",
+      "slug": "apple-ipad-pro-12-9-inch"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad Pro 10.5 inch",
+      "slug": "apple-ipad-pro-10-5-inch"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad Pro 9.7 inch",
+      "slug": "apple-ipad-pro-9-7-inch"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad Gen 5 (2017)",
+      "slug": "apple-ipad-gen-5-2017"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad Mini 4",
+      "slug": "apple-ipad-mini-4"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad Mini 3",
+      "slug": "apple-ipad-mini-3"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad Mini 2",
+      "slug": "apple-ipad-mini-2"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad Mini",
+      "slug": "apple-ipad-mini"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad Air 2",
+      "slug": "apple-ipad-air-2"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad Air",
+      "slug": "apple-ipad-air"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad 4",
+      "slug": "apple-ipad-4"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad 3",
+      "slug": "apple-ipad-3"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad 2",
+      "slug": "apple-ipad-2"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple iPad 1",
+      "slug": "apple-ipad-1"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Dòng iPad khác",
+      "slug": "dong-ipad-khac"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus FonePad",
+      "slug": "asus-fonepad"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus Nexus",
+      "slug": "asus-nexus"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus ZenPad",
+      "slug": "asus-zenpad"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Dòng Asus khác",
+      "slug": "dong-asus-khac"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Book",
+      "slug": "samsung-galaxy-book"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Note",
+      "slug": "samsung-galaxy-note"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Note Pro",
+      "slug": "samsung-galaxy-note-pro"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Tab",
+      "slug": "samsung-galaxy-tab"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Tab 2",
+      "slug": "samsung-galaxy-tab-2"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Tab 3",
+      "slug": "samsung-galaxy-tab-3"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Tab 4",
+      "slug": "samsung-galaxy-tab-4"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Tab A",
+      "slug": "samsung-galaxy-tab-a"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Tab E",
+      "slug": "samsung-galaxy-tab-e"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Tab Pro S",
+      "slug": "samsung-galaxy-tab-pro-s"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Tab S",
+      "slug": "samsung-galaxy-tab-s"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Tab A6",
+      "slug": "samsung-galaxy-tab-a6"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxy Tab A7",
+      "slug": "samsung-galaxy-tab-a7"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Dòng Samsung Galaxy khác",
+      "slug": "dong-samsung-galaxy-khac"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Ideatab",
+      "slug": "lenovo-ideatab"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Phab",
+      "slug": "lenovo-phab"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Phab 2",
+      "slug": "lenovo-phab-2"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Phab 2 Plus",
+      "slug": "lenovo-phab-2-plus"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Phab 2 Pro",
+      "slug": "lenovo-phab-2-pro"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Tab 2",
+      "slug": "lenovo-tab-2"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Tab 3",
+      "slug": "lenovo-tab-3"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo TB3",
+      "slug": "lenovo-tb3"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Yoga book",
+      "slug": "lenovo-yoga-book"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Dòng Lenovo khác",
+      "slug": "dong-lenovo-khac"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "HUAWEI MediaPad M3",
+      "slug": "huawei-mediapad-m3"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "HUAWEI MediaPad T1",
+      "slug": "huawei-mediapad-t1"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "HUAWEI MediaPad T3",
+      "slug": "huawei-mediapad-t3"
+    },
+    {
+      "parent_slug": "huawei",
+      "name": "Dòng MediaPad khác",
+      "slug": "dong-mediapad-khac"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel T712",
+      "slug": "masstel-t712"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel Tab 10",
+      "slug": "masstel-tab-10"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel Tab 7",
+      "slug": "masstel-tab-7"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel Tab 710",
+      "slug": "masstel-tab-710"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel Tab 8",
+      "slug": "masstel-tab-8"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Masstel Tab 825",
+      "slug": "masstel-tab-825"
+    },
+    {
+      "parent_slug": "masstel",
+      "name": "Dòng Masstel khác",
+      "slug": "dong-masstel-khac"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Mobell Tab 7S",
+      "slug": "mobell-tab-7s"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Mobell Tab 8 pro",
+      "slug": "mobell-tab-8-pro"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Mobell Tab 8S",
+      "slug": "mobell-tab-8s"
+    },
+    {
+      "parent_slug": "mobell",
+      "name": "Dòng Mobell khác",
+      "slug": "dong-mobell-khac"
+    },
+    {
+      "parent_slug": "hang-khac",
+      "name": "Dòng khác",
+      "slug": "dong-khac"
+    }
+  ]
+}

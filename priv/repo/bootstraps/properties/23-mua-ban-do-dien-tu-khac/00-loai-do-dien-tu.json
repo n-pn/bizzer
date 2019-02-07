@@ -1,0 +1,44 @@
+{
+  "grouping_slug": "mua-ban-do-dien-tu-khac",
+  "name": "Loại đồ điện tử",
+  "slug": "loai-do-dien-tu",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Màn hình máy tính",
+      "slug": "man-hinh-may-tinh"
+    },
+    {
+      "name": "Phụ kiện máy tính",
+      "slug": "phu-kien-may-tinh"
+    },
+    {
+      "name": "Máy ảnh",
+      "slug": "may-anh"
+    },
+    {
+      "name": "Máy quay phim",
+      "slug": "may-quay-phim"
+    },
+    {
+      "name": "Máy chiếu phim",
+      "slug": "may-chieu-phim"
+    },
+    {
+      "name": "Tivi",
+      "slug": "tivi"
+    },
+    {
+      "name": "Loa",
+      "slug": "loa"
+    },
+    {
+      "name": "Amply",
+      "slug": "amply"
+    },
+    {
+      "name": "Thể loại khác",
+      "slug": "the-loai-khac"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Mua bán đồ điện tử",
+  "slug": "mua-ban-do-dien-tu",
+  "children": [
+    {
+      "name": "Mua bán điện thoại",
+      "slug": "mua-ban-dien-thoai"
+    },
+    {
+      "name": "Mua bán máy tính bảng",
+      "slug": "mua-ban-may-tinh-bang"
+    },
+    {
+      "name": "Mua bán laptop",
+      "slug": "mua-ban-laptop"
+    },
+    {
+      "name": "Mua bán máy tính để bàn",
+      "slug": "mua-ban-may-tinh-de-ban"
+    },
+    {
+      "name": "Các loại đồ điện tử khác",
+      "slug": "mua-ban-do-dien-tu-khac"
+    }
+  ]
+}

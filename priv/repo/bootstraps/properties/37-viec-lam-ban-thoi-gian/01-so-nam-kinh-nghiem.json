@@ -1,0 +1,32 @@
+{
+  "grouping_slug": "viec-lam-ban-thoi-gian",
+  "name": "Số năm kinh nghiệm",
+  "slug": "so-nam-kinh-nghiem",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Không yêu cầu kinh nghiệm",
+      "slug": "khong-yeu-cau-kinh-nghiem"
+    },
+    {
+      "name": "< 1 năm",
+      "slug": "duoi-1-nam"
+    },
+    {
+      "name": "1-2 năm",
+      "slug": "1-2-nam"
+    },
+    {
+      "name": "3-5 năm",
+      "slug": "3-5-nam"
+    },
+    {
+      "name": "6-10 năm",
+      "slug": "6-10-nam"
+    },
+    {
+      "name": "> 10 năm",
+      "slug": "tren-10-nam"
+    }
+  ]
+}

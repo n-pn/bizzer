@@ -1,0 +1,28 @@
+{
+  "grouping_slug": "giuong-tu-ban-ghe",
+  "name": "Thể loại",
+  "slug": "the-loai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Giường",
+      "slug": "giuong"
+    },
+    {
+      "name": "Tủ",
+      "slug": "tủ"
+    },
+    {
+      "name": "Bàn",
+      "slug": "ban"
+    },
+    {
+      "name": "ghe",
+      "slug": "ghe"
+    },
+    {
+      "name": "Các loại khác",
+      "slug": "cac-loai-khac"
+    }
+  ]
+}

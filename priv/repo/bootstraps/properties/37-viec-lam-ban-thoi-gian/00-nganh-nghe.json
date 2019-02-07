@@ -1,0 +1,65 @@
+{
+  "grouping_slug": "viec-lam-ban-thoi-gian",
+  "name": "Ngành nghề",
+  "slug": "nganh-nghe",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Thợ xây/Thợ hồ",
+      "slug": "tho-xay-tho-ho"
+    },
+    {
+      "name": "Bán hàng/Tiếp thị/Thu ngân",
+      "slug": "ban-hang-tiep-thi-thu-ngan"
+    },
+    {
+      "name": "Tài xế/Phụ xe/Giao nhận",
+      "slug": "tai-xe-phu-xe-giao-nhan"
+    },
+    {
+      "name": "Giúp việc/Tạp vụ",
+      "slug": "giup-viec-tap-vu"
+    },
+    {
+      "name": "Nhân viên quán ăn/Nhà hàng/Khách sạn",
+      "slug": "nhan-vien-quan-an-nha-hang-khach-san"
+    },
+    {
+      "name": "Nhân viên chăm sóc khách hàng",
+      "slug": "nhan-vien-cham-soc-khach-hang"
+    },
+    {
+      "name": "Bảo vệ/An ninh/Vệ sỹ",
+      "slug": "bao-ve-an-ninh-ve-sy"
+    },
+    {
+      "name": "Thợ điện/Điện tử/Điện lạnh",
+      "slug": "tho-dien-dien-tu-dien-lanh"
+    },
+    {
+      "name": "Thợ Dệt/May/Da giày",
+      "slug": "tho-det-may-da-giay"
+    },
+    {
+      "name": "Nhân viên Spa/Thẩm mỹ viện/Làm tóc/Nail",
+      "slug": "nhan-vien-spa-tham-my-vien-lam-toc-nail"
+    },
+    {
+      "name": "Nhân viên chế biến/Đóng gói thực phẩm",
+      "slug": "nhan-vien-che-bien-dong-goi-thuc-pham"
+    },
+    {
+      "name": "Nhân viên văn phòng/Kế toán",
+      "slug": "nhan-vien-van-phong-ke-toan"
+    },
+    {
+      "name": "Thợ sửa chữa các loại",
+      "slug": "tho-sua-chua-cac-loai"
+    },
+    {
+      "name": "Công việc khác",
+      "slug": "cong-viec-khac"
+    }
+  ]
+}
+

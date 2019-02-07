@@ -1,0 +1,20 @@
+{
+  "grouping_slug": "mua-ban-o-to",
+  "name": "Hộp số",
+  "slug": "hop-so",
+  "query_type": "radiobox",
+  "propvals": [
+    {
+      "name": "Tự động",
+      "slug": "tu-dong"
+    },
+    {
+      "name": "Số sàn",
+      "slug": "so-san"
+    },
+    {
+      "name": "Cả hai",
+      "slug": "ca-hai"
+    }
+  ]
+}

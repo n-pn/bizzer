@@ -1,0 +1,27 @@
+.query {
+  @include clearfix;
+  padding: $gutter/2;
+  padding-bottom: none;
+}
+
+.query-group {
+  float: left;
+  width: 50%;
+  color: #666;
+  padding: $gutter/2;
+
+  &._keyword { width: 100%; }
+
+  &._grouping, &._location { width: 40%}
+  &._propkeys { width: 20%}
+
+
+  @include screen-phone {
+    padding: .125rem;
+    .input {
+      // padding-left: .25rem;
+      // padding-right: .25rem;
+      @include truncate(100%);
+    }
+  }
+}

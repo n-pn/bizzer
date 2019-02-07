@@ -1,0 +1,126 @@
+{
+  "name": "Hà Nội",
+  "slug": "ha-noi",
+  "children": [
+    {
+      "name": "Quận Hoàn Kiếm",
+      "slug": "quan-hoan-kiem"
+    },
+    {
+      "name": "Quận Ba Đình",
+      "slug": "quan-ba-dinh"
+    },
+    {
+      "name": "Quận Cầu Giấy",
+      "slug": "quan-cau-giay"
+    },
+    {
+      "name": "Quận Đống Đa",
+      "slug": "quan-dong-da"
+    },
+    {
+      "name": "Quận Hoàng Mai",
+      "slug": "quan-hoang-mai"
+    },
+    {
+      "name": "Quận Long Biên",
+      "slug": "quan-long-bien"
+    },
+    {
+      "name": "Quận Tây Hồ",
+      "slug": "quan-tay-ho"
+    },
+    {
+      "name": "Quận Hai Bà Trưng",
+      "slug": "quan-hai-ba-trung"
+    },
+    {
+      "name": "Quận Thanh Xuân",
+      "slug": "quan-thanh-xuan"
+    },
+    {
+      "name": "Quận Bắc Từ Liêm",
+      "slug": "quan-bac-tu-liem"
+    },
+    {
+      "name": "Quận Nam Từ Liêm",
+      "slug": "quan-nam-tu-liem"
+    },
+    {
+      "name": "Quận Hà Đông",
+      "slug": "quan-ha-dong"
+    },
+    {
+      "name": "Thị Xã Sơn Tây",
+      "slug": "thi-xa-son-tay"
+    },
+    {
+      "name": "Huyện Ba Vì",
+      "slug": "huyen-ba-vi"
+    },
+    {
+      "name": "Huyện Chương Mỹ",
+      "slug": "huyen-chuong-my"
+    },
+    {
+      "name": "Huyện Phúc Thọ",
+      "slug": "huyen-phuc-tho"
+    },
+    {
+      "name": "Huyện Đan Phượng",
+      "slug": "huyen-dan-phuong"
+    },
+    {
+      "name": "Huyện Đông Anh",
+      "slug": "huyen-dong-anh"
+    },
+    {
+      "name": "Huyện Gia Lâm",
+      "slug": "huyen-gia-lam"
+    },
+    {
+      "name": "Huyện Hoài Đức",
+      "slug": "huyen-hoai-duc"
+    },
+    {
+      "name": "Huyện Mê Linh",
+      "slug": "huyen-me-linh"
+    },
+    {
+      "name": "Huyện Mỹ Đức",
+      "slug": "huyen-my-duc"
+    },
+    {
+      "name": "Huyện Phú Xuyên",
+      "slug": "huyen-phu-xuyen"
+    },
+    {
+      "name": "Huyện Quốc Oai",
+      "slug": "huyen-quoc-oai"
+    },
+    {
+      "name": "Huyện Sóc Sơn",
+      "slug": "huyen-soc-son"
+    },
+    {
+      "name": "Huyện Thạch Thất",
+      "slug": "huyen-thach-that"
+    },
+    {
+      "name": "Huyện Thanh Oai",
+      "slug": "huyen-thanh-oai"
+    },
+    {
+      "name": "Huyện Thường Tín",
+      "slug": "huyen-thuong-tin"
+    },
+    {
+      "name": "Huyện Ứng Hòa",
+      "slug": "huyen-ung-hoa"
+    },
+    {
+      "name": "Huyện Thanh Trì",
+      "slug": "huyen-thanh-tri"
+    }
+  ]
+}

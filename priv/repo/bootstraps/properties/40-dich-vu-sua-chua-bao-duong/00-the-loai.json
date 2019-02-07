@@ -1,0 +1,36 @@
+{
+  "grouping_slug": "dich-vu-sua-chua-bao-duong",
+  "name": "Thể loại",
+  "slug": "the-loai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Sửa ô tô",
+      "slug": "sua-o-to"
+    },
+    {
+      "name": "Sửa xe máy, xe đạp",
+      "slug": "sua-xe-may-xe-dap"
+    },
+    {
+      "name": "Sửa điện thoại",
+      "slug": "sua-dien-thoai"
+    },
+    {
+      "name": "Sửa máy tính",
+      "slug": "sua-may-tinh"
+    },
+    {
+      "name": "Sửa đồ điện tử",
+      "slug": "sua-do-dien-tu"
+    },
+    {
+      "name": "Bảo dưỡng thiết bị",
+      "slug": "bao-duong-thiet-bi"
+    },
+    {
+      "name": "Các loại khác",
+      "slug": "cac-loai-khac"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "grouping_slug": "mua-ban-xe-dap",
+  "name": "Màu sắc",
+  "slug": "mau-sac",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Đen",
+      "slug": "den"
+    },
+    {
+      "name": "Trắng",
+      "slug": "trang"
+    },
+    {
+      "name": "Xanh dương",
+      "slug": "xanh-duong"
+    },
+    {
+      "name": "Xanh lá",
+      "slug": "xanh-la"
+    },
+    {
+      "name": "Nâu",
+      "slug": "nau"
+    },
+    {
+      "name": "Xám",
+      "slug": "xam"
+    },
+    {
+      "name": "Vàng",
+      "slug": "vang"
+    },
+    {
+      "name": "Cam",
+      "slug": "cam"
+    },
+    {
+      "name": "Hồng",
+      "slug": "hong"
+    },
+    {
+      "name": "Tím",
+      "slug": "tim"
+    },
+    {
+      "name": "Đỏ",
+      "slug": "do"
+    },
+    {
+      "name": "Bạc",
+      "slug": "bac"
+    },
+    {
+      "name": "Phối hợp",
+      "slug": "phoi-hop"
+    }
+  ]
+}

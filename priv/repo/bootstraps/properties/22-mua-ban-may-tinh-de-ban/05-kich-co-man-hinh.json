@@ -1,0 +1,28 @@
+{
+  "grouping_slug": "mua-ban-may-tinh-de-ban",
+  "name": "Kích cỡ màn hình",
+  "slug": "kich-co-man-hinh",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Không bán kèm màn hình",
+      "slug": "khong-ban-kem-man-hinh"
+    },
+    {
+      "name": "15 - 16.9 inch",
+      "slug": "15-16-9-inch"
+    },
+    {
+      "name": "17 - 18.9 inch",
+      "slug": "17-18-9-inch"
+    },
+    {
+      "name": "19 - 20.9 inch",
+      "slug": "19-20-9-inch"
+    },
+    {
+      "name": ">= 21 inch",
+      "slug": "tren-21-inch"
+    }
+  ]
+}

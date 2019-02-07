@@ -1,0 +1,68 @@
+<div class="output js-show-wizard" data-wid="<%= @index %>">
+  <label class="output-label" for="grouping">Tên chuyên mục</label>
+  <input type="hidden" name="submit[grouping_slug]" id="output-grouping-value" value="<%= get_value(@chset, :grouping_slug) %>">
+  <%= if print = get_value(@chset, :grouping_name) do %>
+    <div id="output-grouping-print" class="output-print"><%= print %></div>
+  <% else %>
+    <div id="output-grouping-print" class="output-print _grouping _empty">Chọn chuyên mục</div>
+  <% end %>
+  <div id="output-grouping-error" class="output-error"><%= get_error(@chset, :grouping_slug) %></div>
+</div>
+
+<div id="wizard-<%= @index %>" class="wizard <%= if @chset.errors == [], do: "_active" %>">
+  <header class="wizard-header">
+    <div class="wizard-wrapper">
+      <h1 class="wizard-header-text">Chọn chuyên mục</h1>
+      <button class="wizard-header-icon js-hide-wizard"><i class="icon fe fe-x"></i></button>
+    </div>
+  </header>
+
+
+  <section class="wizard-content">
+    <div class="wizard-wrapper">
+      <section class="wizard-parent">
+        <div class="wizard-parent-content">
+          <%= for parent <- @parents do %>
+            <button type="button" class="wizard-option js-show-wizard-child %>" data-cid="<%= child_id(@index, parent.id) %>" data-wid="<%= @index %>">
+              <span class="wizard-text"><%= parent.name %></span>
+              <span class="wizard-icon"><i class="icon fe fe-chevron-right"></i></span>
+            </button>
+          <% end %>
+        </div>
+      </section>
+
+      <section class="wizard-child">
+        <header class="wizard-child-header">
+          <button type="button" class="wizard-option js-show-wizard-parent" data-wid="<%= @index %>">
+            <span class="wizard-text">Tất cả chuyên mục</span>
+            <span class="wizard-icon"><i class="icon fe fe-chevron-left"></i></span>
+          </button>
+        </header>
+
+        <%= for parent <- @parents do %>
+          <div class="wizard-child-content" id="wizard-child-<%= child_id(@index, parent.id) %>">
+            <%= for child <- parent.children do %>
+              <button type="button"
+                class="wizard-option js-update-output"
+                data-wid="<%= @index %>"
+                data-input="grouping"
+                data-value="<%= child.slug %>"
+                data-print="<%= child.name %>"
+              >
+                <span class="wizard-text"><%= child.name %></span>
+                <span class="wizard-icon"><i class="icon fe fe-check"></i></span>
+              </button>
+            <% end %>
+          </div>
+        <% end %>
+      </section>
+    </div>
+  </section>
+
+  <footer class="wizard-footer">
+    <button class="button js-show-wizard" data-wid="<%= @index - 1 %>">Quay lại</button>
+    <button class="button js-hide-wizard">Xem trước</button>
+    <button class="button _primary js-show-wizard" data-wid="<%= @index + 1 %>">Tiếp tục</button>
+  </footer>
+
+</div>

@@ -1,0 +1,24 @@
+{
+  "grouping_slug": "mua-ban-laptop",
+  "name": "Card màn hình",
+  "slug": "card-man-hinh",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Onboard",
+      "slug": "onboard"
+    },
+    {
+      "name": "AMD",
+      "slug": "amd"
+    },
+    {
+      "name": "NVIDIA",
+      "slug": "nvidia"
+    },
+    {
+      "name": "Khác",
+      "slug": "khac"
+    }
+  ]
+}

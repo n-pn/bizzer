@@ -1,0 +1,16 @@
+{
+  "grouping_slug": "nuoc-hoa-my-pham",
+  "name": "Thể loại",
+  "slug": "the-loai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Nước hoa",
+      "slug": "nuoc-hoa"
+    },
+    {
+      "name": "Mỹ phẩm",
+      "slug": "my-pham"
+    }
+  ]
+}

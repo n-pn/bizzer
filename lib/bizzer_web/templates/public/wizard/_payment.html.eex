@@ -1,0 +1,25 @@
+<div class="output js-show-wizard" data-wid="<%= @index %>">
+  <label class="output-label" for="payment">Phương thức vận chuyển/thanh toán</label>
+  <input type="hidden" name="submit[payment]" id="output-payment-value" value="<%= get_value(@chset, :payment) %>">
+  <%= if print = get_print(@chset, :payment) do %>
+    <div id="output-payment-print" class="output-print _payment"><%= print %></div>
+  <% else %>
+    <div id="output-payment-print" class="output-print _payment _empty">Phương thức vận chuyển/thanh toán</div>
+  <% end %>
+  <div id="output-payment-error" class="output-error"><%= get_error(@chset, :payment) %></div>
+</div>
+
+<div id="wizard-<%= @index %>" class="wizard">
+  <%= render "__header.html", title: "Phương thức vận chuyển/thanh toán" %>
+
+  <section class="wizard-content">
+    <div class="wizard-wrapper">
+      <div class="wizard-parent">
+        <textarea class="wizard-input _payment js-change-output" data-input="payment"><%= get_value(@chset, :payment) %></textarea>
+        <div class="wizard-guide"></div>
+      </div>
+    </div>
+  </section>
+
+  <%= render "__footer.html", index: @index %>
+</div>

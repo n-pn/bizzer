@@ -1,0 +1,16 @@
+{
+  "grouping_slug": "mua-ban-laptop",
+  "name": "Loại ổ cứng",
+  "slug": "loai-o-cung",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "HDD",
+      "slug": "hdd"
+    },
+    {
+      "name": "SSD",
+      "slug": "ssd"
+    }
+  ]
+}

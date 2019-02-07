@@ -1,0 +1,584 @@
+{
+  "grouping_slug": "mua-ban-laptop",
+  "parent_slug": "hang-laptop",
+  "name": "Dòng laptop",
+  "slug": "dong-laptop",
+  "query_type": "select",
+  "propvals": [
+    {
+      "parent_slug": "acer",
+      "name": "Acer One",
+      "slug": "acer-one"
+    },
+    {
+      "parent_slug": "acer",
+      "name": "Acer Aspire",
+      "slug": "acer-aspire"
+    },
+    {
+      "parent_slug": "acer",
+      "name": "Acer Helios",
+      "slug": "acer-helios"
+    },
+    {
+      "parent_slug": "acer",
+      "name": "Acer Nitro 5",
+      "slug": "acer-nitro-5"
+    },
+    {
+      "parent_slug": "acer",
+      "name": "Acer Predator",
+      "slug": "acer-predator"
+    },
+    {
+      "parent_slug": "acer",
+      "name": "Acer Swift",
+      "slug": "acer-swift"
+    },
+    {
+      "parent_slug": "acer",
+      "name": "Acer VX5",
+      "slug": "acer-vx5"
+    },
+    {
+      "parent_slug": "acer",
+      "name": "Dòng Acer khác",
+      "slug": "dong-acer-khac"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Macbook",
+      "slug": "apple-macbook"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Macbook Air",
+      "slug": "apple-macbook-air"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Macbook Pro",
+      "slug": "apple-macbook-pro"
+    },
+    {
+      "parent_slug": "apple",
+      "name": "Apple Dòng Macbook khác",
+      "slug": "dong-macbook-khac"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus A series",
+      "slug": "asus-a-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus G series",
+      "slug": "asus-g-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus K series",
+      "slug": "asus-k-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus X series",
+      "slug": "asus-x-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus Transformer Book",
+      "slug": "asus-transformer-book"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus Zenbook Series",
+      "slug": "asus-zenbook-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus ASUSPRO",
+      "slug": "asus-asuspro"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus B series",
+      "slug": "asus-b-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus BU series",
+      "slug": "asus-bu-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus FX Series/ZX Series",
+      "slug": "asus-fx-series-zx-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus N series",
+      "slug": "asus-n-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus PU series",
+      "slug": "asus-pu-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus S series",
+      "slug": "asus-s-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus U series",
+      "slug": "asus-u-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus UL series",
+      "slug": "asus-ul-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Asus VivoBook S Series",
+      "slug": "asus-vivobook-s-series"
+    },
+    {
+      "parent_slug": "asus",
+      "name": "Dòng Asus khác",
+      "slug": "dong-asus-khac"
+    },
+    {
+      "parent_slug": "dell",
+      "name": "Dell Alienware",
+      "slug": "dell-alienware"
+    },
+    {
+      "parent_slug": "dell",
+      "name": "Dell Inspiron",
+      "slug": "dell-inspiron"
+    },
+    {
+      "parent_slug": "dell",
+      "name": "Dell Latitude",
+      "slug": "dell-latitude"
+    },
+    {
+      "parent_slug": "dell",
+      "name": "Dell Precision",
+      "slug": "dell-precision"
+    },
+    {
+      "parent_slug": "dell",
+      "name": "Dell Studio",
+      "slug": "dell-studio"
+    },
+    {
+      "parent_slug": "dell",
+      "name": "Dell Vostro",
+      "slug": "dell-vostro"
+    },
+    {
+      "parent_slug": "dell",
+      "name": "Dell XPS",
+      "slug": "dell-xps"
+    },
+    {
+      "parent_slug": "dell",
+      "name": "Dell Chromebook",
+      "slug": "dell-chromebook"
+    },
+    {
+      "parent_slug": "dell",
+      "name": "Dell Precision Mobile Workstations",
+      "slug": "dell-precision-mobile-workstations"
+    },
+    {
+      "parent_slug": "dell",
+      "name": "Dòng Dell khác",
+      "slug": "dong-dell-khac"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "HP Spectre",
+      "slug": "hp-spectre"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "HP Envy",
+      "slug": "hp-envy"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "HP Compaq",
+      "slug": "hp-compaq"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "HP Elitebook",
+      "slug": "hp-elitebook"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "HP Pavilion",
+      "slug": "hp-pavilion"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "HP ProBook",
+      "slug": "hp-probook"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "HP Chromebook",
+      "slug": "hp-chromebook"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "HP Detachable",
+      "slug": "hp-detachable"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "HP MT series",
+      "slug": "hp-mt-series"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "HP Notebook",
+      "slug": "hp-notebook"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "HP OMEN",
+      "slug": "hp-omen"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "HP Stream",
+      "slug": "hp-stream"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "HP ZBook",
+      "slug": "hp-zbook"
+    },
+    {
+      "parent_slug": "hp",
+      "name": "Dòng HP khác",
+      "slug": "dong-hp-khac"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo ThinkPad",
+      "slug": "lenovo-thinkpad"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo IdeaPad",
+      "slug": "lenovo-ideapad"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Yoga",
+      "slug": "lenovo-yoga"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Legion Y Series",
+      "slug": "lenovo-legion-y-series"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Essential (B series)",
+      "slug": "lenovo-essential-b-series"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Lenovo Essential (G series)",
+      "slug": "lenovo-essential-g-series"
+    },
+    {
+      "parent_slug": "lenovo",
+      "name": "Dòng Lenovo khác",
+      "slug": "dong-lenovo-khac"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "LG Gram",
+      "slug": "lg-gram"
+    },
+    {
+      "parent_slug": "lg",
+      "name": "Dòng LG khác",
+      "slug": "dong-lg-khac"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Ativ Book 9",
+      "slug": "samsung-ativ-book-9"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung N-Series",
+      "slug": "samsung-n-series"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung P-Series",
+      "slug": "samsung-p-series"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Q-Series",
+      "slug": "samsung-q-series"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung R-Series",
+      "slug": "samsung-r-series"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Series 3",
+      "slug": "samsung-series-3"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Series 4",
+      "slug": "samsung-series-4"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Series 5",
+      "slug": "samsung-series-5"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Series 6",
+      "slug": "samsung-series-6"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Series 7",
+      "slug": "samsung-series-7"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Series 9",
+      "slug": "samsung-series-9"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung GE Series",
+      "slug": "samsung-ge-series"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Chromebook",
+      "slug": "samsung-chromebook"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Galaxyboook",
+      "slug": "samsung-galaxyboook"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Notebook 5",
+      "slug": "samsung-notebook-5"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Notebook 7",
+      "slug": "samsung-notebook-7"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung Notebook 9",
+      "slug": "samsung-notebook-9"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Dòng Samsung khác",
+      "slug": "dong-samsung-khac"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony C Series",
+      "slug": "sony-c-series"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony E Series",
+      "slug": "sony-e-series"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony F Series",
+      "slug": "sony-f-series"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony S Series",
+      "slug": "sony-s-series"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Y Series",
+      "slug": "sony-y-series"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Sony Z Series",
+      "slug": "sony-z-series"
+    },
+    {
+      "parent_slug": "sony",
+      "name": "Dòng Sony khác",
+      "slug": "dong-sony-khac"
+    },
+    {
+      "parent_slug": "toshiba",
+      "name": "Toshiba Portege",
+      "slug": "toshiba-portege"
+    },
+    {
+      "parent_slug": "toshiba",
+      "name": "Toshiba Qosmio",
+      "slug": "toshiba-qosmio"
+    },
+    {
+      "parent_slug": "toshiba",
+      "name": "Toshiba Satellite Series",
+      "slug": "toshiba-satellite-series"
+    },
+    {
+      "parent_slug": "toshiba",
+      "name": "Toshiba Tecra Series",
+      "slug": "toshiba-tecra-series"
+    },
+    {
+      "parent_slug": "toshiba",
+      "name": "Toshiba Mini",
+      "slug": "toshiba-mini"
+    },
+    {
+      "parent_slug": "toshiba",
+      "name": "Dòng Toshiba khác",
+      "slug": "dong-toshiba-khac"
+    },
+    {
+      "parent_slug": "hang-khac",
+      "name": "Dòng khác",
+      "slug": "dong-khac"
+    },
+    {
+      "parent_slug": "msi",
+      "name": "MSI GE Series",
+      "slug": "msi-ge-series"
+    },
+    {
+      "parent_slug": "msi",
+      "name": "MSI GL Series",
+      "slug": "msi-gl-series"
+    },
+    {
+      "parent_slug": "msi",
+      "name": "MSI GP Series",
+      "slug": "msi-gp-series"
+    },
+    {
+      "parent_slug": "msi",
+      "name": "MSI GS Series",
+      "slug": "msi-gs-series"
+    },
+    {
+      "parent_slug": "msi",
+      "name": "MSI GT Series",
+      "slug": "msi-gt-series"
+    },
+    {
+      "parent_slug": "msi",
+      "name": "MSI GX Series",
+      "slug": "msi-gx-series"
+    },
+    {
+      "parent_slug": "msi",
+      "name": "MSI PE Series",
+      "slug": "msi-pe-series"
+    },
+    {
+      "parent_slug": "msi",
+      "name": "MSI CR Series",
+      "slug": "msi-cr-series"
+    },
+    {
+      "parent_slug": "msi",
+      "name": "MSI CX Series",
+      "slug": "msi-cx-series"
+    },
+    {
+      "parent_slug": "msi",
+      "name": "MSI GF Series",
+      "slug": "msi-gf-series"
+    },
+    {
+      "parent_slug": "msi",
+      "name": "MSI GV Series",
+      "slug": "msi-gv-series"
+    },
+    {
+      "parent_slug": "msi",
+      "name": "MSI W Series",
+      "slug": "msi-w-series"
+    },
+    {
+      "parent_slug": "msi",
+      "name": "Dòng MSI khác",
+      "slug": "dong-msi-khac"
+    },
+    {
+      "parent_slug": "panasonic",
+      "name": "Panasonic Toughbook",
+      "slug": "panasonic-toughbook"
+    },
+    {
+      "parent_slug": "panasonic",
+      "name": "Panasonic CF",
+      "slug": "panasonic-cf"
+    },
+    {
+      "parent_slug": "panasonic",
+      "name": "Panasonic N9",
+      "slug": "panasonic-n9"
+    },
+    {
+      "parent_slug": "panasonic",
+      "name": "Panasonic S9",
+      "slug": "panasonic-s9"
+    },
+    {
+      "parent_slug": "panasonic",
+      "name": "Dòng Panasonic khác",
+      "slug": "dong-panasonic-khac"
+    },
+    {
+      "parent_slug": "razer",
+      "name": "Razer Blade Stealth",
+      "slug": "razer-blade-stealth"
+    },
+    {
+      "parent_slug": "razer",
+      "name": "Razer Blade Pro",
+      "slug": "razer-blade-pro"
+    },
+    {
+      "parent_slug": "razer",
+      "name": "Dòng Razer khác",
+      "slug": "dong-razer-khac"
+    }
+  ]
+}

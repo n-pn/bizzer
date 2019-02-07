@@ -1,0 +1,20 @@
+{
+  "grouping_slug": "thoi-trang-me-va-be",
+  "name": "Thể loại",
+  "slug": "the-loai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Đồ cho bé",
+      "slug": "do-cho-be"
+    },
+    {
+      "name": "Đồ cho mẹ",
+      "slug": "do-cho-me"
+    },
+    {
+      "name": "Cho cả hai",
+      "slug": "cho-ca-hai"
+    }
+  ]
+}

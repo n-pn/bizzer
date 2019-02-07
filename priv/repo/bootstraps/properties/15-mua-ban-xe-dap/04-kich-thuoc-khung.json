@@ -1,0 +1,28 @@
+{
+  "grouping_slug": "mua-ban-xe-dap",
+  "name": "Kích thước khung",
+  "slug": "kich-thuoc-khung",
+  "query_type": "radiobox",
+  "propvals": [
+    {
+      "name": "XS (43 cm)",
+      "slug": "xs-43-cm"
+    },
+    {
+      "name": "S (46.5 cm)",
+      "slug": "s-46-5-cm"
+    },
+    {
+      "name": "M ( 50 cm)",
+      "slug": "m-50-cm"
+    },
+    {
+      "name": "L (55.5 cm)",
+      "slug": "l-55-5-cm"
+    },
+    {
+      "name": "XL ( 58.5 cm)",
+      "slug": "xl-58-5-cm"
+    }
+  ]
+}

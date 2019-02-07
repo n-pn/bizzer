@@ -1,0 +1,100 @@
+[
+  {
+    "role": "admin",
+    "phone": "0987654321",
+    "password": "admin123",
+    "name": "Admin",
+    "email": "admin@bizzer.store"
+  },
+  {
+    "role": "editor",
+    "phone": "0912345678",
+    "password": "editor876",
+    "name": "Staff",
+    "email": "editor@bizzer.store"
+  },
+  {
+    "role": "worker",
+    "phone": "0901010101",
+    "password": "upllh2ye",
+    "name": "Worker01",
+    "email": "worker01@bizzer.store"
+  },
+  {
+    "role": "worker",
+    "phone": "0902020202",
+    "password": "i5icog6q",
+    "name": "Worker02",
+    "email": "worker02@bizzer.store"
+  },
+  {
+    "role": "worker",
+    "phone": "0903030303",
+    "password": "zim3qwgp",
+    "name": "Worker03",
+    "email": "worker03@bizzer.store"
+  },
+  {
+    "role": "worker",
+    "phone": "0904040404",
+    "password": "53rpjovo",
+    "name": "Worker04",
+    "email": "worker04@bizzer.store"
+  },
+  {
+    "role": "worker",
+    "phone": "0905050505",
+    "password": "sdxxkvi3",
+    "name": "Worker05",
+    "email": "worker05@bizzer.store"
+  },
+  {
+    "role": "worker",
+    "phone": "0900606060",
+    "password": "g37thr4r",
+    "name": "Worker06",
+    "email": "worker06@bizzer.store"
+  },
+  {
+    "role": "worker",
+    "phone": "0907070707",
+    "password": "hbwk4sc4",
+    "name": "Worker07",
+    "email": "worker07@bizzer.store"
+  },
+  {
+    "role": "worker",
+    "phone": "0908080808",
+    "password": "rgrdpemv",
+    "name": "Worker08",
+    "email": "worker08@bizzer.store"
+  },
+  {
+    "email": "worker09@bizzer.store",
+    "name": "Worker09",
+    "phone": "0909090909",
+    "password": "xioad73k",
+    "role": "worker"
+  },
+  {
+    "email": "worker10@bizzer.store",
+    "name": "Worker10",
+    "phone": "0910101010",
+    "password": "pthl3ibd",
+    "role": "worker"
+  },
+  {
+    "email": "worker11@bizzer.store",
+    "name": "Worker11",
+    "phone": "0911111111",
+    "password": "j3f5mnih",
+    "role": "worker"
+  },
+  {
+    "email": "worker12@bizzer.store",
+    "name": "Worker12",
+    "phone": "0912121212",
+    "password": "bj55lbf2",
+    "role": "worker"
+  }
+]

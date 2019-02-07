@@ -1,0 +1,20 @@
+{
+  "grouping_slug": "mua-ban-o-to",
+  "name": "Nhiên liệu",
+  "slug": "nhien-lieu",
+  "query_type": "radiobox",
+  "propvals": [
+    {
+      "name": "Xăng",
+      "slug": "xang"
+    },
+    {
+      "name": "Dầu",
+      "slug": "dau"
+    },
+    {
+      "name": "Động cơ Hybrid",
+      "slug": "dong-co-hybrid"
+    }
+  ]
+}

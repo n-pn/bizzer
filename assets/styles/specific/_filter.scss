@@ -1,0 +1,271 @@
+.js-show-filter {
+  cursor: pointer;
+}
+
+.filter {
+  display: none;
+}
+
+.filter._onchild {
+  .filter-parent {
+    display: none;
+  }
+}
+
+.filter._active {
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(#000, .6);
+  z-index: 10;
+  padding: $gutter;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  min-height: 100%;
+}
+
+.filter-wrapper {
+  display: block;
+  width: 30rem;
+  max-width: 100%;
+  margin: 3rem auto;
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 6px rgba(#000, .4);
+}
+
+$filter-header-height: 3rem;
+$filter-link-height: 3rem;
+
+.filter-header {
+  height: $filter-header-height;
+
+  position: relative;
+  border-bottom: 1px solid $border-color;
+
+  // background-color: #eee;
+  // border-radius: 4px 4px 0 0;
+}
+
+.filter-header-text {
+  color: #666;
+  line-height: $filter-header-height;
+  font-weight: normal;
+  font-size: rem(18);
+  padding: 0;
+  text-align: center;
+}
+
+.filter-header-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: $text-secondary-color;
+  line-height: $filter-header-height;
+  padding: 0 $gutter;
+  font-size: rem(20);
+
+  &:hover { cursor: pointer; }
+  &:active, &:focus { outline: none; }
+}
+
+
+.filter-parent, .filter-child {
+  max-width: 100%;
+  margin: 0 auto;
+  & > * {padding: $gutter;}
+}
+
+.filter-special {
+  margin-bottom: $gutter;
+  &._back {
+    .filter-link { background-color: #f4f4f4; }
+    .filter-icon { display: inline-block; }
+  }
+}
+
+.filter-link {
+  display: block;
+  width: 100%;
+  position: relative;
+  height: $filter-link-height;
+  cursor: pointer;
+  color: #666;
+  text-align: left;
+  padding: 0;
+  margin: $gutter/2 0;
+  border: 1px solid $border-color;
+  // &:not(:last-child) { border-bottom: none }
+
+  &._active, &:focus {
+    color: $link-color;
+    border-color: $link-color;
+    .filter-icon {
+      display: inline-block;
+      color: lighten($link-color, 10%);
+    }
+    .filter-text {
+      color: darken($link-color, 15%);
+    }
+  }
+
+  @include screen-min(40rem) {
+    &:hover {
+      cursor: pointer;
+      background-color: #f8f8f8;
+
+      .filter-icon {
+        display: inline-block;
+      }
+    }
+  }
+}
+
+.filter-child-header {
+  display: block;
+  position: relative;
+  height: $filter-link-height;
+  color: #666;
+  background-color: #f3f3f3;
+  .filter-icon { display: inline-block; }
+}
+
+.filter-text {
+  display: block;
+  padding: 0 $gutter;
+  line-height: $filter-link-height;
+  margin-right: 2rem;
+  @include truncate(100%)
+}
+
+.filter-icon {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: $filter-link-height;
+  padding: 0 $gutter;
+  color: #aaa;
+  font-size: rem(15);
+}
+
+.filter-child {
+  display: none;
+}
+
+.filter-child._active {
+  display: block;
+}
+
+.filter-child-content {
+  max-height: calc(100vh - 15rem);
+  overflow-y: auto;
+  // padding-bottom: $gutter/2;
+}
+
+.filter-parent-content {
+  max-height: calc(100vh - 12rem);
+  overflow-y: auto;
+  // padding-bottom: $gutter/2;
+}
+
+
+.filter-input {
+  display: block;
+  width: 100%;
+  border: 1px solid $border-color;
+  border-radius: 2px;
+  margin: $gutter 0;
+  text-align: left;
+  line-height: 2rem;
+  padding: $gutter/2 $gutter;
+  background-color: #fff;
+  color: #444;
+
+  &::placeholder {
+    font-style: italic;
+  }
+
+  &:hover {
+    cursor: pointer;
+    background-color: #eee;
+  }
+
+  &._active, &:focus {
+    color: $link-color;
+    border-color: $link-color;
+    background-color: #fff;
+    .filter-icon {
+      display: inline-block;
+      color: lighten($link-color, 10%);
+    }
+    .filter-text {
+      color: darken($link-color, 15%);
+    }
+  }
+}
+
+.filter-label {
+  display: block;
+  // padding-top: .25rem;
+  color: #444;
+  // font-size: rem(14);
+  font-family: $font-interface;
+  text-align: left;
+  font-weight: bold;
+}
+
+.filter-group {
+  margin: $gutter 0;
+  @include clearfix;
+
+  .filter-group-child {
+    width: 50%;
+    float: left;
+    &:first-child {
+      padding-right: $gutter/2;
+    }
+    &:last-child {
+      padding-left: $gutter/2;
+    }
+  }
+
+  .filter-input {
+    margin-top: $gutter/4;
+    margin-bottom: 0;
+  }
+}
+
+.filter-print {
+  padding: 0;
+  // display: block;
+  // color: #333;
+  // padding: $gutter/2 0;
+  &._empty {
+    color: #777;
+    font-style: italic;
+  }
+}
+
+.js-update-filter._hide {display: none;}
+
+.filter-action {
+  border-top: 1px solid $border-color;
+  padding-top: $gutter;
+  text-align: center;
+}
+
+.filter-sublabel {
+  @extend .filter-label;
+  // font-size: rem(14);
+  font-style: italic;
+  font-weight: normal;
+}
+
+.filter-link {
+  outline: none;
+}

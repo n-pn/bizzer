@@ -1,0 +1,195 @@
+<div class="main-content">
+  <section class="breadcrumb">
+    <span class="breadcrumb-item">
+      <a class="breadcrumb-link" href="/">Bizzer Store</a>
+    </span>
+    <span class="breadcrumb-item">
+      <a class="breadcrumb-link" href="<%= public_search_path(@conn, :grouping, @adentry.grouping_slug) %>"><%= @adentry.grouping_name %></a>
+    </span>
+    <span class="breadcrumb-item">
+      <a class="breadcrumb-link" href="<%= public_search_path(@conn, :location, @adentry.grouping_slug, @adentry.location_slug) %>"><%= @adentry.location_name %></a>
+    </span>
+    <span class="breadcrumb-item">
+      <span><%= @adentry.subject %></span>
+    </span>
+  </section>
+
+  <article class="adentry">
+
+    <section class="adentry-content">
+      <div class="adentry-images">
+        <div id="adentry-images" class="adentry-images-wrapper">
+          <%= for {image_url, index} <- Enum.with_index(@adentry.image_urls) do %>
+            <div id="adentry-image-<%= index %>" class="adentry-image" data-index="<%= index %>">
+              <img src="<%= gen_image_url(image_url) %>" alt="image">
+            </div>
+          <% end %>
+        </div>
+      </div>
+    </section>
+
+    <header class="adentry-content">
+      <h1 class="adentry-subject"><%= @adentry.subject %></h1>
+      <div class="adentry-time">
+        <span>đăng</span>
+        <time><%= Bizzer.TimeUtil.pretty_print(@adentry.inserted_at) %></time>
+      </div>
+
+      <div class="adentry-price"><%= @adentry.price_print %></div>
+    </header>
+
+    <section class="adentry-content">
+      <%= if @adentry.shop do %>
+        <section class="adentry-user">
+          <a href="<%= public_shop_path(@conn, :show, @adentry.shop.slug) %>" class="adentry-user-avatar">
+            <img src='<%= @adentry.shop.avatar_url || "/img/avatar.png"  %>' alt="">
+          </a>
+          <div class="adentry-user-name"><a href="<%= public_shop_path(@conn, :show, @adentry.shop.slug) %>"><%= @adentry.shop.name || @adentry.shop.phone %></a></div>
+          <%= if @adentry.shop.address do %>
+            <div class="adentry-user-address"><%= @adentry.shop.address %></div>
+          <% end %>
+          <div class="adentry-user-time">Ngày tham gia: <%= Bizzer.TimeUtil.get_date(@adentry.shop.inserted_at) %></div>
+        </section>
+
+        <section class="adentry-contact">
+          <a href="tel:<%= @adentry.shop.phone %>" class="adentry-phone">
+            <span class="phone-label"><i class="icon-phone"></i> Gọi điện</span>
+            <span class="phone-value"><%= @adentry.shop.phone %></span>
+          </a>
+          <a href="sms:<%= @adentry.shop.phone %>?body=<%= @adentry.subject %>" class="adentry-sms js-share-sms">
+            <i class="icon-submit"></i>
+            <span>Gửi tin nhắn</span>
+          </a>
+        </section>
+      <% else %>
+        <section class="adentry-user">
+          <a href="<%= public_user_path(@conn, :show, @adentry.user.slug) %>" class="adentry-user-avatar">
+            <img src='<%= @adentry.user.avatar_url || "/img/avatar.png"  %>' alt="">
+          </a>
+          <div class="adentry-user-name"><a href="<%= public_user_path(@conn, :show, @adentry.user.slug) %>"><%= @adentry.user.name || @adentry.user.phone %></a></div>
+          <%= if @adentry.user.address do %>
+            <div class="adentry-user-address"><%= @adentry.user.address %></div>
+          <% end %>
+          <div class="adentry-user-time">Ngày tham gia: <%= Bizzer.TimeUtil.get_date(@adentry.user.inserted_at) %></div>
+        </section>
+
+        <section class="adentry-contact">
+
+          <a href="tel:<%= @adentry.user.phone %>" class="adentry-phone">
+            <span class="phone-label"><i class="icon-phone"></i> Gọi điện</span>
+            <span class="phone-value"><%= @adentry.user.phone %></span>
+          </a>
+          <a href="sms:<%= @adentry.user.phone %>?body=Tin đăng từ bizzer.store: <%= @adentry.subject %>" class="adentry-sms js-share-sms">
+            <i class="icon-submit"></i>
+            <span>Gửi tin nhắn</span>
+          </a>
+        </section>
+      <% end %>
+    </section>
+
+    <section class="adentry-content">
+      <h2 class="adentry-title">Thông tin chi tiết</h2>
+      <div class="adentry-details"><%= raw @adentry.details_html %></div>
+
+      <%= if @adentry.payment do %>
+        <h2 class="adentry-title">Phương thức thanh toán/giao hàng</h2>
+        <div class="adentry-payment"><%= raw @adentry.payment_html %></div>
+      <% end %>
+    </section>
+
+    <section class="adentry-content">
+      <h2 class="adentry-title">Thông tin bổ sung</h2>
+
+      <div class="adentry-properties">
+        <div class="adentry-prop">
+          <span class="adentry-propkey">Chuyên mục:</span>
+          <span class="adentry-propval"><%= @adentry.grouping_name %></span>
+        </div>
+      <div class="adentry-prop">
+          <span class="adentry-propkey">Khu vực:</span>
+          <span class="adentry-propval"><%= @adentry.location_name %></span>
+        </div>
+
+        <%= for {propkey, propval} <- @adentry.properties do %>
+          <div class="adentry-prop">
+            <span class="adentry-propkey"><%= propkey.name %>:</span>
+            <span class="adentry-propval"><%= propval.name %></span>
+          </div>
+        <% end %>
+      </div>
+    </section>
+
+    <section class="adentry-content">
+      <h2 class="adentry-title">Chia sẻ tin đăng</h2>
+      <div class="adentry-share">
+        <a class="adentry-share-link js-share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=<%= @page_url %>" data-href="<%= @page_url %>"><img src="/svg/facebook.svg" alt=""/></a>
+        <a class="adentry-share-link js-share" href="fb-messenger://share/?link=<%= @page_url %>"><img src="/svg/messenger.svg" alt=""/></a>
+        <a href="#" class="zalo-share-button adentry-share-link" data-href="<%= @page_url %>" data-oaid="579745863508352884" data-customize="true"><img src="/svg/zalo.svg" alt=""/></a>
+        <a class="adentry-share-link js-share-sms" href="sms:?body=<%= @page_url %>"><img src="/svg/sms.svg" alt=""/></a>
+        <a class="adentry-share-link js-copy-link" href="<%= @page_url %>"><img src="/svg/link.svg" alt=""/></a>
+      </div>
+    </section>
+
+    <%= if logged_in?(@conn) do %>
+      <section class="adentry-content">
+        <h2 class="adentry-title">Tương tác người dùng</h2>
+        <div class="adentry-actions">
+          <%= case @adentry.status do %>
+          <% :pending -> %>
+            <p><em>Tin rao vặt đang đợi duyệt</em></p>
+            <p>
+              <%= cond do %>
+              <% current_user(@conn).role in [:admin, :editor] -> %>
+                <a href='<%= admin_adentry_path(@conn, :accept, @adentry.slug) %>' class="button _primary js-accept-adentry">Chấp nhận</a>
+                <a href='<%= admin_adentry_path(@conn, :reject, @adentry.slug) %>' class="button js-reject-adentry">Từ chối</a>
+                <a href="<%= public_submit_path(@conn, :edit, @adentry.slug) %>" class="button">Sửa tin</a>
+              <% current_user(@conn).id == @adentry.user_id -> %>
+                <a href="<%= public_submit_path(@conn, :edit, @adentry.slug) %>" class="button">Sửa tin</a>
+                <a href="<%= public_submit_path(@conn, :delete, @adentry.slug) %>" class="button">Xóa tin</a>
+              <% end %>
+            </p>
+          <% :accepted -> %>
+            <p><em>Tin rao vặt đã được duyệt bởi <strong><%= @adentry.editor.name %></strong>.</em></p>
+            <p>
+              <%= cond do %>
+              <% current_user(@conn).role in [:admin, :editor] -> %>
+                <a href="<%= public_submit_path(@conn, :edit, @adentry.slug) %>" class="button">Sửa tin</a>
+                <a href="<%= admin_adentry_path(@conn, :delete, @adentry.slug) %>" class="button">Xóa tin</a>
+                <a href="<%= public_submit_path(@conn, :stop, @adentry.slug) %>" class="button">Dừng chạy</a>
+              <% current_user(@conn).id == @adentry.user_id -> %>
+                <a href="<%= public_submit_path(@conn, :edit, @adentry.slug) %>" class="button">Sửa tin</a>
+                <a href="<%= public_submit_path(@conn, :stop, @adentry.slug) %>" class="button">Dừng tin</a>
+              <% true -> %>
+                <a href="#" class="button js-report-adentry">Báo cáo vi phạm</a>
+              <% end %>
+            </p>
+          <% :locked -> %>
+            <p><em>Tin rao vặt đang đợi duyệt</em></p>
+          <% :stopped -> %>
+            <p><em>Tin rao vặt đã ngừng chạy</em></p>
+          <% :deleted -> %>
+            <p><em>Tin rao vặt đã bị xóa</em></p>
+          <% :rejected -> %>
+            <p><em>Tin rao vặt đã bị từ chối đăng bởi <strong><%= @adentry.editor.name %></strong>.</em></p>
+          <% end %>
+        </div>
+      </section>
+    <% end %>
+  </article>
+</div>
+
+<%= render BizzerWeb.LayoutView, "_sidebar.html", assigns %>
+
+<script src="https://sp.zalo.me/plugins/sdk.js"></script>
+<script src="https://connect.facebook.net/en_US/sdk.js"></script>
+
+<script>
+  window.fbAsyncInit = function () {
+    FB.init({
+      appId: '455618108288815',
+      autoLogAppEvents: true,
+      xfbml: true,
+      version: 'v3.1'
+    });
+  };
+</script>

@@ -1,0 +1,40 @@
+{
+  "grouping_slug": "mua-ban-may-tinh-bang",
+  "name": "Hãng máy tính bảng",
+  "slug": "hang-may-tinh-bang",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "name": "Samsung",
+      "slug": "samsung"
+    },
+    {
+      "name": "Asus",
+      "slug": "asus"
+    },
+    {
+      "name": "HUAWEI",
+      "slug": "huawei"
+    },
+    {
+      "name": "Lenovo",
+      "slug": "lenovo"
+    },
+    {
+      "name": "Masstel",
+      "slug": "masstel"
+    },
+    {
+      "name": "Mobell",
+      "slug": "mobell"
+    },
+    {
+      "name": "Hãng khác",
+      "slug": "hang-khac"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+<section class="search-content">
+  <%= if length(@adentries) == 0 do %>
+    <div class="search-noresult">
+      <p>Không tìm được kết quả phù hợp.</p>
+    </div>
+  <% else %>
+    <ul class="search-adentry-list">
+      <%= for adentry <- @adentries do %>
+        <li class="search-adentry-item">
+          <a href="<%= admin_adentry_path(@conn, :pick, adentry.slug) %>" class="entry">
+            <div class="entry-image">
+              <%= if adentry.image_urls == nil do %>
+                <img src="/img/blank.jpg" alt="">
+              <% else %>
+                <img src="<%= adentry.image_urls |> Enum.at(0) %>" alt="">
+              <% end %>
+
+            </div>
+
+            <h3 class="entry-subject"><%= adentry.subject %></h3>
+            <div class="entry-price"><%= adentry.price_print %></div>
+            <div class="entry-grouping"><i class="icon fe fe-package"></i><span><%=adentry.grouping_name %></span></div>
+            <div class="entry-location"><i class="icon fe fe-map-pin"></i><span><%=adentry.location_name %></span></div>
+          </a>
+        </li>
+      <% end %>
+    </ul>
+  <% end %>
+</section>

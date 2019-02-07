@@ -1,0 +1,46 @@
+<div class="output js-show-wizard" data-wid="<%= @index %>">
+  <label class="output-label" for="details">Hình ảnh</label>
+  <div id="output-images-value">
+    <%= for image <- get_value(@chset, :images) do %>
+      <input type="hidden" name="submit[image_urls][]" value="<%= best_image(image) %>" data-image="<%= Path.basename(best_image(image)) %>">
+    <% end %>
+  </div>
+
+  <div class="output-images">
+    <span id="output-images-print">
+      <%= for image <- get_value(@chset, :images) do %>
+        <img class="output-image" src="<%= best_image(image) %>" alt="" data-image="<%= Path.basename(best_image(image)) %>">
+      <% end %>
+    </span>
+    <img class="output-image _camera" src="/svg/camera.svg" alt="image">
+  </div>
+  <div id="output-image-error" class="output-error"><%= get_error(@chset, :image_urls) %></div>
+</div>
+
+<div id="wizard-<%= @index %>" class="wizard">
+  <%= render "__header.html", title: "Hình ảnh" %>
+
+  <section class="wizard-content">
+    <div class="wizard-wrapper">
+      <div class="wizard-parent">
+        <div class="wizard-images">
+          <div id="wizard-images">
+            <%= for image <- get_value(@chset, :images) do %>
+              <div class="wizard-image" data-image="<%= Path.basename(best_image(image)) %>">
+                <img src="<%= image.public_url || image.static_url || best_image(image) %>" alt="">
+                <button type="button" class="wizard-image-icon js-remove-image" data-image="<%= Path.basename(best_image(image)) %>"><i class="icon fe fe-x"></i></button>
+              </div>
+            <% end %>
+          </div>
+          <label class="wizard-image wizard-upload-image">
+            <img src="/svg/camera.svg" alt="image">
+            <input class="js-upload-image" type="file" name="upload_file" id="upload-file" accept="image/*" >
+            <span class="wizard-image-icon"><i class="icon fe fe-plus"></i></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <%= render "__footer.html", index: @index %>
+</div>

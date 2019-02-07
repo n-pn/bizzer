@@ -1,0 +1,40 @@
+{
+  "grouping_slug": "xe-tai-xe-khach",
+  "name": "Số chỗ",
+  "slug": "so-cho",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "7 chỗ",
+      "slug": "7-cho"
+    },
+    {
+      "name": "9 chỗ",
+      "slug": "9-cho"
+    },
+    {
+      "name": "10 chỗ",
+      "slug": "10-cho"
+    },
+    {
+      "name": "16 chỗ",
+      "slug": "16-cho"
+    },
+    {
+      "name": "29 chỗ",
+      "slug": "29-cho"
+    },
+    {
+      "name": "36 chỗ",
+      "slug": "36-cho"
+    },
+    {
+      "name": "45 chỗ",
+      "slug": "45-cho"
+    },
+    {
+      "name": "Khác",
+      "slug": "khac"
+    }
+  ]
+}

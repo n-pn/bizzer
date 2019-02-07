@@ -1,0 +1,36 @@
+{
+  "grouping_slug": "xe-tai-xe-khach",
+  "name": "Xuất xứ xe",
+  "slug": "xuat-xu-xe",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "Nhật Bản",
+      "slug": "nhat-ban"
+    },
+    {
+      "name": "Đức",
+      "slug": "duc"
+    },
+    {
+      "name": "Hàn Quốc",
+      "slug": "han-quoc"
+    },
+    {
+      "name": "Mỹ",
+      "slug": "my"
+    },
+    {
+      "name": "Trung Quốc",
+      "slug": "trung-quoc"
+    },
+    {
+      "name": "Viêt Nam",
+      "slug": "viet-nam"
+    },
+    {
+      "name": "Khác",
+      "slug": "khac"
+    }
+  ]
+}

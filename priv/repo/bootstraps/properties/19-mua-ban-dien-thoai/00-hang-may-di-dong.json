@@ -1,0 +1,108 @@
+{
+  "grouping_slug": "mua-ban-dien-thoai",
+  "name": "Hãng máy di dộng",
+  "slug": "hang-may-di-dong",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "name": "Samsung",
+      "slug": "samsung"
+    },
+    {
+      "name": "Asus",
+      "slug": "asus"
+    },
+    {
+      "name": "BKAV",
+      "slug": "bkav"
+    },
+    {
+      "name": "Blackberry",
+      "slug": "blackberry"
+    },
+    {
+      "name": "Google",
+      "slug": "google"
+    },
+    {
+      "name": "HTC",
+      "slug": "htc"
+    },
+    {
+      "name": "Huawei",
+      "slug": "huawei"
+    },
+    {
+      "name": "Lenovo",
+      "slug": "lenovo"
+    },
+    {
+      "name": "LG",
+      "slug": "lg"
+    },
+    {
+      "name": "Meizu",
+      "slug": "meizu"
+    },
+    {
+      "name": "Mobell",
+      "slug": "mobell"
+    },
+    {
+      "name": "Mobiistar",
+      "slug": "mobiistar"
+    },
+    {
+      "name": "Motorola",
+      "slug": "motorola"
+    },
+    {
+      "name": "Nokia",
+      "slug": "nokia"
+    },
+    {
+      "name": "Oppo",
+      "slug": "oppo"
+    },
+    {
+      "name": "Razer",
+      "slug": "razer"
+    },
+    {
+      "name": "Sky",
+      "slug": "sky"
+    },
+    {
+      "name": "Sony",
+      "slug": "sony"
+    },
+    {
+      "name": "Vivo",
+      "slug": "vivo"
+    },
+    {
+      "name": "Xiaomi",
+      "slug": "xiaomi"
+    },
+    {
+      "name": "Land Rover",
+      "slug": "land-rover"
+    },
+    {
+      "name": "Masstel",
+      "slug": "masstel"
+    },
+    {
+      "name": "Nokia cũ",
+      "slug": "nokia-cu"
+    },
+    {
+      "name": "Hãng khác",
+      "slug": "hang-khac"
+    }
+  ]
+}

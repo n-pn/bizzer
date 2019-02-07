@@ -1,0 +1,28 @@
+{
+  "grouping_slug": "do-suu-tam-phim-sach-game",
+  "name": "Thể loại",
+  "slug": "the-loai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Phim",
+      "slug": "phim"
+    },
+    {
+      "name": "Sách",
+      "slug": "sach"
+    },
+    {
+      "name": "Game",
+      "slug": "game"
+    },
+    {
+      "name": "Truyện",
+      "slug": "truyen"
+    },
+    {
+      "name": "Các loại khác",
+      "slug": "cac-loai-khac"
+    }
+  ]
+}

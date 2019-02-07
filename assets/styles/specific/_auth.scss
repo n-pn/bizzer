@@ -1,0 +1,21 @@
+.auth {
+  width: 32rem;
+  max-width: 100%;
+  padding: $gutter * 2;
+  margin: 0 auto;
+}
+
+.auth-header-title {
+  // height: 2.5rem;
+  font-size: rem(20);
+  color: #666;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.auth-footer {
+  border-top: 1px solid $border-color;
+  text-align: center;
+  line-height: 2.5rem;
+}

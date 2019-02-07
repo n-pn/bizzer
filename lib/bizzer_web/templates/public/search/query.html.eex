@@ -1,0 +1,73 @@
+<div class="main-content">
+  <section class="breadcrumb">
+    <span class="breadcrumb-item">
+      <a class="breadcrumb-link" href="/">Bizzer Store</a>
+    </span>
+    <span class="breadcrumb-item">
+      <a class="breadcrumb-link" href="<%= public_search_path(@conn, :grouping, @grouping.slug) %>"><%= @grouping.name %></a>
+    </span>
+    <span class="breadcrumb-item">
+      <span><%= @location.name %></span>
+    </span>
+  </section>
+
+  <section class="search-filters">
+    <div class="search-query">
+      <span class="query-group _keyword">
+        <span class="form-input">
+          <form id="query-search" action="<%= filter_path(@conn) %>" method="get">
+            <input class="input .js-search-enter" name="tu-khoa" value="<%= @query[:keyword] %>" placeholder="Bạn muốn tìm sản phẩm gì?">
+          </form>
+        </span>
+      </span>
+    </div>
+
+    <div class="search-query">
+      <span class="query-group _grouping">
+        <%= render BizzerWeb.Public.FilterView, "_grouping.html", assigns %>
+      </span>
+      <span class="query-group _location">
+        <%= render BizzerWeb.Public.FilterView, "_location.html", assigns %>
+      </span>
+      <span class="query-group _propkeys">
+        <form id="query-search" action="<%= filter_path(@conn) %>" method="get">
+          <%= render BizzerWeb.Public.FilterView, "_advanced.html", assigns %>
+        </form>
+      </span>
+    </div>
+
+
+  </section>
+
+  <section class="search-laucher">
+    <%= case @categories do %>
+    <% {:parent, categories} -> %>
+      <%= for category <- categories do %>
+      <div class="search-laucher-item">
+        <a href="<%= public_search_path(@conn, :grouping, category.slug) %>" class="search-laucher-link">
+          <div class="search-laucher-image"><img src='<%= static_url(@conn, "/svg/groupings/" <> category.slug <> ".svg") %>'></div>
+          <div class="search-laucher-text"><%= category.name %></div>
+        </a>
+      </div>
+      <% end %>
+    <% {:children, parent, categories} -> %>
+      <%= for category <- categories do %>
+      <div class="search-laucher-item">
+        <a href="<%= public_search_path(@conn, :grouping, category.slug) %>" class="search-laucher-link">
+          <div class="search-laucher-image">
+            <img src='<%= static_url(@conn, "/svg/categories/#{parent.slug}/#{category.slug}.svg") %>'>
+          </div>
+          <div class="search-laucher-text"><%= category.name %></div>
+        </a>
+      </div>
+      <% end %>
+    <% end %>
+  </section>
+
+  <section class="search-content">
+    <%= render BizzerWeb.PartialView, "adentry-list.html", Map.merge(assigns, %{prev_url: prev_url(@conn), next_url: next_url(@conn)}) %>
+  </section>
+
+</div>
+
+<%= render BizzerWeb.LayoutView, "_sidebar.html", assigns %>

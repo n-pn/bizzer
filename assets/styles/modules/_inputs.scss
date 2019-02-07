@@ -1,0 +1,51 @@
+.input {
+  display: block;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  border: 1px solid $border-color;
+  box-shadow: none;
+
+  background: #fff;
+  color: #666;
+  padding: .625rem;
+  line-height: 1.5rem;
+  // font-size: 16px;
+  -webkit-appearance: none;
+
+  &:disabled {
+    background-color: #f4f4f4;
+  }
+
+  &._ok {
+    border-color: $success-color;
+  }
+
+  &._error {
+    border-color: $error-color;
+  }
+
+  &._icon-left {
+    padding-left: $input-height;
+  }
+
+  &._icon-right {
+    padding-right: $input-height;
+  }
+}
+
+textarea.input {
+  min-height: 2.5rem;
+  overflow-y: scroll;
+
+  &._title {
+    font-size: rem(18);
+    line-height: 2rem;
+    height: 3rem;
+    overflow-y: hidden;
+  }
+
+  &._content {
+    height: 7.5rem;
+  }
+}

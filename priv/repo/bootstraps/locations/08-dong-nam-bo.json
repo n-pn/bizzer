@@ -1,0 +1,26 @@
+{
+  "name": "Đông Nam Bộ",
+  "slug": "dong-nam-bo",
+  "children": [
+    {
+      "name": "Tây Ninh",
+      "slug": "tay-ninh"
+    },
+    {
+      "name": "Bình Dương",
+      "slug": "binh-duong"
+    },
+    {
+      "name": "Bình Phước",
+      "slug": "binh-phuoc"
+    },
+    {
+      "name": "Đồng Nai",
+      "slug": "dong-nai"
+    },
+    {
+      "name": "Bà Rịa - Vũng Tàu",
+      "slug": "ba-ria-vung-tau"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<div class="adentries">
+  <%= if length(@adentries) == 0 do %>
+    <div class="adentries-noresult">
+      <p>Không tìm được kết quả phù hợp.</p>
+    </div>
+  <% else %>
+    <ul class="adentries-list">
+      <%= for adentry <- @adentries do %>
+        <li class="adentries-item">
+          <a href='<%= public_search_path(@conn, :adentry, adentry.grouping_slug, adentry.location_slug, adentry.slug <> "-" <> adentry.subject_slug) %>' class="adentries-card">
+            <div class="adentries-card-image">
+              <img src="<%= gen_image_url(adentry.image_urls |> Enum.at(0)) %>" alt="">
+            </div>
+
+            <div class="adentries-card-content">
+              <h3 class="adentries-card-subject"><%= adentry.subject %></h3>
+              <div class="adentries-card-price"><%= adentry.price_print %></div>
+              <div class="adentries-card-grouping"><i class="icon fe fe-package"></i><span><%=adentry.grouping_name %></span></div>
+              <div class="adentries-card-location"><i class="icon fe fe-map-pin"></i><span><%=adentry.location_name %></span></div>
+            </div>
+
+          </a>
+        </li>
+      <% end %>
+    </ul>
+
+    <div class="adentries-pagi">
+      <div class="adentries-pagi-nav">
+        <%= if @prev_url do %>
+          <a class="button adentries-pagi-button _left" href="<%= @prev_url %>">Trang trước</a>
+        <% end %>
+        <%= if @next_url do %>
+          <a class="button adentries-pagi-button _right _primary" href="<%= @next_url %>">Trang sau</a>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+
+</div>

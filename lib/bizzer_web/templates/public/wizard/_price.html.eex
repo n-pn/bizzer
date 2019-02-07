@@ -1,0 +1,25 @@
+<div class="output js-show-wizard" data-wid="<%= @index %>">
+  <label class="output-label" for="price">Giá</label>
+  <input type="hidden" name="submit[price]" id="output-price-value" value="<%= get_value(@chset, :price) %>">
+  <%= if print = get_print(@chset, :price) do %>
+    <div id="output-price-print" class="output-print _price"><%= print %></div>
+  <% else %>
+    <div id="output-price-print" class="output-print _price _empty">Giá</div>
+  <% end %>
+  <div id="output-price-error" class="output-error"><%= get_error(@chset, :price) %></div>
+</div>
+
+<div id="wizard-<%= @index %>" class="wizard">
+  <%= render "__header.html", title: "Giá" %>
+
+  <section class="wizard-content">
+    <div class="wizard-wrapper">
+      <div class="wizard-parent">
+        <input type="number" class="wizard-input _price js-change-output" data-input="price" value="<%= get_value(@chset, :price) %>">
+        <div class="wizard-guide"></div>
+      </div>
+    </div>
+  </section>
+
+  <%= render "__footer.html", index: @index %>
+</div>

@@ -1,0 +1,20 @@
+{
+  "grouping_slug": "do-dung-van-phong-do-chuyen-dung",
+  "name": "Thể loại",
+  "slug": "the-loai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Đồ dùng văn phòng",
+      "slug": "do-dung-van-phong"
+    },
+    {
+      "name": "Đồ chuyên dụng",
+      "slug": "do-chuyen-dung"
+    },
+    {
+      "name": "Giống cây trồng",
+      "slug": "giong-cay-trong"
+    }
+  ]
+}

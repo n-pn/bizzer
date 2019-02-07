@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no">
+    <meta name="description" content="<%= page_desc(@conn) %>">
+
+    <title><%= page_title(@conn) %></title>
+    <meta property="og:title" content="<%= page_title(@conn) %>" />
+    <meta property="og:type" content="<%= page_type(@conn) %>" />
+    <meta property="og:url" content="<%= page_url(@conn) %>" />
+    <%= if page_type(@conn) == :adentry do %>
+    <meta property="og:image" content="<%= page_image(@conn) %>" />
+    <meta property="og:image:width" content="640" />
+    <meta property="og:image:height" content="640" />
+    <% end %>
+    <meta property="og:description" content="<%= page_desc(@conn) %>" />
+
+    <link rel="stylesheet" href='<%= static_url(@conn, "/css/app.css") %>'>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+
+    <link rel="apple-touch-icon" sizes="120x120" href='<%= static_url(@conn, "/apple-touch-icon.png?v=JykAgyxjYk")%>'>
+    <link rel="icon" type="image/png" sizes="32x32" href='<%= static_url(@conn, "/favicon-32x32.png?v=JykAgyxjYk") %>'>
+    <link rel="icon" type="image/png" sizes="16x16" href='<%= static_url(@conn, "/favicon-16x16.png?v=JykAgyxjYk")%>'>
+    <link rel="manifest" href='<%= static_url(@conn, "/site.webmanifest?v=JykAgyxjYk")%>'>
+    <link rel="mask-icon" href='<%= static_url(@conn, "/safari-pinned-tab.svg?v=JykAgyxjYk")%>' color="#2a2a2a">
+    <link rel="shortcut icon" href='<%= static_url(@conn, "/favicon.ico?v=JykAgyxjYk")%>'>
+    <meta name="apple-mobile-web-app-title" content="Bizzer Store">
+    <meta name="application-name" content="Bizzer Store">
+    <meta name="msapplication-TileColor" content="#2a2a2a">
+    <meta name="theme-color" content="#2a2a2a">
+
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container _header">
+        <%= render "_header.html", assigns %>
+      </div>
+    </header>
+    <main class="main">
+      <div class="container _main">
+        <%= render @view_module, @view_template, assigns %>
+      </div>
+    </main>
+    <footer class="footer">
+      <%= render "_footer.html", assigns %>
+    </footer>
+    <script src='<%= static_url(@conn, "/js/app.js") %>'></script>
+
+  </body>
+</html>

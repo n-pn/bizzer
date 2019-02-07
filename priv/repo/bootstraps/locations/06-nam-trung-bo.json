@@ -1,0 +1,38 @@
+{
+  "name": "Nam Trung Bộ",
+  "slug": "nam-trung-bo",
+  "children": [
+    {
+      "name": "Đà Nẵng",
+      "slug": "da-nang"
+    },
+    {
+      "name": "Quảng Nam",
+      "slug": "quang-nam"
+    },
+    {
+      "name": "Quảng Ngãi",
+      "slug": "quang-ngai"
+    },
+    {
+      "name": "Bình Định",
+      "slug": "binh-dinh"
+    },
+    {
+      "name": "Phú Yên",
+      "slug": "phu-yen"
+    },
+    {
+      "name": "Khánh Hòa",
+      "slug": "khanh-hoa"
+    },
+    {
+      "name": "Ninh Thuận",
+      "slug": "ninh-thuan"
+    },
+    {
+      "name": "Bình Thuận",
+      "slug": "binh-thuan"
+    }
+  ]
+}

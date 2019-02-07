@@ -1,0 +1,47 @@
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  display: block;
+  line-height: 1.5rem;
+  color: #888;
+  margin-bottom: $gutter/2;
+}
+
+.form-message {
+  display: block;
+  line-height: 1.75rem;
+  font-size: rem(14);
+  color: #999;
+  &._error {
+    color: lighten($text-price-color, 20%);
+  }
+
+  padding: 0 ;
+}
+
+$input-height: 2.75rem;
+$icon-height: 1.25rem;
+
+.form-input {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
+.form-icon {
+  position: absolute;
+  top: 0;
+  line-height: $input-height;
+  font-size: rem(22);
+  padding: 0 ($input-height - $icon-height) / 2;
+
+  &._left {
+    left: $gutter/4;
+  }
+
+  &._right {
+    right: $gutter/4;
+  }
+}

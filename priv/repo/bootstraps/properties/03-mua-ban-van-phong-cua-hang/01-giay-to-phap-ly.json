@@ -1,0 +1,20 @@
+{
+  "grouping_slug": "mua-ban-van-phong-cua-hang",
+  "name": "Giấy tờ pháp lý",
+  "slug": "giay-to-phap-ly",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Đã có sổ đỏ/sổ hồng",
+      "slug": "da-co-so-do-so-hong"
+    },
+    {
+      "name": "Đang chờ bàn giao sổ",
+      "slug": "dang-cho-ban-giao-so"
+    },
+    {
+      "name": "Giấy tay, giấy tờ khác",
+      "slug": "giay-tay-giay-to-khac"
+    }
+  ]
+}

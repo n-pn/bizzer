@@ -1,0 +1,16 @@
+{
+  "grouping_slug": "noi-ngoai-that-do-gia-dung",
+  "name": "Tình trạng",
+  "slug": "tinh-trang",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Mới nguyên",
+      "slug": "moi-nguyen"
+    },
+    {
+      "name": "Đã sử dụng",
+      "slug": "da-su-dung"
+    }
+  ]
+}

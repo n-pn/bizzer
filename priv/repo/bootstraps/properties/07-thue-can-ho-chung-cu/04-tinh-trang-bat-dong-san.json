@@ -1,0 +1,16 @@
+{
+  "grouping_slug": "thue-can-ho-chung-cu",
+  "name": "Tình trạng bất động sản",
+  "slug": "tinh-trang-bat-dong-san",
+  "query_type": "radiobox",
+  "propvals": [
+    {
+      "name": "Chưa bàn giao",
+      "slug": "chua-ban-giao"
+    },
+    {
+      "name": "Đã bàn giao",
+      "slug": "da-ban-giao"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "grouping_slug": "mua-ban-dat-nen-du-an",
+  "name": "Hướng đất",
+  "slug": "huong-dat",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Đông",
+      "slug": "dong"
+    },
+    {
+      "name": "Tây",
+      "slug": "tay"
+    },
+    {
+      "name": "Nam",
+      "slug": "nam"
+    },
+    {
+      "name": "Bắc",
+      "slug": "bac"
+    },
+    {
+      "name": "Đông Bắc",
+      "slug": "dong-bac"
+    },
+    {
+      "name": "Đông Nam",
+      "slug": "dong-nam"
+    },
+    {
+      "name": "Tây Bắc",
+      "slug": "tay-bac"
+    },
+    {
+      "name": "Tây Nam",
+      "slug": "tay-nam"
+    }
+  ]
+}

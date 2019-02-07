@@ -1,0 +1,156 @@
+{
+  "grouping_slug": "mua-ban-xe-may",
+  "name": "Hãng xe máy",
+  "slug": "hang-xe-may",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "Honda",
+      "slug": "honda"
+    },
+    {
+      "name": "Yamaha",
+      "slug": "yamaha"
+    },
+    {
+      "name": "Piaggio",
+      "slug": "piaggio"
+    },
+    {
+      "name": "Suzuki",
+      "slug": "suzuki"
+    },
+    {
+      "name": "SYM",
+      "slug": "sym"
+    },
+    {
+      "name": "Aprilia",
+      "slug": "aprilia"
+    },
+    {
+      "name": "Bazan",
+      "slug": "bazan"
+    },
+    {
+      "name": "Benelli",
+      "slug": "benelli"
+    },
+    {
+      "name": "BMW",
+      "slug": "bmw"
+    },
+    {
+      "name": "Brixton",
+      "slug": "brixton"
+    },
+    {
+      "name": "CR&S",
+      "slug": "cr-s"
+    },
+    {
+      "name": "Daelim",
+      "slug": "daelim"
+    },
+    {
+      "name": "Ducati",
+      "slug": "ducati"
+    },
+    {
+      "name": "Euro Reibel",
+      "slug": "euro-reibel"
+    },
+    {
+      "name": "Halim",
+      "slug": "halim"
+    },
+    {
+      "name": "Harley Davidson",
+      "slug": "harley-davidson"
+    },
+    {
+      "name": "Hyosung",
+      "slug": "hyosung"
+    },
+    {
+      "name": "Kawasaki",
+      "slug": "kawasaki"
+    },
+    {
+      "name": "Keeway",
+      "slug": "keeway"
+    },
+    {
+      "name": "Kengo",
+      "slug": "kengo"
+    },
+    {
+      "name": "KTM",
+      "slug": "ktm"
+    },
+    {
+      "name": "Kymco",
+      "slug": "kymco"
+    },
+    {
+      "name": "Lambretta",
+      "slug": "lambretta"
+    },
+    {
+      "name": "Malaguti",
+      "slug": "malaguti"
+    },
+    {
+      "name": "Moto Guzzi",
+      "slug": "moto-guzzi"
+    },
+    {
+      "name": "MV Agusta",
+      "slug": "mv-agusta"
+    },
+    {
+      "name": "Norton",
+      "slug": "norton"
+    },
+    {
+      "name": "Peugeot",
+      "slug": "peugeot"
+    },
+    {
+      "name": "RebelUSA",
+      "slug": "rebelusa"
+    },
+    {
+      "name": "Regal Raptor",
+      "slug": "regal-raptor"
+    },
+    {
+      "name": "Sachs",
+      "slug": "sachs"
+    },
+    {
+      "name": "Sanda",
+      "slug": "sanda"
+    },
+    {
+      "name": "Triumph",
+      "slug": "triumph"
+    },
+    {
+      "name": "Vento",
+      "slug": "vento"
+    },
+    {
+      "name": "Victory",
+      "slug": "victory"
+    },
+    {
+      "name": "Visitor",
+      "slug": "visitor"
+    },
+    {
+      "name": "Hãng xe khác",
+      "slug": "hang-xe-khac"
+    }
+  ]
+}

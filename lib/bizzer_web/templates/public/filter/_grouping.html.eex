@@ -1,0 +1,59 @@
+<div class="form-input js-show-filter" data-fid="grouping">
+  <span  id="grouping-print" class="input"><%= @grouping.name %></span>
+</div>
+
+<div id="filter-grouping" class='filter <%= if @grouping.id != 0, do: "_onchild" %>'>
+  <div class="filter-wrapper">
+    <header class="filter-header">
+      <h1 class="filter-header-text">Chọn chuyên mục</h1>
+      <button class="filter-header-icon js-hide-filter" data-fid="grouping" type="button"><i class="icon fe fe-x"></i></button>
+    </header>
+
+    <section class="filter-parent">
+      <div class="filter-parent-content">
+        <a class='filter-link <%= is_active(@grouping.slug, "tat-ca-chuyen-muc" ) %>'
+            href='<%= public_search_path(@conn, :grouping, "tat-ca-chuyen-muc") %>'>
+          <span class="filter-text">Tất cả chuyên mục</span>
+          <span class="filter-icon"><i class="icon-check"></i></span>
+        </a>
+
+        <%= for parent <- @groupings do %>
+          <button type="button" class="filter-link js-show-filter-child" data-fid="grouping" data-cid="grouping-<%= parent.slug %>">
+            <span class="filter-text"><%= parent.name %></span>
+            <span class="filter-icon"><i class="icon fe fe-chevron-right"></i></span>
+          </button>
+        <% end %>
+      </div>
+
+    </section>
+
+    <%= for parent <- @groupings do %>
+      <section class="filter-child <%= is_active(@grouping.id, parent.id) || is_active(@grouping.parent_id, parent.id) %>" id="filter-grouping-<%= parent.slug %>">
+
+        <div class="filter-child-content">
+          <div class="filter-special _back">
+            <button class="filter-link js-show-filter-parent" data-fid="grouping" type="button">
+              <span class="filter-text">Trở lại</span>
+              <span class="filter-icon"><i class="icon fe fe-chevron-left"></i></span>
+            </button>
+          </div>
+
+          <a class="filter-link<%= is_active(@grouping.id, parent.id) %>"
+             href="<%= public_search_path(@conn, :grouping, parent.slug) %>">
+            <span class="filter-text">Toàn bộ chuyên mục</span>
+            <span class="filter-icon"><i class="icon-check"></i></span>
+          </a>
+
+          <%= for child <- parent.children do %>
+            <a class="filter-link <%= is_active(@grouping.id, child.id) %>"
+              href="<%= public_search_path(@conn, :grouping, child.slug) %>">
+              <span class="filter-text"><%= child.name %></span>
+              <span class="filter-icon"><i class="icon-check"></i></span>
+            </a>
+          <% end %>
+
+        </div>
+      </section>
+    <% end %>
+  </div>
+</div>

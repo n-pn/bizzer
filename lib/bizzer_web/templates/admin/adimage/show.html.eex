@@ -1,0 +1,45 @@
+<section id="adimage" class="main-content _adimage-show">
+  <%= if @conn.assigns[:message] do %>
+    <div class="adimage-error">
+      <p>Có lỗi:</p>
+      <p><%= @message %></p>
+      <p>Mời liên hệ với admin để giải quyết.</p>
+    </div>
+  <% end %>
+
+  <header class="main-header _adimage">
+    <h3 class="adimage-title">Hướng dẫn chèn watermark:</h3>
+    <p class="adimage-message">
+      Nhắp chuột vào chính giữa chữ <em>chợTỐT</em> để chèn logo <em>BIZZER</em> lên vị trí vừa bấm.
+    </p>
+    <p class="adimage-message">Đợi ảnh load lại để xem kết quả, tiếp đó đợi chừng 1 giây để phần mềm tự động chọn ảnh mới.</p>
+    <p class="adimage-message"><strong>Một số ảnh sẽ không hiện lên do đã bị xóa tại server ảnh gốc, bấm <em>Xóa ảnh</em> để xóa đi.</strong></p>
+  </header>
+
+  <div class="adimage-view">
+      <div class="adimage-wrap" data-adimage="<%= @adimage.id %>">
+        <%= if @conn.assigns[:retry] do %>
+          <img src="<%= @adimage.static_url || @adimage.origin_url %>" alt="" class="adimage-image" data-adimage="<%= @adimage.id %>">
+        <% else %>
+          <img src="<%= @adimage.public_url || @adimage.static_url || @adimage.origin_url %>" alt="" class="adimage-image" data-adimage="<%= @adimage.id %>">
+        <% end %>
+
+        <div class="adimage-loading">
+          <i class="icon fe fe-loader"></i>
+        </div>
+        <div class="adimage-overlay"></div>
+      </div>
+
+    <p class="adimage-meta">
+      <%= if @adimage.status == :edited do %>
+        Ảnh đã được sửa bởi <strong><%= @adimage.worker.name %></strong>
+      <% end %>
+    </p>
+  </div>
+
+  <footer class="adimage-footer">
+    <a href="<%= admin_adimage_path(@conn, :pick) %>" class="button _primary">Chọn ảnh khác</a>
+    <a href="<%= admin_adimage_path(@conn, :index) %>" class="button">Về danh sách</a>
+    <%= link "Xóa ảnh", to: admin_adimage_path(@conn, :delete, @adimage.id), class: "button", method: :get %>
+  </footer>
+</section>

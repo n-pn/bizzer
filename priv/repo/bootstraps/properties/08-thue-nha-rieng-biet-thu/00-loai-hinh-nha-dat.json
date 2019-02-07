@@ -1,0 +1,24 @@
+{
+  "grouping_slug": "thue-nha-rieng-biet-thu",
+  "name": "Loại hình nhà đất",
+  "slug": "loai-hinh-nha-dat",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Biệt thự, phân lô",
+      "slug": "biet-thu-phan-lo"
+    },
+    {
+      "name": "Nhà mặt phố",
+      "slug": "nha-mat-pho"
+    },
+    {
+      "name": "Nhà trong ngõ",
+      "slug": "nha-trong-ngo"
+    },
+    {
+      "name": "Loại nhà khác",
+      "slug": "Loại nhà khác"
+    }
+  ]
+}

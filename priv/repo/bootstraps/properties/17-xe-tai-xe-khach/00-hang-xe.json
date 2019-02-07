@@ -1,0 +1,128 @@
+{
+  "grouping_slug": "xe-tai-xe-khach",
+  "name": "Hãng xe",
+  "slug": "hang-xe",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "Hino",
+      "slug": "hino"
+    },
+    {
+      "name": "Chiến Thắng",
+      "slug": "chien-thang"
+    },
+    {
+      "name": "Cửu Long",
+      "slug": "cuu-long"
+    },
+    {
+      "name": "Daewoo",
+      "slug": "daewoo"
+    },
+    {
+      "name": "Dongben",
+      "slug": "dongben"
+    },
+    {
+      "name": "Dongfeng",
+      "slug": "dongfeng"
+    },
+    {
+      "name": "FAW",
+      "slug": "faw"
+    },
+    {
+      "name": "Forcia",
+      "slug": "forcia"
+    },
+    {
+      "name": "Fusin",
+      "slug": "fusin"
+    },
+    {
+      "name": "Fuso",
+      "slug": "fuso"
+    },
+    {
+      "name": "Hoa Mai",
+      "slug": "hoa-mai"
+    },
+    {
+      "name": "Howo",
+      "slug": "howo"
+    },
+    {
+      "name": "Hyundai",
+      "slug": "hyundai"
+    },
+    {
+      "name": "Isuzu",
+      "slug": "isuzu"
+    },
+    {
+      "name": "JAC",
+      "slug": "jac"
+    },
+    {
+      "name": "KIA",
+      "slug": "kia"
+    },
+    {
+      "name": "Mistubishi",
+      "slug": "mistubishi"
+    },
+    {
+      "name": "Samco",
+      "slug": "samco"
+    },
+    {
+      "name": "Shacman",
+      "slug": "shacman"
+    },
+    {
+      "name": "Sinotruk",
+      "slug": "sinotruk"
+    },
+    {
+      "name": "Suzuki",
+      "slug": "suzuki"
+    },
+    {
+      "name": "SYM",
+      "slug": "sym"
+    },
+    {
+      "name": "TATA",
+      "slug": "tata"
+    },
+    {
+      "name": "Thaco",
+      "slug": "thaco"
+    },
+    {
+      "name": "Thành Hưng",
+      "slug": "thanh-hung"
+    },
+    {
+      "name": "TMT",
+      "slug": "tmt"
+    },
+    {
+      "name": "Trường Giang",
+      "slug": "truong-giang"
+    },
+    {
+      "name": "Veam",
+      "slug": "veam"
+    },
+    {
+      "name": "Vinaxuki",
+      "slug": "vinaxuki"
+    },
+    {
+      "name": "Khác",
+      "slug": "khac"
+    }
+  ]
+}

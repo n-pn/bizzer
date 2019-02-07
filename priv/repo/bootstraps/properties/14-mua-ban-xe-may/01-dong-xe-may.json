@@ -1,0 +1,1794 @@
+{
+  "grouping_slug": "mua-ban-xe-may",
+  "parent_slug": "hang-xe-may",
+  "name": "Dòng xe máy",
+  "slug": "dong-xe-may",
+  "query_type": "select",
+  "propvals": [
+    {
+      "parent_slug": "honda",
+      "name": "Honda 67",
+      "slug": "honda-67"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda @",
+      "slug": "honda-a-cong"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Air Blade",
+      "slug": "honda-air-blade"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda CB",
+      "slug": "honda-cb"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda CBR",
+      "slug": "honda-cbr"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda CD",
+      "slug": "honda-cd"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Chaly",
+      "slug": "honda-chaly"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Citi",
+      "slug": "honda-citi"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Click",
+      "slug": "honda-click"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Cub",
+      "slug": "honda-cub"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Dream",
+      "slug": "honda-dream"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Dylan",
+      "slug": "honda-dylan"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Future",
+      "slug": "honda-future"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Lead",
+      "slug": "honda-lead"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda PCX",
+      "slug": "honda-pcx"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda PS",
+      "slug": "honda-ps"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Rebel",
+      "slug": "honda-rebel"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda SCR",
+      "slug": "honda-scr"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda SH",
+      "slug": "honda-sh"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Spacy",
+      "slug": "honda-spacy"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Vision",
+      "slug": "honda-vision"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Wave",
+      "slug": "honda-wave"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Win",
+      "slug": "honda-win"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Dòng Honda khác",
+      "slug": "dong-honda-khac"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda SH Mode",
+      "slug": "honda-sh-mode"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda MSX 125",
+      "slug": "honda-msx-125"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Winner",
+      "slug": "honda-winner"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Blade",
+      "slug": "honda-blade"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Avitor",
+      "slug": "honda-avitor"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Scoopy",
+      "slug": "honda-scoopy"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Nova",
+      "slug": "honda-nova"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Exciter",
+      "slug": "yamaha-exciter"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Nouvo",
+      "slug": "yamaha-nouvo"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Sirius",
+      "slug": "yamaha-sirius"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Jupiter",
+      "slug": "yamaha-jupiter"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Cuxi",
+      "slug": "yamaha-cuxi"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha FZ",
+      "slug": "yamaha-fz"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Luvias",
+      "slug": "yamaha-luvias"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Mio",
+      "slug": "yamaha-mio"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Nozza",
+      "slug": "yamaha-nozza"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha R",
+      "slug": "yamaha-r"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Taurus",
+      "slug": "yamaha-taurus"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Yass",
+      "slug": "yamaha-yass"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha YAZ",
+      "slug": "yamaha-yaz"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Dòng Yamaha khác",
+      "slug": "dong-yamaha-khac"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Nvx",
+      "slug": "yamaha-nvx"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Grande",
+      "slug": "yamaha-grande"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Yamaha R",
+      "slug": "yamaha-yamaha-r"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Janus",
+      "slug": "yamaha-janus"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha Acruzo",
+      "slug": "yamaha-acruzo"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha YZF",
+      "slug": "yamaha-yzf"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha TFX",
+      "slug": "yamaha-tfx"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha NM-X",
+      "slug": "yamaha-nm-x"
+    },
+    {
+      "parent_slug": "yamaha",
+      "name": "Yamaha MT",
+      "slug": "yamaha-mt"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio Liberty",
+      "slug": "piaggio-liberty"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio LX",
+      "slug": "piaggio-lx"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio Vespa",
+      "slug": "piaggio-vespa"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio Zip",
+      "slug": "piaggio-zip"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio Fly",
+      "slug": "piaggio-fly"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio Sprint",
+      "slug": "piaggio-sprint"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio Primavera",
+      "slug": "piaggio-primavera"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio GTS",
+      "slug": "piaggio-gts"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio Vespa S125",
+      "slug": "piaggio-vespa-s125"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio GT",
+      "slug": "piaggio-gt"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio ET8",
+      "slug": "piaggio-et8"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio Medley",
+      "slug": "piaggio-medley"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio PX",
+      "slug": "piaggio-px"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Piaggio Beverly",
+      "slug": "piaggio-beverly"
+    },
+    {
+      "parent_slug": "piaggio",
+      "name": "Dòng Piaggio khác",
+      "slug": "dong-piaggio-khac"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Sport / Xipo",
+      "slug": "suzuki-sport-xipo"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Hayate",
+      "slug": "suzuki-hayate"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki FX125",
+      "slug": "suzuki-fx125"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Viva",
+      "slug": "suzuki-viva"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Satria",
+      "slug": "suzuki-satria"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Axelo",
+      "slug": "suzuki-axelo"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Bella",
+      "slug": "suzuki-bella"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Best",
+      "slug": "suzuki-best"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Crystal",
+      "slug": "suzuki-crystal"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki EN",
+      "slug": "suzuki-en"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Epicuro",
+      "slug": "suzuki-epicuro"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki GN",
+      "slug": "suzuki-gn"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki GZ",
+      "slug": "suzuki-gz"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Husky",
+      "slug": "suzuki-husky"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Raider",
+      "slug": "suzuki-raider"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki RGV",
+      "slug": "suzuki-rgv"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Royal",
+      "slug": "suzuki-royal"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Sapphire",
+      "slug": "suzuki-sapphire"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Smash",
+      "slug": "suzuki-smash"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Stinger",
+      "slug": "suzuki-stinger"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Xbike",
+      "slug": "suzuki-xbike"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Impulse",
+      "slug": "suzuki-impulse"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki GSX",
+      "slug": "suzuki-gsx"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki GD",
+      "slug": "suzuki-gd"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Revo",
+      "slug": "suzuki-revo"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki V-Strom",
+      "slug": "suzuki-v-strom"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Dòng Suzuki khác",
+      "slug": "dong-suzuki-khac"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Attila",
+      "slug": "sym-attila"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Angela",
+      "slug": "sym-angela"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Bonus",
+      "slug": "sym-bonus"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Cello",
+      "slug": "sym-cello"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Elegant",
+      "slug": "sym-elegant"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Enjoy",
+      "slug": "sym-enjoy"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM EZ",
+      "slug": "sym-ez"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Fiddle",
+      "slug": "sym-fiddle"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Galaxy",
+      "slug": "sym-galaxy"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Joyride",
+      "slug": "sym-joyride"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Magic",
+      "slug": "sym-magic"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Sanda Boss",
+      "slug": "sym-sanda-boss"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Shark",
+      "slug": "sym-shark"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Star",
+      "slug": "sym-star"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Symphony",
+      "slug": "sym-symphony"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Wolf",
+      "slug": "sym-wolf"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "Dòng SYM khác",
+      "slug": "dong-sym-khac"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Acruzo",
+      "slug": "sym-acruzo"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Venus",
+      "slug": "sym-venus"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Elite",
+      "slug": "sym-elite"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Elizabeth",
+      "slug": "sym-elizabeth"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM Amigo",
+      "slug": "sym-amigo"
+    },
+    {
+      "parent_slug": "aprilia",
+      "name": "Aprilia 2015 RSV4 R APRC ABS",
+      "slug": "aprilia-2015-rsv4-r-aprc-abs"
+    },
+    {
+      "parent_slug": "aprilia",
+      "name": "Aprilia 2015 Tuono V4 R APRC ABS",
+      "slug": "aprilia-2015-tuono-v4-r-aprc-abs"
+    },
+    {
+      "parent_slug": "aprilia",
+      "name": "Aprilia Caponord 1200 ABS Rally",
+      "slug": "aprilia-caponord-1200-abs-rally"
+    },
+    {
+      "parent_slug": "aprilia",
+      "name": "Aprilia Caponord 1200 ABS Travel Pack",
+      "slug": "aprilia-caponord-1200-abs-travel-pack"
+    },
+    {
+      "parent_slug": "aprilia",
+      "name": "Aprilia Dorsoduro 750 ABS",
+      "slug": "aprilia-dorsoduro-750-abs"
+    },
+    {
+      "parent_slug": "aprilia",
+      "name": "Aprilia RSV4 RF",
+      "slug": "aprilia-rsv4-rf"
+    },
+    {
+      "parent_slug": "aprilia",
+      "name": "Aprilia RSV4 RF LE",
+      "slug": "aprilia-rsv4-rf-le"
+    },
+    {
+      "parent_slug": "aprilia",
+      "name": "Aprilia RSV4 RR",
+      "slug": "aprilia-rsv4-rr"
+    },
+    {
+      "parent_slug": "aprilia",
+      "name": "Aprilia Shiver 750",
+      "slug": "aprilia-shiver-750"
+    },
+    {
+      "parent_slug": "aprilia",
+      "name": "Aprilia SR MOTARD 50",
+      "slug": "aprilia-sr-motard-50"
+    },
+    {
+      "parent_slug": "aprilia",
+      "name": "Aprilia Tuono V4 1100 Factory ABS",
+      "slug": "aprilia-tuono-v4-1100-factory-abs"
+    },
+    {
+      "parent_slug": "aprilia",
+      "name": "Aprilia Tuono V4 1100 RR ABS",
+      "slug": "aprilia-tuono-v4-1100-rr-abs"
+    },
+    {
+      "parent_slug": "aprilia",
+      "name": "Dòng Aprilia khác",
+      "slug": "dong-aprilia-khac"
+    },
+    {
+      "parent_slug": "bazan",
+      "name": "Bazan Dream",
+      "slug": "bazan-dream"
+    },
+    {
+      "parent_slug": "bazan",
+      "name": "Dòng Bazan khác",
+      "slug": "dong-bazan-khac"
+    },
+    {
+      "parent_slug": "benelli",
+      "name": "Benelli BN 302",
+      "slug": "benelli-bn-302"
+    },
+    {
+      "parent_slug": "benelli",
+      "name": "Benelli BN 600i",
+      "slug": "benelli-bn-600i"
+    },
+    {
+      "parent_slug": "benelli",
+      "name": "Dòng Benelli khác",
+      "slug": "dong-benelli-khac"
+    },
+    {
+      "parent_slug": "benelli",
+      "name": "Benelli Caffe Nero",
+      "slug": "benelli-caffe-nero"
+    },
+    {
+      "parent_slug": "benelli",
+      "name": "Benelli Pepe",
+      "slug": "benelli-pepe"
+    },
+    {
+      "parent_slug": "benelli",
+      "name": "Benelli TNT",
+      "slug": "benelli-tnt"
+    },
+    {
+      "parent_slug": "benelli",
+      "name": "Benelli 302R",
+      "slug": "benelli-302r"
+    },
+    {
+      "parent_slug": "benelli",
+      "name": "Benelli TRK",
+      "slug": "benelli-trk"
+    },
+    {
+      "parent_slug": "benelli",
+      "name": "Benelli T15",
+      "slug": "benelli-t15"
+    },
+    {
+      "parent_slug": "benelli",
+      "name": "Benelli VLM",
+      "slug": "benelli-vlm"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW R nine T",
+      "slug": "bmw-r-nine-t"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW F800GS",
+      "slug": "bmw-f800gs"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW S1000R",
+      "slug": "bmw-s1000r"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW S1000RR",
+      "slug": "bmw-s1000rr"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "Dòng BMW khác",
+      "slug": "dong-bmw-khac"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW R1200",
+      "slug": "bmw-r1200"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW C600",
+      "slug": "bmw-c600"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW C650",
+      "slug": "bmw-c650"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW F800",
+      "slug": "bmw-f800"
+    },
+    {
+      "parent_slug": "cr-s",
+      "name": "CR&S CUU",
+      "slug": "cr-s-cuu"
+    },
+    {
+      "parent_slug": "cr-s",
+      "name": "CR&S VUN",
+      "slug": "cr-s-vun"
+    },
+    {
+      "parent_slug": "cr-s",
+      "name": "Dòng CR&S khác",
+      "slug": "dong-cr-s-khac"
+    },
+    {
+      "parent_slug": "daelim",
+      "name": "Daelim A-4",
+      "slug": "daelim-a-4"
+    },
+    {
+      "parent_slug": "daelim",
+      "name": "Daelim E-FIVE",
+      "slug": "daelim-e-five"
+    },
+    {
+      "parent_slug": "daelim",
+      "name": "Daelim S4",
+      "slug": "daelim-s4"
+    },
+    {
+      "parent_slug": "daelim",
+      "name": "Daelim B-bone",
+      "slug": "daelim-b-bone"
+    },
+    {
+      "parent_slug": "daelim",
+      "name": "Daelim Besbi125",
+      "slug": "daelim-besbi125"
+    },
+    {
+      "parent_slug": "daelim",
+      "name": "Daelim DayStar125Fi",
+      "slug": "daelim-daystar125fi"
+    },
+    {
+      "parent_slug": "daelim",
+      "name": "Daelim NS125",
+      "slug": "daelim-ns125"
+    },
+    {
+      "parent_slug": "daelim",
+      "name": "Daelim RoadWin125",
+      "slug": "daelim-roadwin125"
+    },
+    {
+      "parent_slug": "daelim",
+      "name": "Dòng Daelim khác",
+      "slug": "dong-daelim-khac"
+    },
+    {
+      "parent_slug": "daelim",
+      "name": "Daelim VS125",
+      "slug": "daelim-vs125"
+    },
+    {
+      "parent_slug": "daelim",
+      "name": "Daelim BS",
+      "slug": "daelim-bs"
+    },
+    {
+      "parent_slug": "daelim",
+      "name": "Daelim Cub",
+      "slug": "daelim-cub"
+    },
+    {
+      "parent_slug": "ducati",
+      "name": "Ducati 1199 panigale",
+      "slug": "ducati-1199-panigale"
+    },
+    {
+      "parent_slug": "ducati",
+      "name": "Ducati 899 panigale",
+      "slug": "ducati-899-panigale"
+    },
+    {
+      "parent_slug": "ducati",
+      "name": "Ducati Monster",
+      "slug": "ducati-monster"
+    },
+    {
+      "parent_slug": "ducati",
+      "name": "Dòng Ducati khác",
+      "slug": "dong-ducati-khac"
+    },
+    {
+      "parent_slug": "ducati",
+      "name": "Ducati Diavel",
+      "slug": "ducati-diavel"
+    },
+    {
+      "parent_slug": "ducati",
+      "name": "Ducati Hypermotard",
+      "slug": "ducati-hypermotard"
+    },
+    {
+      "parent_slug": "ducati",
+      "name": "Ducati Multistrada",
+      "slug": "ducati-multistrada"
+    },
+    {
+      "parent_slug": "ducati",
+      "name": "Ducati Streetfighter",
+      "slug": "ducati-streetfighter"
+    },
+    {
+      "parent_slug": "ducati",
+      "name": "Ducati Scrambler",
+      "slug": "ducati-scrambler"
+    },
+    {
+      "parent_slug": "euro-reibel",
+      "name": "Dòng Euro Reibel khác",
+      "slug": "dong-euro-reibel-khac"
+    },
+    {
+      "parent_slug": "halim",
+      "name": "Dòng Halim khác",
+      "slug": "dong-halim-khac"
+    },
+    {
+      "parent_slug": "harley-davidson",
+      "name": "Harley Davidson XL 1200X Forty-Eight",
+      "slug": "harley-davidson-xl-1200x-forty-eight"
+    },
+    {
+      "parent_slug": "harley-davidson",
+      "name": "Harley Davidson V-Rod Muscle",
+      "slug": "harley-davidson-v-rod-muscle"
+    },
+    {
+      "parent_slug": "harley-davidson",
+      "name": "Dòng Harley Davidson khác",
+      "slug": "dong-harley-davidson-khac"
+    },
+    {
+      "parent_slug": "harley-davidson",
+      "name": "Harley Davidson Street",
+      "slug": "harley-davidson-street"
+    },
+    {
+      "parent_slug": "harley-davidson",
+      "name": "Harley Davidson Sportster",
+      "slug": "harley-davidson-sportster"
+    },
+    {
+      "parent_slug": "harley-davidson",
+      "name": "Harley Davidson Dyna",
+      "slug": "harley-davidson-dyna"
+    },
+    {
+      "parent_slug": "harley-davidson",
+      "name": "Harley Davidson Softail",
+      "slug": "harley-davidson-softail"
+    },
+    {
+      "parent_slug": "harley-davidson",
+      "name": "Harley Davidson V-Rod",
+      "slug": "harley-davidson-v-rod"
+    },
+    {
+      "parent_slug": "harley-davidson",
+      "name": "Harley Davidson CVO",
+      "slug": "harley-davidson-cvo"
+    },
+    {
+      "parent_slug": "harley-davidson",
+      "name": "Harley Davidson Touring",
+      "slug": "harley-davidson-touring"
+    },
+    {
+      "parent_slug": "hyosung",
+      "name": "Hyosung 125/250",
+      "slug": "hyosung-125-250"
+    },
+    {
+      "parent_slug": "hyosung",
+      "name": "Hyosung Aquila",
+      "slug": "hyosung-aquila"
+    },
+    {
+      "parent_slug": "hyosung",
+      "name": "Hyosung GT",
+      "slug": "hyosung-gt"
+    },
+    {
+      "parent_slug": "hyosung",
+      "name": "Dòng Hyosung khác",
+      "slug": "dong-hyosung-khac"
+    },
+    {
+      "parent_slug": "hyosung",
+      "name": "Hyosung GV",
+      "slug": "hyosung-gv"
+    },
+    {
+      "parent_slug": "hyosung",
+      "name": "Hyosung ST",
+      "slug": "hyosung-st"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Boss",
+      "slug": "kawasaki-boss"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Estrella",
+      "slug": "kawasaki-estrella"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Kawasaki",
+      "slug": "kawasaki-kawasaki"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki KSR",
+      "slug": "kawasaki-ksr"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Leo",
+      "slug": "kawasaki-leo"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Max",
+      "slug": "kawasaki-max"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Ninja",
+      "slug": "kawasaki-ninja"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Versys",
+      "slug": "kawasaki-versys"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Vulcan",
+      "slug": "kawasaki-vulcan"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki W400",
+      "slug": "kawasaki-w400"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki W650",
+      "slug": "kawasaki-w650"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki W800",
+      "slug": "kawasaki-w800"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Z1000",
+      "slug": "kawasaki-z1000"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Z300",
+      "slug": "kawasaki-z300"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Z400",
+      "slug": "kawasaki-z400"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Z800",
+      "slug": "kawasaki-z800"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki ZX10R",
+      "slug": "kawasaki-zx10r"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki ZX6J",
+      "slug": "kawasaki-zx6j"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki ZX6R",
+      "slug": "kawasaki-zx6r"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Dòng Kawasaki khác",
+      "slug": "dong-kawasaki-khac"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Z900",
+      "slug": "kawasaki-z900"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Z650",
+      "slug": "kawasaki-z650"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Z125",
+      "slug": "kawasaki-z125"
+    },
+    {
+      "parent_slug": "kawasaki",
+      "name": "Kawasaki Z250",
+      "slug": "kawasaki-z250"
+    },
+    {
+      "parent_slug": "keeway",
+      "name": "Keeway Blackster",
+      "slug": "keeway-blackster"
+    },
+    {
+      "parent_slug": "keeway",
+      "name": "Dòng Keeway khác",
+      "slug": "dong-keeway-khac"
+    },
+    {
+      "parent_slug": "kengo",
+      "name": "Kengo R350",
+      "slug": "kengo-r350"
+    },
+    {
+      "parent_slug": "kengo",
+      "name": "Kengo R250",
+      "slug": "kengo-r250"
+    },
+    {
+      "parent_slug": "kengo",
+      "name": "Kengo X350",
+      "slug": "kengo-x350"
+    },
+    {
+      "parent_slug": "kengo",
+      "name": "Kengo Classic 400",
+      "slug": "kengo-classic-400"
+    },
+    {
+      "parent_slug": "kengo",
+      "name": "Kengo Custom 2017",
+      "slug": "kengo-custom-2017"
+    },
+    {
+      "parent_slug": "kengo",
+      "name": "Kengo Off road",
+      "slug": "kengo-off-road"
+    },
+    {
+      "parent_slug": "kengo",
+      "name": "Kengo E-Bikes",
+      "slug": "kengo-e-bikes"
+    },
+    {
+      "parent_slug": "kengo",
+      "name": "Kengo Scooter",
+      "slug": "kengo-scooter"
+    },
+    {
+      "parent_slug": "kengo",
+      "name": "Dòng Kengo khác",
+      "slug": "dong-kengo-khac"
+    },
+    {
+      "parent_slug": "ktm",
+      "name": "KTM Duke 200",
+      "slug": "ktm-duke-200"
+    },
+    {
+      "parent_slug": "ktm",
+      "name": "KTM 1190 RC8R",
+      "slug": "ktm-1190-rc8r"
+    },
+    {
+      "parent_slug": "ktm",
+      "name": "KTM 1290 Super Adventure",
+      "slug": "ktm-1290-super-adventure"
+    },
+    {
+      "parent_slug": "ktm",
+      "name": "KTM 1290 Super Duke R",
+      "slug": "ktm-1290-super-duke-r"
+    },
+    {
+      "parent_slug": "ktm",
+      "name": "KTM 390",
+      "slug": "ktm-390"
+    },
+    {
+      "parent_slug": "ktm",
+      "name": "KTM Duke 250",
+      "slug": "ktm-duke-250"
+    },
+    {
+      "parent_slug": "ktm",
+      "name": "KTM Duke 390",
+      "slug": "ktm-duke-390"
+    },
+    {
+      "parent_slug": "ktm",
+      "name": "KTM Duke 690",
+      "slug": "ktm-duke-690"
+    },
+    {
+      "parent_slug": "ktm",
+      "name": "KTM RC 200",
+      "slug": "ktm-rc-200"
+    },
+    {
+      "parent_slug": "ktm",
+      "name": "KTM RC 250",
+      "slug": "ktm-rc-250"
+    },
+    {
+      "parent_slug": "ktm",
+      "name": "KTM RC 390",
+      "slug": "ktm-rc-390"
+    },
+    {
+      "parent_slug": "ktm",
+      "name": "Dòng KTM khác",
+      "slug": "dong-ktm-khac"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Kymco Candy Hi",
+      "slug": "kymco-candy-hi"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Kymco Candy S",
+      "slug": "kymco-candy-s"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Kymco Jockey Fi",
+      "slug": "kymco-jockey-fi"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Kymco K-Pipe",
+      "slug": "kymco-k-pipe"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Kymco Like Fi",
+      "slug": "kymco-like-fi"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Kymco Like MMC",
+      "slug": "kymco-like-mmc"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Kymco Many",
+      "slug": "kymco-many"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Kymco Many Fi",
+      "slug": "kymco-many-fi"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Kymco Many Macaron Fi",
+      "slug": "kymco-many-macaron-fi"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Kymco Many S",
+      "slug": "kymco-many-s"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Kymco People 16 Fi",
+      "slug": "kymco-people-16-fi"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Kymco People S Fi",
+      "slug": "kymco-people-s-fi"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Dòng Kymco khác",
+      "slug": "dong-kymco-khac"
+    },
+    {
+      "parent_slug": "kymco",
+      "name": "Kymco Solona",
+      "slug": "kymco-solona"
+    },
+    {
+      "parent_slug": "lambretta",
+      "name": "Lambretta A",
+      "slug": "lambretta-a"
+    },
+    {
+      "parent_slug": "lambretta",
+      "name": "Lambretta B",
+      "slug": "lambretta-b"
+    },
+    {
+      "parent_slug": "lambretta",
+      "name": "Lambretta C",
+      "slug": "lambretta-c"
+    },
+    {
+      "parent_slug": "lambretta",
+      "name": "Lambretta D",
+      "slug": "lambretta-d"
+    },
+    {
+      "parent_slug": "lambretta",
+      "name": "Lambretta E",
+      "slug": "lambretta-e"
+    },
+    {
+      "parent_slug": "lambretta",
+      "name": "Lambretta F",
+      "slug": "lambretta-f"
+    },
+    {
+      "parent_slug": "lambretta",
+      "name": "Dòng Lambretta khác",
+      "slug": "dong-lambretta-khac"
+    },
+    {
+      "parent_slug": "malaguti",
+      "name": "Malaguti F12",
+      "slug": "malaguti-f12"
+    },
+    {
+      "parent_slug": "malaguti",
+      "name": "Malaguti Grizzly",
+      "slug": "malaguti-grizzly"
+    },
+    {
+      "parent_slug": "malaguti",
+      "name": "Malaguti Madison",
+      "slug": "malaguti-madison"
+    },
+    {
+      "parent_slug": "malaguti",
+      "name": "Dòng Malaguti khác",
+      "slug": "dong-malaguti-khac"
+    },
+    {
+      "parent_slug": "mv-agusta",
+      "name": "MV Agusta F3",
+      "slug": "mv-agusta-f3"
+    },
+    {
+      "parent_slug": "mv-agusta",
+      "name": "MV Agusta F4",
+      "slug": "mv-agusta-f4"
+    },
+    {
+      "parent_slug": "mv-agusta",
+      "name": "MV Agusta Brutale 4 Cylind",
+      "slug": "mv-agusta-brutale-4-cylind"
+    },
+    {
+      "parent_slug": "mv-agusta",
+      "name": "MV Agusta Brutale 3 Cylind",
+      "slug": "mv-agusta-brutale-3-cylind"
+    },
+    {
+      "parent_slug": "mv-agusta",
+      "name": "MV Agusta Rivale",
+      "slug": "mv-agusta-rivale"
+    },
+    {
+      "parent_slug": "mv-agusta",
+      "name": "MV Agusta Dragster",
+      "slug": "mv-agusta-dragster"
+    },
+    {
+      "parent_slug": "mv-agusta",
+      "name": "MV Agusta Turismo Veloce",
+      "slug": "mv-agusta-turismo-veloce"
+    },
+    {
+      "parent_slug": "mv-agusta",
+      "name": "MV Agusta Stradale",
+      "slug": "mv-agusta-stradale"
+    },
+    {
+      "parent_slug": "mv-agusta",
+      "name": "Dòng MV Agusta khác",
+      "slug": "dong-mv-agusta-khac"
+    },
+    {
+      "parent_slug": "norton",
+      "name": "Norton Commandor",
+      "slug": "norton-commandor"
+    },
+    {
+      "parent_slug": "norton",
+      "name": "Norton Dominator",
+      "slug": "norton-dominator"
+    },
+    {
+      "parent_slug": "norton",
+      "name": "Dòng Norton khác",
+      "slug": "dong-norton-khac"
+    },
+    {
+      "parent_slug": "rebelusa",
+      "name": "RebelUSA CDR",
+      "slug": "rebelusa-cdr"
+    },
+    {
+      "parent_slug": "rebelusa",
+      "name": "RebelUSA CBR",
+      "slug": "rebelusa-cbr"
+    },
+    {
+      "parent_slug": "rebelusa",
+      "name": "RebelUSA Deluxe",
+      "slug": "rebelusa-deluxe"
+    },
+    {
+      "parent_slug": "rebelusa",
+      "name": "RebelUSA Notus",
+      "slug": "rebelusa-notus"
+    },
+    {
+      "parent_slug": "rebelusa",
+      "name": "RebelUSA Rebell",
+      "slug": "rebelusa-rebell"
+    },
+    {
+      "parent_slug": "rebelusa",
+      "name": "Dòng RebelUSA khác",
+      "slug": "dong-rebelusa-khac"
+    },
+    {
+      "parent_slug": "regal-raptor",
+      "name": "Regal Raptor Daytona",
+      "slug": "regal-raptor-daytona"
+    },
+    {
+      "parent_slug": "regal-raptor",
+      "name": "Regal Raptor Cruiser",
+      "slug": "regal-raptor-cruiser"
+    },
+    {
+      "parent_slug": "regal-raptor",
+      "name": "Regal Raptor Bobber",
+      "slug": "regal-raptor-bobber"
+    },
+    {
+      "parent_slug": "regal-raptor",
+      "name": "Regal Raptor Euro Reibel",
+      "slug": "regal-raptor-euro-reibel"
+    },
+    {
+      "parent_slug": "regal-raptor",
+      "name": "Dòng Regal Raptor khác",
+      "slug": "dong-regal-raptor-khac"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs 150KN",
+      "slug": "sachs-150kn"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs B-805",
+      "slug": "sachs-b-805"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Balboa",
+      "slug": "sachs-balboa"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Bee 50 and Bee 125",
+      "slug": "sachs-bee-50-and-bee-125"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Big Roadster V 3",
+      "slug": "sachs-big-roadster-v-3"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Dirty Devil 50",
+      "slug": "sachs-dirty-devil-50"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Dirty Devil 110",
+      "slug": "sachs-dirty-devil-110"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs MadAss",
+      "slug": "sachs-madass"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Prima",
+      "slug": "sachs-prima"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Prima G3",
+      "slug": "sachs-prima-g3"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Roadster 650",
+      "slug": "sachs-roadster-650"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Hercules 125 cc",
+      "slug": "sachs-hercules-125-cc"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Roadster 800",
+      "slug": "sachs-roadster-800"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Roadster V 1",
+      "slug": "sachs-roadster-v-1"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Roadster 125 V2",
+      "slug": "sachs-roadster-125-v2"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Roadster 2000",
+      "slug": "sachs-roadster-2000"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Speedjet R 50 (Air cooled)",
+      "slug": "sachs-speedjet-r-50-air-cooled"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Speedjet RS 50 (Liquid cooled intr",
+      "slug": "sachs-speedjet-rs-50-liquid-cooled-intr"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs SR 125",
+      "slug": "sachs-sr-125"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs SX-1",
+      "slug": "sachs-sx-1"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs SX-1 (Urbano Limited Edition)",
+      "slug": "sachs-sx-1-urbano-limited-edition"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs VS 125",
+      "slug": "sachs-vs-125"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Westlake",
+      "slug": "sachs-westlake"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs X Road",
+      "slug": "sachs-x-road"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs XTC 125",
+      "slug": "sachs-xtc-125"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs XTC-N",
+      "slug": "sachs-xtc-n"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs XTC-R",
+      "slug": "sachs-xtc-r"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs ZX 125",
+      "slug": "sachs-zx-125"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Dòng Sachs khác",
+      "slug": "dong-sachs-khac"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Amici",
+      "slug": "sachs-amici"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Optima",
+      "slug": "sachs-optima"
+    },
+    {
+      "parent_slug": "sachs",
+      "name": "Sachs Goebel",
+      "slug": "sachs-goebel"
+    },
+    {
+      "parent_slug": "sanda",
+      "name": "Dòng Sanda khác",
+      "slug": "dong-sanda-khac"
+    },
+    {
+      "parent_slug": "triumph",
+      "name": "Triumph Triumph Bonneville T100",
+      "slug": "triumph-triumph-bonneville-t100"
+    },
+    {
+      "parent_slug": "triumph",
+      "name": "Triumph Triumph Tiger Explorer XC",
+      "slug": "triumph-triumph-tiger-explorer-xc"
+    },
+    {
+      "parent_slug": "triumph",
+      "name": "Triumph Triumph America",
+      "slug": "triumph-triumph-america"
+    },
+    {
+      "parent_slug": "triumph",
+      "name": "Triumph Triumph Speedmaster",
+      "slug": "triumph-triumph-speedmaster"
+    },
+    {
+      "parent_slug": "triumph",
+      "name": "Dòng Triumph khác",
+      "slug": "dong-triumph-khac"
+    },
+    {
+      "parent_slug": "triumph",
+      "name": "Triumph Street Twin",
+      "slug": "triumph-street-twin"
+    },
+    {
+      "parent_slug": "triumph",
+      "name": "Triumph Street Scramber",
+      "slug": "triumph-street-scramber"
+    },
+    {
+      "parent_slug": "vento",
+      "name": "Vento V Thunder XL",
+      "slug": "vento-v-thunder-xl"
+    },
+    {
+      "parent_slug": "vento",
+      "name": "Vento Gladiator XLS",
+      "slug": "vento-gladiator-xls"
+    },
+    {
+      "parent_slug": "vento",
+      "name": "Vento Rebellian",
+      "slug": "vento-rebellian"
+    },
+    {
+      "parent_slug": "vento",
+      "name": "Dòng Vento khác",
+      "slug": "dong-vento-khac"
+    },
+    {
+      "parent_slug": "victory",
+      "name": "Victory Cross Country Tours",
+      "slug": "victory-cross-country-tours"
+    },
+    {
+      "parent_slug": "victory",
+      "name": "Victory Gunner",
+      "slug": "victory-gunner"
+    },
+    {
+      "parent_slug": "victory",
+      "name": "Dòng Victory khác",
+      "slug": "dong-victory-khac"
+    },
+    {
+      "parent_slug": "victory",
+      "name": "Victory Vegas",
+      "slug": "victory-vegas"
+    },
+    {
+      "parent_slug": "victory",
+      "name": "Victory High-Ball",
+      "slug": "victory-high-ball"
+    },
+    {
+      "parent_slug": "victory",
+      "name": "Victory Hammer",
+      "slug": "victory-hammer"
+    },
+    {
+      "parent_slug": "victory",
+      "name": "Victory Vision",
+      "slug": "victory-vision"
+    },
+    {
+      "parent_slug": "victory",
+      "name": "Victory Magnum",
+      "slug": "victory-magnum"
+    },
+    {
+      "parent_slug": "visitor",
+      "name": "Visitor 125 Classic",
+      "slug": "visitor-125-classic"
+    },
+    {
+      "parent_slug": "visitor",
+      "name": "Visitor helios",
+      "slug": "visitor-helios"
+    },
+    {
+      "parent_slug": "visitor",
+      "name": "Visitor Phoenix",
+      "slug": "visitor-phoenix"
+    },
+    {
+      "parent_slug": "visitor",
+      "name": "Dòng Visitor khác",
+      "slug": "dong-visitor-khac"
+    },
+    {
+      "parent_slug": "visitor",
+      "name": "Visitor Bios",
+      "slug": "visitor-bios"
+    },
+    {
+      "parent_slug": "hang-xe-khac",
+      "name": "Dòng xe khác",
+      "slug": "dong-xe-khac"
+    },
+    {
+      "parent_slug": "brixton",
+      "name": "Brixton BX 125",
+      "slug": "brixton-bx-125"
+    },
+    {
+      "parent_slug": "brixton",
+      "name": "Brixton BX 150",
+      "slug": "brixton-bx-150"
+    },
+    {
+      "parent_slug": "moto-guzzi",
+      "name": "Moto Guzzi V9",
+      "slug": "moto-guzzi-v9"
+    },
+    {
+      "parent_slug": "moto-guzzi",
+      "name": "Moto Guzzi V7",
+      "slug": "moto-guzzi-v7"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot Django",
+      "slug": "peugeot-django"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot Citystar",
+      "slug": "peugeot-citystar"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot Satelis",
+      "slug": "peugeot-satelis"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 102",
+      "slug": "peugeot-102"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 103",
+      "slug": "peugeot-103"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 104",
+      "slug": "peugeot-104"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "grouping_slug": "dich-vu-gia-dinh-van-phong",
+  "name": "Thể loại",
+  "slug": "the-loai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Dịch vụ gia đình",
+      "slug": "dich-vu-gia-dinh"
+    },
+    {
+      "name": "Dịch vụ văn phòng",
+      "slug": "dich-vu-van-phong"
+    },
+    {
+      "name": "Các loại khác",
+      "slug": "cac-loai-khac"
+    }
+  ]
+}

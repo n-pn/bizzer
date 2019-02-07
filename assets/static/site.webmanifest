@@ -1,0 +1,14 @@
+{
+    "name": "Bizzer",
+    "short_name": "Bizzer",
+    "icons": [
+        {
+            "src": "/android-chrome-96x96.png?v=JykAgyxjYk",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#2a2a2a",
+    "background_color": "#2a2a2a",
+    "display": "standalone"
+}

@@ -1,0 +1,20 @@
+{
+  "grouping_slug": "mua-ban-do-dien-tu",
+  "name": "Tình trạng",
+  "slug": "tinh-trang",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Mới nguyên",
+      "slug": "moi-nguyen"
+    },
+    {
+      "name": "Còn bảo hành",
+      "slug": "con-bao-hanh"
+    },
+    {
+      "name": "Hết bảo hành",
+      "slug": "het-bao-hanh"
+    }
+  ]
+}

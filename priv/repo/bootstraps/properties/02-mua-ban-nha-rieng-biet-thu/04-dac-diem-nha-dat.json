@@ -1,0 +1,20 @@
+{
+  "grouping_slug": "mua-ban-nha-rieng-biet-thu",
+  "name": "Đặc điểm nhà/đất",
+  "slug": "dac-diem-nha-dat",
+  "query_type": "radiobox",
+  "propvals": [
+    {
+      "name": "Hẻm xe hơi",
+      "slug": "hem-xe-hoi"
+    },
+    {
+      "name": "Mặt tiền",
+      "slug": "mat-tien"
+    },
+    {
+      "name": "Nở hậu",
+      "slug": "no-hau"
+    }
+  ]
+}

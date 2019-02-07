@@ -1,0 +1,72 @@
+{
+  "grouping_slug": "xe-tai-xe-khach",
+  "name": "Loại xe",
+  "slug": "loai-xe",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "Xe tải, Xe ben",
+      "slug": "xe-tai-xe-ben"
+    },
+    {
+      "name": "Xe khách, xe buýt",
+      "slug": "xe-khach-xe-buyt"
+    },
+    {
+      "name": "Xe bồn",
+      "slug": "xe-bon"
+    },
+    {
+      "name": "Xe chở rác",
+      "slug": "xe-cho-rac"
+    },
+    {
+      "name": "Xe công nông",
+      "slug": "xe-cong-nong"
+    },
+    {
+      "name": "Xe đầu kéo",
+      "slug": "xe-dau-keo"
+    },
+    {
+      "name": "Xe đông lạnh",
+      "slug": "xe-dong-lanh"
+    },
+    {
+      "name": "Xe hút chất thải",
+      "slug": "xe-hut-chat-thai"
+    },
+    {
+      "name": "Xe lam",
+      "slug": "xe-lam"
+    },
+    {
+      "name": "Xe lôi",
+      "slug": "xe-loi"
+    },
+    {
+      "name": "Xe lu",
+      "slug": "xe-lu"
+    },
+    {
+      "name": "Xe máy cày",
+      "slug": "xe-may-cay"
+    },
+    {
+      "name": "Xe nâng",
+      "slug": "xe-nang"
+    },
+    {
+      "name": "Xe phun nước",
+      "slug": "xe-phun-nuoc"
+    },
+    {
+      "name": "Xe xúc",
+      "slug": "xe-xuc"
+    },
+    {
+      "name": "Phương tiện khác",
+      "slug": "phuong-tien-khac"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<%= render BizzerWeb.Public.SearchView, "adentry.html", assigns %>
+
+<footer class="review-footer">
+  <a href="<%= admin_adentry_path(@conn, :pick) %>" class="button _big">Đổi tin khác</a>
+  <a href="<%= admin_adentry_path(@conn, :index) %>" class="button _big">Danh sách</a>
+</footer>

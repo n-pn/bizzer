@@ -1,0 +1,44 @@
+{
+  "grouping_slug": "mua-ban-laptop",
+  "name": "RAM",
+  "slug": "ram",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "< 1 GB",
+      "slug": "duoi-1-gb"
+    },
+    {
+      "name": "1 GB",
+      "slug": "1-gb"
+    },
+    {
+      "name": "2 GB",
+      "slug": "2-gb"
+    },
+    {
+      "name": "4 GB",
+      "slug": "4-gb"
+    },
+    {
+      "name": "6 GB",
+      "slug": "6-gb"
+    },
+    {
+      "name": "8 GB",
+      "slug": "8-gb"
+    },
+    {
+      "name": "16 GB",
+      "slug": "16-gb"
+    },
+    {
+      "name": "32 GB",
+      "slug": "32-gb"
+    },
+    {
+      "name": "> 32GB",
+      "slug": "tren-32gb"
+    }
+  ]
+}

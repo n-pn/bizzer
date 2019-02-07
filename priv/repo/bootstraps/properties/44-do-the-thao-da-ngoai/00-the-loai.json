@@ -1,0 +1,20 @@
+{
+  "grouping_slug": "do-the-thao-do-da-ngoai",
+  "name": "Thể loại",
+  "slug": "the-loai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Đồ thể thao",
+      "slug": "do-the-thao"
+    },
+    {
+      "name": "Đồ dã ngoại",
+      "slug": "do-da-ngoai"
+    },
+    {
+      "name": "Các loại khác",
+      "slug": "cac-loai-khac"
+    }
+  ]
+}

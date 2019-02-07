@@ -1,0 +1,13 @@
+// convert from px to rem
+
+@function rem($size, $base: 16) {
+  @if (unitless($size)) {
+    $size: $size * 1px;
+  }
+
+  @if (unitless($base)) {
+    $base: $base * 1px;
+  }
+
+  @return $size / $base * 1rem;
+}

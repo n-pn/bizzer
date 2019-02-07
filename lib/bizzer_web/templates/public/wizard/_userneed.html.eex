@@ -1,0 +1,49 @@
+<div class="output js-show-wizard" data-wid="<%= @index %>">
+  <label class="output-label" for="user_need">Nhu cầu</label>
+  <input type="hidden" name="submit[user_need]" id="output-user_need-value" value="<%= get_value(@chset, :user_need) %>">
+  <%= if print = get_print(@chset, :user_need) do %>
+    <div id="output-user_need-print" class="output-print"><%= print %></div>
+  <% else %>
+    <div id="output-user_need-print" class="output-print _user_need _empty">Cần bán/Cần mua</div>
+  <% end %>
+  <div class="output-error"><%= get_error(@chset, :user_need) %></div>
+</div>
+
+<div id="wizard-<%= @index %>" class="wizard">
+  <%= render "__header.html", title: "Nhu cầu" %>
+
+  <section class="wizard-content">
+    <div class="wizard-wrapper">
+      <div class="wizard-parent">
+        <div class="wizard-radio">
+          <div class="wizard-radio-item">
+            <button type="button"
+              class="wizard-option _radio js-update-output"
+              data-wid="<%= @index %>"
+              data-input="user_need"
+              data-value="can-ban"
+              data-print="Cần bán"
+            >
+              <span class="wizard-text">Cần bán</span>
+              <span class="wizard-icon"><i class="icon fe fe-check"></i></span>
+            </button>
+          </div>
+          <div class="wizard-radio-item">
+            <button type="button"
+              class="wizard-option _radio js-update-output"
+              data-wid="<%= @index %>"
+              data-input="user_need"
+              data-value="can-mua"
+              data-print="Cần mua"
+            >
+              <span class="wizard-text">Cần mua</span>
+              <span class="wizard-icon"><i class="icon fe fe-check"></i></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <%= render "__footer.html", index: @index %>
+</div>

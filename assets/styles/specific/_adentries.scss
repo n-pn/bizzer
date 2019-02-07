@@ -1,0 +1,126 @@
+.adentries {
+  display: block;
+  @include clearfix;
+}
+
+.adentries-noresult {
+  display: block;
+  padding: 3rem 0;
+  text-align: center;
+  color: $text-secondary-color;
+  font-style: italic;
+}
+
+.adentries-list {
+  display: block;
+  margin: 0;
+  padding: $gutter / 2 0;
+  @include clearfix;
+}
+
+.adentries-item {
+  float: left;
+  padding: $gutter / 2 0;
+  width: 100%;
+}
+
+.adentries-card {
+  display: block;
+  // display: inline-block;
+  position: relative;
+  padding: $gutter;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: $box-shadow;
+  color: $text-secondary-color;
+  @include clearfix;
+  &:active {
+    outline: none;
+  }
+  &:hover {
+    box-shadow: 0px 4px 20px rgba(#000, .1);
+  }
+}
+
+.adentries-card-image {
+  float: left;
+  // position: absolute;
+  // left: 0;
+  // top: 0;
+  width: 8.5rem;
+  height: 10rem;
+
+  overflow: hidden;
+  border-radius: 3px;
+  margin-right: $gutter;
+
+  @include break-medium {
+    width: 12rem;
+    height: 8.5rem;
+  }
+
+  > img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+
+.adentries-card-subject {
+  font-size: rem(20);
+  font-weight: normal;
+  margin: 0;
+  // margin-top: $gutter;
+  line-height: 2rem;
+  @include truncate(100%);
+  color: #000;
+  font-family: $font-interface;
+}
+
+.adentries-card-price {
+  color: $text-price-color;
+  font-weight: bold;
+  line-height: 2.5rem;
+  font-size: rem(18);
+  @include truncate(100%);
+}
+
+.adentries-card-location, .adentries-card-grouping {
+  font-size: rem(15);
+  color: $text-secondary-color;
+  @include truncate(90%);
+  line-height: 2rem;
+  .icon {
+    width: 1.375rem;
+    font-size: rem(17);
+  }
+}
+
+.adentries-card-user {
+  // position: absolute;
+  // bottom: $gutter;
+  // right: $gutter;
+  color: $text-secondary-color;
+  font-size: rem(15);
+  // @include clearfix;
+}
+
+.adentries-pagi {
+  @include clearfix;
+  padding: 0;
+}
+
+// $page-height: 2.5rem;
+
+.adentries-pagi-nav {
+  float: right;
+  @include clearfix;
+  padding-right: $gutter;
+  @include break-large {
+    padding-right: 0;
+  }
+}
+
+.adentries-pagi-button {
+  float: left;
+}

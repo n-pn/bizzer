@@ -1,0 +1,40 @@
+{
+  "grouping_slug": "mua-ban-dien-thoai",
+  "name": "Dung lượng ổ cứng",
+  "slug": "dung-luong-o-cung",
+  "query_type": "radiobox",
+  "propvals": [
+    {
+      "name": "< 8GB",
+      "slug": "duoi-8gb"
+    },
+    {
+      "name": "8 GB",
+      "slug": "8-gb"
+    },
+    {
+      "name": "16 GB",
+      "slug": "16-gb"
+    },
+    {
+      "name": "32 GB",
+      "slug": "32-gb"
+    },
+    {
+      "name": "64 GB",
+      "slug": "64-gb"
+    },
+    {
+      "name": "128 GB",
+      "slug": "128-gb"
+    },
+    {
+      "name": "256 GB",
+      "slug": "256-gb"
+    },
+    {
+      "name": "> 256 GB",
+      "slug": "tren-256-gb"
+    }
+  ]
+}

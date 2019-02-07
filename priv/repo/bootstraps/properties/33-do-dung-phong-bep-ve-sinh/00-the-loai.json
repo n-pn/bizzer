@@ -1,0 +1,20 @@
+{
+  "grouping_slug": "thiet-bi-phong-bep-ve-sinh",
+  "name": "Thể loại",
+  "slug": "the-loai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Thiết bị phòng bếp",
+      "slug": "thiet-bi-phong-bep"
+    },
+    {
+      "name": "Thiết bị phòng vệ sinh",
+      "slug": "thiet-bi-phong-ve-sinh"
+    },
+    {
+      "name": "Các loại khác",
+      "slug": "cac-loai-khac"
+    }
+  ]
+}

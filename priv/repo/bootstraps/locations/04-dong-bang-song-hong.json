@@ -1,0 +1,42 @@
+{
+  "name": "Đồng bằng sông Hồng",
+  "slug": "dong-bang-song-hong",
+  "children": [
+    {
+      "name": "Bắc Ninh",
+      "slug": "bac-ninh"
+    },
+    {
+      "name": "Hà Nam",
+      "slug": "ha-nam"
+    },
+    {
+      "name": "Hải Dương",
+      "slug": "hai-duong"
+    },
+    {
+      "name": "Hải Phòng",
+      "slug": "hai-phong"
+    },
+    {
+      "name": "Hưng Yên",
+      "slug": "hung-yen"
+    },
+    {
+      "name": "Nam Định",
+      "slug": "nam-dinh"
+    },
+    {
+      "name": "Ninh Bình",
+      "slug": "ninh-binh"
+    },
+    {
+      "name": "Thái Bình",
+      "slug": "thai-binh"
+    },
+    {
+      "name": "Vĩnh Phúc",
+      "slug": "vinh-phuc"
+    }
+  ]
+}

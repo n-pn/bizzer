@@ -1,0 +1,26 @@
+{
+  "name": "Mua bán nhà đất",
+  "slug": "mua-ban-nha-dat",
+  "children": [
+    {
+      "name": "Mua bán căn hộ, chung cư",
+      "slug": "mua-ban-can-ho-chung-cu"
+    },
+    {
+      "name": "Mua bán nhà riêng, biệt thự",
+      "slug": "mua-ban-nha-rieng-biet-thu"
+    },
+    {
+      "name": "Mua bán văn phòng, cửa hàng",
+      "slug": "mua-ban-van-phong-cua-hang"
+    },
+    {
+      "name": "Mua bán đất, nền dự án",
+      "slug": "mua-ban-dat-nen-du-an"
+    },
+    {
+      "name": "Mua bán các loại nhà đất khác",
+      "slug": "mua-ban-cac-loai-nha-dat-khac"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+<section class="main-content _full _shop">
+  <%= form_for @chset, public_shop_path(@conn, :update, next: return_url(@conn)), [as: :shop, id: "shop", class: "shop"], fn f -> %>
+    <header class="shop-header">
+      <h1 class="shop-title">Sửa cửa hàng</h1>
+    </header>
+
+    <label class="form-label">Ảnh đại diện</label>
+    <section class="shop-image">
+      <div class="shop-cover">
+        <input type="hidden" name="shop[cover_url]" id="shop_cover_output" value='<%= f.data.cover_url || "/img/cover.jpg" %>'>
+        <img id="shop_cover_preview" src='<%= f.data.cover_url || "/img/cover.jpg" %>' alt="">
+        <div class="shop-wrapper">
+          <label class="js-upload-shop-cover shop-upload"><input type="file" name="upload_file" id="shop_cover_input" accept="image/*" ></label>
+        </div>
+      </div>
+      <div class="shop-avatar">
+        <input type="hidden" name="shop[avatar_url]" id="shop_avatar_output" value='<%= f.data.cover_url || "/img/cover.jpg" %>'>
+        <img id="shop_avatar_preview" src='<%= f.data.avatar_url || "/img/avatar.png" %>' alt="">
+        <div class="shop-wrapper">
+        <label class="js-upload-shop-avatar shop-upload">
+          <input type="file" name="upload_file" id="shop_avatar_input" accept="image/*" >
+        </label>
+        </div>
+      </div>
+    </section>
+
+    <section class="shop-content">
+        <div class="form-group">
+          <%= label f, :name, "Tên cửa hàng", class: "form-label" %>
+          <%= text_input f, :name, class: "input", placeholder: "Tên cửa hàng", required: true %>
+          <%= form_error f, :name %>
+        </div>
+
+        <div class="form-group">
+          <%= label f, :slug, "Đường dẫn truy cập cửa hàng", class: "form-label" %>
+          <%= text_input f, :slug, class: "input _slug", placeholder: "bizzer.store/chuyen-trang/", required: true, disabled: true, readonly: true %>
+          <%= form_error f, :slug %>
+        </div>
+
+        <div class="form-group">
+          <%= label f, :address, "Địa chỉ cửa hàng", class: "form-label" %>
+          <%= text_input f, :address, class: "input", placeholder: "Địa chỉ cửa hàng" %>
+          <%= form_error f, :address %>
+          </div>
+
+        <div class="form-group">
+          <%= label f, :details, "Giới thiệu cửa hàng", class: "form-label" %>
+          <%= textarea f, :details, class: "input", placeholder: "Thông tin cửa hàng" %>
+          <%= form_error f, :details %>
+        </div>
+
+        <div class="form-group">
+          <%= label f, :phone, "Điện thoại liên hệ", class: "form-label" %>
+          <%= text_input f, :phone, class: "input _phone", placeholder: "09xxxxxxxx" %>
+          <%= form_error f, :phone %>
+        </div>
+    </section>
+    <footer class="shop-footer">
+      <%= submit "Lưu cửa hàng", class: "button _submit _big _primary" %>
+    </footer>
+  <% end %>
+
+</section>
+

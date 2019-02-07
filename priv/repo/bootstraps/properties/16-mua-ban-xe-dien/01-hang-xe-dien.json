@@ -1,0 +1,92 @@
+{
+  "grouping_slug": "mua-ban-xe-dien",
+  "name": "Hãng xe điện",
+  "slug": "hang-xe-dien",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "Aima",
+      "slug": "aima"
+    },
+    {
+      "name": "Asama",
+      "slug": "asama"
+    },
+    {
+      "name": "BMX",
+      "slug": "bmx"
+    },
+    {
+      "name": "Bridgestone",
+      "slug": "bridgestone"
+    },
+    {
+      "name": "Dibao",
+      "slug": "dibao"
+    },
+    {
+      "name": "Giant",
+      "slug": "giant"
+    },
+    {
+      "name": "Hitasa",
+      "slug": "hitasa"
+    },
+    {
+      "name": "HK bike",
+      "slug": "hk-bike"
+    },
+    {
+      "name": "Honda",
+      "slug": "honda"
+    },
+    {
+      "name": "Hyundai",
+      "slug": "hyundai"
+    },
+    {
+      "name": "Jett",
+      "slug": "jett"
+    },
+    {
+      "name": "Nijia",
+      "slug": "nijia"
+    },
+    {
+      "name": "Pega",
+      "slug": "pega"
+    },
+    {
+      "name": "Sonsu",
+      "slug": "sonsu"
+    },
+    {
+      "name": "Suzika",
+      "slug": "suzika"
+    },
+    {
+      "name": "Trinx",
+      "slug": "trinx"
+    },
+    {
+      "name": "Xiaomi",
+      "slug": "xiaomi"
+    },
+    {
+      "name": "Xmen",
+      "slug": "xmen"
+    },
+    {
+      "name": "Yamaha",
+      "slug": "yamaha"
+    },
+    {
+      "name": "Zoomer",
+      "slug": "zoomer"
+    },
+    {
+      "name": "Xe điện khác",
+      "slug": "xe-dien-khac"
+    }
+  ]
+}

@@ -1,0 +1,5279 @@
+{
+  "grouping_slug": "mua-ban-o-to",
+  "parent_slug": "hang-xe-o-to",
+  "name": "Dòng xe ô tô",
+  "slug": "dong-xe-o-to",
+  "query_type": "select",
+  "propvals": [
+    {
+      "parent_slug": "kia",
+      "name": "Kia Morning",
+      "slug": "kia-morning"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Rio",
+      "slug": "kia-rio"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia K3",
+      "slug": "kia-k3"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Cerato",
+      "slug": "kia-cerato"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Forte",
+      "slug": "kia-forte"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Sedona",
+      "slug": "kia-sedona"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Rondo",
+      "slug": "kia-rondo"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Carens",
+      "slug": "kia-carens"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Avella",
+      "slug": "kia-avella"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Bongo",
+      "slug": "kia-bongo"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Cadenza",
+      "slug": "kia-cadenza"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Carnival",
+      "slug": "kia-carnival"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia CD5",
+      "slug": "kia-cd5"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Clarus",
+      "slug": "kia-clarus"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Concord",
+      "slug": "kia-concord"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Enterprise",
+      "slug": "kia-enterprise"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Frontier",
+      "slug": "kia-frontier"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Jeep",
+      "slug": "kia-jeep"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Joice",
+      "slug": "kia-joice"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia K2700",
+      "slug": "kia-k2700"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia K3000S",
+      "slug": "kia-k3000s"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia K5",
+      "slug": "kia-k5"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia K7",
+      "slug": "kia-k7"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Lotze",
+      "slug": "kia-lotze"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Magentis",
+      "slug": "kia-magentis"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Opirus",
+      "slug": "kia-opirus"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Optima",
+      "slug": "kia-optima"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Picanto",
+      "slug": "kia-picanto"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Potentia",
+      "slug": "kia-potentia"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Pregio",
+      "slug": "kia-pregio"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Pride",
+      "slug": "kia-pride"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Ray",
+      "slug": "kia-ray"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Retona",
+      "slug": "kia-retona"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Roadster",
+      "slug": "kia-roadster"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Sephia",
+      "slug": "kia-sephia"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Sorento",
+      "slug": "kia-sorento"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Soul",
+      "slug": "kia-soul"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Spectra",
+      "slug": "kia-spectra"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Sportage",
+      "slug": "kia-sportage"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Visto",
+      "slug": "kia-visto"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Cerato Koup",
+      "slug": "kia-cerato-koup"
+    },
+    {
+      "parent_slug": "kia",
+      "name": "Kia Dòng KIA khác",
+      "slug": "dong-kia-khac"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Vios",
+      "slug": "toyota-vios"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Fortuner",
+      "slug": "toyota-fortuner"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Innova",
+      "slug": "toyota-innova"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Camry",
+      "slug": "toyota-camry"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Corolla Altis",
+      "slug": "toyota-corolla-altis"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Yaris",
+      "slug": "toyota-yaris"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Land Cruiser",
+      "slug": "toyota-land-cruiser"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Zace",
+      "slug": "toyota-zace"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota 86",
+      "slug": "toyota-86"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota 4 Runner",
+      "slug": "toyota-4-runner"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Allion",
+      "slug": "toyota-allion"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Alphard",
+      "slug": "toyota-alphard"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Altezza",
+      "slug": "toyota-altezza"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Aristo",
+      "slug": "toyota-aristo"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Aurion",
+      "slug": "toyota-aurion"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Avalon",
+      "slug": "toyota-avalon"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Avanza",
+      "slug": "toyota-avanza"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Avensis",
+      "slug": "toyota-avensis"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Aygo",
+      "slug": "toyota-aygo"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Brevis",
+      "slug": "toyota-brevis"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Caldina",
+      "slug": "toyota-caldina"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Cami",
+      "slug": "toyota-cami"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Carina",
+      "slug": "toyota-carina"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Celica",
+      "slug": "toyota-celica"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Century",
+      "slug": "toyota-century"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Chaser",
+      "slug": "toyota-chaser"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Corolla",
+      "slug": "toyota-corolla"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Corona",
+      "slug": "toyota-corona"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Cressida",
+      "slug": "toyota-cressida"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Cresta",
+      "slug": "toyota-cresta"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Crown",
+      "slug": "toyota-crown"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Estima",
+      "slug": "toyota-estima"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Fj cruiser",
+      "slug": "toyota-fj-cruiser"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Hiace",
+      "slug": "toyota-hiace"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Highlander",
+      "slug": "toyota-highlander"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Hilux",
+      "slug": "toyota-hilux"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Ipsum",
+      "slug": "toyota-ipsum"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota IQ",
+      "slug": "toyota-iq"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Liteace",
+      "slug": "toyota-liteace"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Mark II",
+      "slug": "toyota-mark-ii"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Matrix",
+      "slug": "toyota-matrix"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Mega cruiser",
+      "slug": "toyota-mega-cruiser"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota MR 2",
+      "slug": "toyota-mr-2"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Picnic",
+      "slug": "toyota-picnic"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Platz",
+      "slug": "toyota-platz"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Prado",
+      "slug": "toyota-prado"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Previa",
+      "slug": "toyota-previa"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Prius",
+      "slug": "toyota-prius"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Progres",
+      "slug": "toyota-progres"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Raum",
+      "slug": "toyota-raum"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota RAV4",
+      "slug": "toyota-rav4"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Sequoia",
+      "slug": "toyota-sequoia"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Sera",
+      "slug": "toyota-sera"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Sienna",
+      "slug": "toyota-sienna"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Soarer",
+      "slug": "toyota-soarer"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Solara",
+      "slug": "toyota-solara"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Starlet",
+      "slug": "toyota-starlet"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Supra",
+      "slug": "toyota-supra"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Tacoma",
+      "slug": "toyota-tacoma"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Tercel",
+      "slug": "toyota-tercel"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Townace",
+      "slug": "toyota-townace"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Tundra",
+      "slug": "toyota-tundra"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Venza",
+      "slug": "toyota-venza"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Verossa",
+      "slug": "toyota-verossa"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Vista",
+      "slug": "toyota-vista"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Wigo",
+      "slug": "toyota-wigo"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Wish",
+      "slug": "toyota-wish"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota XA",
+      "slug": "toyota-xa"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Toyota Yaris Verso",
+      "slug": "toyota-yaris-verso"
+    },
+    {
+      "parent_slug": "toyota",
+      "name": "Dòng Toyota khác",
+      "slug": "dong-toyota-khac"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Ranger",
+      "slug": "ford-ranger"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford EcoSport",
+      "slug": "ford-ecosport"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Everest",
+      "slug": "ford-everest"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Focus",
+      "slug": "ford-focus"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Transit",
+      "slug": "ford-transit"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Escape",
+      "slug": "ford-escape"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Laser",
+      "slug": "ford-laser"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Fiesta",
+      "slug": "ford-fiesta"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Acononline",
+      "slug": "ford-acononline"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Aerostar",
+      "slug": "ford-aerostar"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Aspire",
+      "slug": "ford-aspire"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Bronco",
+      "slug": "ford-bronco"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Capri",
+      "slug": "ford-capri"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Caravan",
+      "slug": "ford-caravan"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Cargo",
+      "slug": "ford-cargo"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Club wagon",
+      "slug": "ford-club-wagon"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Contour",
+      "slug": "ford-contour"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Courier",
+      "slug": "ford-courier"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Crown victoria",
+      "slug": "ford-crown-victoria"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Edge",
+      "slug": "ford-edge"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Escort",
+      "slug": "ford-escort"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Espedition",
+      "slug": "ford-espedition"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Explorer",
+      "slug": "ford-explorer"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Express",
+      "slug": "ford-express"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford F 150",
+      "slug": "ford-f-150"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford F 350",
+      "slug": "ford-f-350"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford F 700",
+      "slug": "ford-f-700"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Flex",
+      "slug": "ford-flex"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Focus C Max",
+      "slug": "ford-focus-c-max"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Fucion",
+      "slug": "ford-fucion"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Galaxie",
+      "slug": "ford-galaxie"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Ka",
+      "slug": "ford-ka"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Maverick",
+      "slug": "ford-maverick"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Mondeo",
+      "slug": "ford-mondeo"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Mustang",
+      "slug": "ford-mustang"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Orion",
+      "slug": "ford-orion"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Probe",
+      "slug": "ford-probe"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Puma",
+      "slug": "ford-puma"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Sierra",
+      "slug": "ford-sierra"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Taurus",
+      "slug": "ford-taurus"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Tempo",
+      "slug": "ford-tempo"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Ford Wind star",
+      "slug": "ford-wind-star"
+    },
+    {
+      "parent_slug": "ford",
+      "name": "Dòng Ford khác",
+      "slug": "dong-ford-khac"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Cruze",
+      "slug": "chevrolet-cruze"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Spark",
+      "slug": "chevrolet-spark"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Aveo",
+      "slug": "chevrolet-aveo"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Trailblazer",
+      "slug": "chevrolet-trailblazer"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Matiz",
+      "slug": "chevrolet-matiz"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Captiva",
+      "slug": "chevrolet-captiva"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Colorado",
+      "slug": "chevrolet-colorado"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Lacetti",
+      "slug": "chevrolet-lacetti"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Orlando",
+      "slug": "chevrolet-orlando"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Astro",
+      "slug": "chevrolet-astro"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Avanlanche",
+      "slug": "chevrolet-avanlanche"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Beretta",
+      "slug": "chevrolet-beretta"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Camaro",
+      "slug": "chevrolet-camaro"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Caprice",
+      "slug": "chevrolet-caprice"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Cavalier",
+      "slug": "chevrolet-cavalier"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Chevyvan",
+      "slug": "chevrolet-chevyvan"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Corsica",
+      "slug": "chevrolet-corsica"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Corvette",
+      "slug": "chevrolet-corvette"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Explorer",
+      "slug": "chevrolet-explorer"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Express",
+      "slug": "chevrolet-express"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Impala",
+      "slug": "chevrolet-impala"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Ipanema",
+      "slug": "chevrolet-ipanema"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Kalos",
+      "slug": "chevrolet-kalos"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Lumina",
+      "slug": "chevrolet-lumina"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Malibu",
+      "slug": "chevrolet-malibu"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Nubira",
+      "slug": "chevrolet-nubira"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Prizm",
+      "slug": "chevrolet-prizm"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet S 10",
+      "slug": "chevrolet-s-10"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Silverado",
+      "slug": "chevrolet-silverado"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet SSR",
+      "slug": "chevrolet-ssr"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Suburban",
+      "slug": "chevrolet-suburban"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Tracker",
+      "slug": "chevrolet-tracker"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Trax",
+      "slug": "chevrolet-trax"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Venture",
+      "slug": "chevrolet-venture"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Chevrolet Vivant",
+      "slug": "chevrolet-vivant"
+    },
+    {
+      "parent_slug": "chevrolet",
+      "name": "Dòng Chevrolet khác",
+      "slug": "dong-chevrolet-khac"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai i10",
+      "slug": "hyundai-i10"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Santa Fe",
+      "slug": "hyundai-santa-fe"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Accent",
+      "slug": "hyundai-accent"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Atos",
+      "slug": "hyundai-atos"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Avante",
+      "slug": "hyundai-avante"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Azera",
+      "slug": "hyundai-azera"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Centennial",
+      "slug": "hyundai-centennial"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Click",
+      "slug": "hyundai-click"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai County",
+      "slug": "hyundai-county"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Coupe",
+      "slug": "hyundai-coupe"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Creta",
+      "slug": "hyundai-creta"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Dynasty",
+      "slug": "hyundai-dynasty"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Elantra",
+      "slug": "hyundai-elantra"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai eMighty",
+      "slug": "hyundai-emighty"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Eon",
+      "slug": "hyundai-eon"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Equus",
+      "slug": "hyundai-equus"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Excel",
+      "slug": "hyundai-excel"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Galloper",
+      "slug": "hyundai-galloper"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Genesis",
+      "slug": "hyundai-genesis"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Getz",
+      "slug": "hyundai-getz"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Gold",
+      "slug": "hyundai-gold"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Grand Starex",
+      "slug": "hyundai-grand-starex"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Grandeur",
+      "slug": "hyundai-grandeur"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai H 1",
+      "slug": "hyundai-h-1"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai H 100",
+      "slug": "hyundai-h-100"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai HD",
+      "slug": "hyundai-hd"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai i20",
+      "slug": "hyundai-i20"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai i30",
+      "slug": "hyundai-i30"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai i40",
+      "slug": "hyundai-i40"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Innovation",
+      "slug": "hyundai-innovation"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Lantra",
+      "slug": "hyundai-lantra"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Lavita",
+      "slug": "hyundai-lavita"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Libero",
+      "slug": "hyundai-libero"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Maxcruz",
+      "slug": "hyundai-maxcruz"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Mighty",
+      "slug": "hyundai-mighty"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Pony",
+      "slug": "hyundai-pony"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Porter",
+      "slug": "hyundai-porter"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai S coupe",
+      "slug": "hyundai-s-coupe"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Sonata",
+      "slug": "hyundai-sonata"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Starex",
+      "slug": "hyundai-starex"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Terracan",
+      "slug": "hyundai-terracan"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Tiburon",
+      "slug": "hyundai-tiburon"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Trajet",
+      "slug": "hyundai-trajet"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Tucson",
+      "slug": "hyundai-tucson"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Tuscani",
+      "slug": "hyundai-tuscani"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Universe",
+      "slug": "hyundai-universe"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Universe Xpress Luxury",
+      "slug": "hyundai-universe-xpress-luxury"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Veloster",
+      "slug": "hyundai-veloster"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Veracruz",
+      "slug": "hyundai-veracruz"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Verna",
+      "slug": "hyundai-verna"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Xcent",
+      "slug": "hyundai-xcent"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai XG",
+      "slug": "hyundai-xg"
+    },
+    {
+      "parent_slug": "hyundai",
+      "name": "Hyundai Dòng Huyndai khác",
+      "slug": "hyundai-dong-huyndai-khac"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda City",
+      "slug": "honda-city"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda CR V",
+      "slug": "honda-cr-v"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Civic",
+      "slug": "honda-civic"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Accord",
+      "slug": "honda-accord"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Odyssey",
+      "slug": "honda-odyssey"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Jazz",
+      "slug": "honda-jazz"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Concerto",
+      "slug": "honda-concerto"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda CR X",
+      "slug": "honda-cr-x"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda CR Z",
+      "slug": "honda-cr-z"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Domani",
+      "slug": "honda-domani"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Element",
+      "slug": "honda-element"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda FIT",
+      "slug": "honda-fit"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Insight",
+      "slug": "honda-insight"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Integra",
+      "slug": "honda-integra"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Legend",
+      "slug": "honda-legend"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Life",
+      "slug": "honda-life"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Mobilo",
+      "slug": "honda-mobilo"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda NSX",
+      "slug": "honda-nsx"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Passport",
+      "slug": "honda-passport"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Pilot",
+      "slug": "honda-pilot"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Prelude",
+      "slug": "honda-prelude"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda S2000",
+      "slug": "honda-s2000"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Shuttle",
+      "slug": "honda-shuttle"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Stream",
+      "slug": "honda-stream"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Torneo",
+      "slug": "honda-torneo"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Vigor",
+      "slug": "honda-vigor"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Honda Z",
+      "slug": "honda-z"
+    },
+    {
+      "parent_slug": "honda",
+      "name": "Dòng Honda khác",
+      "slug": "dong-honda-khac"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda 3",
+      "slug": "mazda-3"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda 2",
+      "slug": "mazda-2"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda CX 5",
+      "slug": "mazda-cx-5"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda MX 6",
+      "slug": "mazda-mx-6"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda BT 50",
+      "slug": "mazda-bt-50"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda CX 9",
+      "slug": "mazda-cx-9"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda CX 3",
+      "slug": "mazda-cx-3"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda 323",
+      "slug": "mazda-323"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda 5",
+      "slug": "mazda-5"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda 6",
+      "slug": "mazda-6"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda 626",
+      "slug": "mazda-626"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda 929",
+      "slug": "mazda-929"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda 323F",
+      "slug": "mazda-323f"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda Atenza",
+      "slug": "mazda-atenza"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda AZ",
+      "slug": "mazda-az"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda B series",
+      "slug": "mazda-b-series"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda Carol",
+      "slug": "mazda-carol"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda CX 7",
+      "slug": "mazda-cx-7"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda Eunos",
+      "slug": "mazda-eunos"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda Millenia",
+      "slug": "mazda-millenia"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda MPV",
+      "slug": "mazda-mpv"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda MX 3",
+      "slug": "mazda-mx-3"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda MX 5",
+      "slug": "mazda-mx-5"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda Pickup",
+      "slug": "mazda-pickup"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda Premacy",
+      "slug": "mazda-premacy"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda RX 7",
+      "slug": "mazda-rx-7"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda RX 8",
+      "slug": "mazda-rx-8"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda Tribute",
+      "slug": "mazda-tribute"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Mazda Xedos 9",
+      "slug": "mazda-xedos-9"
+    },
+    {
+      "parent_slug": "mazda",
+      "name": "Dòng Mazda khác",
+      "slug": "dong-mazda-khac"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi 80",
+      "slug": "audi-80"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi 90",
+      "slug": "audi-90"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi 100",
+      "slug": "audi-100"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi 200",
+      "slug": "audi-200"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi A1",
+      "slug": "audi-a1"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi A2",
+      "slug": "audi-a2"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi A3",
+      "slug": "audi-a3"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi A4",
+      "slug": "audi-a4"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi A5",
+      "slug": "audi-a5"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi A6",
+      "slug": "audi-a6"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi A7",
+      "slug": "audi-a7"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi A8",
+      "slug": "audi-a8"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi Cabriolet",
+      "slug": "audi-cabriolet"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi Coupe",
+      "slug": "audi-coupe"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi Q2",
+      "slug": "audi-q2"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi Q3",
+      "slug": "audi-q3"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi Q5",
+      "slug": "audi-q5"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi Q7",
+      "slug": "audi-q7"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi Quattro",
+      "slug": "audi-quattro"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi R8",
+      "slug": "audi-r8"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi RS",
+      "slug": "audi-rs"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi S8",
+      "slug": "audi-s8"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi TT",
+      "slug": "audi-tt"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Audi V8",
+      "slug": "audi-v8"
+    },
+    {
+      "parent_slug": "audi",
+      "name": "Dòng Audi khác",
+      "slug": "dong-audi-khac"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW 3 Series",
+      "slug": "bmw-3-series"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW 5 Series",
+      "slug": "bmw-5-series"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW 7 Series",
+      "slug": "bmw-7-series"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW i8",
+      "slug": "bmw-i8"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW X6",
+      "slug": "bmw-x6"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW 9 Series",
+      "slug": "bmw-9-series"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW X5",
+      "slug": "bmw-x5"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW 2 Series",
+      "slug": "bmw-2-series"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW 1 Series",
+      "slug": "bmw-1-series"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW 4 Series",
+      "slug": "bmw-4-series"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW 6 Series",
+      "slug": "bmw-6-series"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW 8 Series",
+      "slug": "bmw-8-series"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW Alpina",
+      "slug": "bmw-alpina"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW i3",
+      "slug": "bmw-i3"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW M couper",
+      "slug": "bmw-m-couper"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW M2",
+      "slug": "bmw-m2"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW M3",
+      "slug": "bmw-m3"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW M4",
+      "slug": "bmw-m4"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW M5",
+      "slug": "bmw-m5"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW M6",
+      "slug": "bmw-m6"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW X1",
+      "slug": "bmw-x1"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW X3",
+      "slug": "bmw-x3"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW X4",
+      "slug": "bmw-x4"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW Z3",
+      "slug": "bmw-z3"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW Z4",
+      "slug": "bmw-z4"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "BMW Z8",
+      "slug": "bmw-z8"
+    },
+    {
+      "parent_slug": "bmw",
+      "name": "Dòng BMW khác",
+      "slug": "dong-bmw-khac"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Aranos",
+      "slug": "daewoo-aranos"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Arcadia",
+      "slug": "daewoo-arcadia"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Brougham",
+      "slug": "daewoo-brougham"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Chairman",
+      "slug": "daewoo-chairman"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Cielo",
+      "slug": "daewoo-cielo"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Damas",
+      "slug": "daewoo-damas"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Espero",
+      "slug": "daewoo-espero"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Evanda",
+      "slug": "daewoo-evanda"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Gentra",
+      "slug": "daewoo-gentra"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo GentraX",
+      "slug": "daewoo-gentrax"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Istana",
+      "slug": "daewoo-istana"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Kalos",
+      "slug": "daewoo-kalos"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Karando",
+      "slug": "daewoo-karando"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Labo",
+      "slug": "daewoo-labo"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Lacetti",
+      "slug": "daewoo-lacetti"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Lanos",
+      "slug": "daewoo-lanos"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Leganza",
+      "slug": "daewoo-leganza"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Lublin",
+      "slug": "daewoo-lublin"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Magnus",
+      "slug": "daewoo-magnus"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Matiz",
+      "slug": "daewoo-matiz"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Musso",
+      "slug": "daewoo-musso"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Nexia",
+      "slug": "daewoo-nexia"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Nubira",
+      "slug": "daewoo-nubira"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Polonez",
+      "slug": "daewoo-polonez"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Prince",
+      "slug": "daewoo-prince"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Racer",
+      "slug": "daewoo-racer"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Rexton",
+      "slug": "daewoo-rexton"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Rezzo",
+      "slug": "daewoo-rezzo"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Tico",
+      "slug": "daewoo-tico"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Daewoo Winstorm",
+      "slug": "daewoo-winstorm"
+    },
+    {
+      "parent_slug": "daewoo",
+      "name": "Dòng Daewoo khác",
+      "slug": "dong-daewoo-khac"
+    },
+    {
+      "parent_slug": "daihatsu",
+      "name": "Daihatsu Ayla",
+      "slug": "daihatsu-ayla"
+    },
+    {
+      "parent_slug": "daihatsu",
+      "name": "Daihatsu Charade",
+      "slug": "daihatsu-charade"
+    },
+    {
+      "parent_slug": "daihatsu",
+      "name": "Daihatsu Citivan",
+      "slug": "daihatsu-citivan"
+    },
+    {
+      "parent_slug": "daihatsu",
+      "name": "Daihatsu Gran Max",
+      "slug": "daihatsu-gran-max"
+    },
+    {
+      "parent_slug": "daihatsu",
+      "name": "Daihatsu Hijet",
+      "slug": "daihatsu-hijet"
+    },
+    {
+      "parent_slug": "daihatsu",
+      "name": "Daihatsu Sirion",
+      "slug": "daihatsu-sirion"
+    },
+    {
+      "parent_slug": "daihatsu",
+      "name": "Daihatsu Terios",
+      "slug": "daihatsu-terios"
+    },
+    {
+      "parent_slug": "daihatsu",
+      "name": "Dòng Daihatsu khác",
+      "slug": "dong-daihatsu-khac"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat 126",
+      "slug": "fiat-126"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat 500",
+      "slug": "fiat-500"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Albea",
+      "slug": "fiat-albea"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Bravo",
+      "slug": "fiat-bravo"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Cinquecento",
+      "slug": "fiat-cinquecento"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Coupe",
+      "slug": "fiat-coupe"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Doblo",
+      "slug": "fiat-doblo"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Ducato",
+      "slug": "fiat-ducato"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Punto",
+      "slug": "fiat-punto"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Regata",
+      "slug": "fiat-regata"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Seicento",
+      "slug": "fiat-seicento"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Siena",
+      "slug": "fiat-siena"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Strada",
+      "slug": "fiat-strada"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Talento",
+      "slug": "fiat-talento"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Tempra",
+      "slug": "fiat-tempra"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Tipo",
+      "slug": "fiat-tipo"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Fiat Uno",
+      "slug": "fiat-uno"
+    },
+    {
+      "parent_slug": "fiat",
+      "name": "Dòng Fiat khác",
+      "slug": "dong-fiat-khac"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu Amigo",
+      "slug": "isuzu-amigo"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu Ascender",
+      "slug": "isuzu-ascender"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu Aska",
+      "slug": "isuzu-aska"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu D Cargo",
+      "slug": "isuzu-d-cargo"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu Dmax",
+      "slug": "isuzu-dmax"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu FVR",
+      "slug": "isuzu-fvr"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu Gemini",
+      "slug": "isuzu-gemini"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu Hi lander",
+      "slug": "isuzu-hi-lander"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu Midi",
+      "slug": "isuzu-midi"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu Mu X",
+      "slug": "isuzu-mu-x"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu NLR",
+      "slug": "isuzu-nlr"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu NMR",
+      "slug": "isuzu-nmr"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu NPR",
+      "slug": "isuzu-npr"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu NQR",
+      "slug": "isuzu-nqr"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu Pick up",
+      "slug": "isuzu-pick-up"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu QKR",
+      "slug": "isuzu-qkr"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu Rodeo",
+      "slug": "isuzu-rodeo"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu Trooper",
+      "slug": "isuzu-trooper"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Isuzu Turkuaz",
+      "slug": "isuzu-turkuaz"
+    },
+    {
+      "parent_slug": "isuzu",
+      "name": "Dòng Isuzu khác",
+      "slug": "dong-isuzu-khac"
+    },
+    {
+      "parent_slug": "jeep",
+      "name": "Jeep A2",
+      "slug": "jeep-a2"
+    },
+    {
+      "parent_slug": "jeep",
+      "name": "Jeep Cherokee",
+      "slug": "jeep-cherokee"
+    },
+    {
+      "parent_slug": "jeep",
+      "name": "Jeep CJ",
+      "slug": "jeep-cj"
+    },
+    {
+      "parent_slug": "jeep",
+      "name": "Jeep Compass",
+      "slug": "jeep-compass"
+    },
+    {
+      "parent_slug": "jeep",
+      "name": "Jeep Grand cheroke",
+      "slug": "jeep-grand-cheroke"
+    },
+    {
+      "parent_slug": "jeep",
+      "name": "Jeep Liberty",
+      "slug": "jeep-liberty"
+    },
+    {
+      "parent_slug": "jeep",
+      "name": "Jeep Patriot",
+      "slug": "jeep-patriot"
+    },
+    {
+      "parent_slug": "jeep",
+      "name": "Jeep Pickup",
+      "slug": "jeep-pickup"
+    },
+    {
+      "parent_slug": "jeep",
+      "name": "Jeep Renegade",
+      "slug": "jeep-renegade"
+    },
+    {
+      "parent_slug": "jeep",
+      "name": "Jeep Wrangler",
+      "slug": "jeep-wrangler"
+    },
+    {
+      "parent_slug": "jeep",
+      "name": "Dòng Jeep khác",
+      "slug": "dong-jeep-khac"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus RX",
+      "slug": "lexus-rx"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus LS",
+      "slug": "lexus-ls"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus NX",
+      "slug": "lexus-nx"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus ES",
+      "slug": "lexus-es"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus LX",
+      "slug": "lexus-lx"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus GX",
+      "slug": "lexus-gx"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus GS",
+      "slug": "lexus-gs"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus CT",
+      "slug": "lexus-ct"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus HS",
+      "slug": "lexus-hs"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus IS",
+      "slug": "lexus-is"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus LC",
+      "slug": "lexus-lc"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus RC",
+      "slug": "lexus-rc"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus SC",
+      "slug": "lexus-sc"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus SL",
+      "slug": "lexus-sl"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Lexus UX",
+      "slug": "lexus-ux"
+    },
+    {
+      "parent_slug": "lexus",
+      "name": "Dòng Lexus khác",
+      "slug": "dong-lexus-khac"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz C Class",
+      "slug": "mercedes-benz-c-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz S Class",
+      "slug": "mercedes-benz-s-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz GLC",
+      "slug": "mercedes-benz-glc"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz E Class",
+      "slug": "mercedes-benz-e-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz Sprinter",
+      "slug": "mercedes-benz-sprinter"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz GLK Class",
+      "slug": "mercedes-benz-glk-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz GL Class",
+      "slug": "mercedes-benz-gl-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz 190",
+      "slug": "mercedes-benz-190"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz A Class",
+      "slug": "mercedes-benz-a-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz Atego",
+      "slug": "mercedes-benz-atego"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz B Class",
+      "slug": "mercedes-benz-b-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz CL Class",
+      "slug": "mercedes-benz-cl-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz CLA Class",
+      "slug": "mercedes-benz-cla-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz CLK Class",
+      "slug": "mercedes-benz-clk-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz CLS Class",
+      "slug": "mercedes-benz-cls-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz G Class",
+      "slug": "mercedes-benz-g-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz GLA Class",
+      "slug": "mercedes-benz-gla-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz GLE Class",
+      "slug": "mercedes-benz-gle-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz M Class",
+      "slug": "mercedes-benz-m-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz MB",
+      "slug": "mercedes-benz-mb"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz ML Class",
+      "slug": "mercedes-benz-ml-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz R Class",
+      "slug": "mercedes-benz-r-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz SL Class",
+      "slug": "mercedes-benz-sl-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz SLK Class",
+      "slug": "mercedes-benz-slk-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz SLR Mclaren",
+      "slug": "mercedes-benz-slr-mclaren"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz SR Class",
+      "slug": "mercedes-benz-sr-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz V Class",
+      "slug": "mercedes-benz-v-class"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz Vaneo",
+      "slug": "mercedes-benz-vaneo"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz Viano",
+      "slug": "mercedes-benz-viano"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Mercedes Benz Vito",
+      "slug": "mercedes-benz-vito"
+    },
+    {
+      "parent_slug": "mercedes-benz",
+      "name": "Dòng Mercedes Benz khác",
+      "slug": "dong-mercedes-benz-khac"
+    },
+    {
+      "parent_slug": "mini",
+      "name": "Mini Cooper",
+      "slug": "mini-cooper"
+    },
+    {
+      "parent_slug": "mini",
+      "name": "Mini One",
+      "slug": "mini-one"
+    },
+    {
+      "parent_slug": "mini",
+      "name": "Dòng Mini khác",
+      "slug": "dong-mini-khac"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Pajero",
+      "slug": "mitsubishi-pajero"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Attrage",
+      "slug": "mitsubishi-attrage"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Mirage",
+      "slug": "mitsubishi-mirage"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Triton",
+      "slug": "mitsubishi-triton"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Outlander",
+      "slug": "mitsubishi-outlander"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Jolie",
+      "slug": "mitsubishi-jolie"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Grandis",
+      "slug": "mitsubishi-grandis"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Zinger",
+      "slug": "mitsubishi-zinger"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi 3000GT",
+      "slug": "mitsubishi-3000gt"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Airtek",
+      "slug": "mitsubishi-airtek"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Canter",
+      "slug": "mitsubishi-canter"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Challenger",
+      "slug": "mitsubishi-challenger"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Chariot",
+      "slug": "mitsubishi-chariot"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Colt",
+      "slug": "mitsubishi-colt"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Diamante",
+      "slug": "mitsubishi-diamante"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Dion",
+      "slug": "mitsubishi-dion"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Eclipse",
+      "slug": "mitsubishi-eclipse"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi EK wagon",
+      "slug": "mitsubishi-ek-wagon"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Galant",
+      "slug": "mitsubishi-galant"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Grunder",
+      "slug": "mitsubishi-grunder"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi GTO",
+      "slug": "mitsubishi-gto"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Hover",
+      "slug": "mitsubishi-hover"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi IO",
+      "slug": "mitsubishi-io"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Jeep",
+      "slug": "mitsubishi-jeep"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi L200",
+      "slug": "mitsubishi-l200"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi L300",
+      "slug": "mitsubishi-l300"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi L400",
+      "slug": "mitsubishi-l400"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Lancer",
+      "slug": "mitsubishi-lancer"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Libero",
+      "slug": "mitsubishi-libero"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Montero",
+      "slug": "mitsubishi-montero"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Santamo",
+      "slug": "mitsubishi-santamo"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Savrin",
+      "slug": "mitsubishi-savrin"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Sigma",
+      "slug": "mitsubishi-sigma"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Space Gear",
+      "slug": "mitsubishi-space-gear"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Starion",
+      "slug": "mitsubishi-starion"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Veryca",
+      "slug": "mitsubishi-veryca"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Xpander",
+      "slug": "mitsubishi-xpander"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Dòng Mitsubishi khác",
+      "slug": "dong-mitsubishi-khac"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan 100NX",
+      "slug": "nissan-100nx"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan 200SX",
+      "slug": "nissan-200sx"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan 240SX",
+      "slug": "nissan-240sx"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan 300ZX",
+      "slug": "nissan-300zx"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan 350Z",
+      "slug": "nissan-350z"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan 370Z",
+      "slug": "nissan-370z"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Altima",
+      "slug": "nissan-altima"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Avenir",
+      "slug": "nissan-avenir"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Bluebird",
+      "slug": "nissan-bluebird"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Cedric",
+      "slug": "nissan-cedric"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Cefiro",
+      "slug": "nissan-cefiro"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Cima",
+      "slug": "nissan-cima"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Elgrand",
+      "slug": "nissan-elgrand"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Frontier",
+      "slug": "nissan-frontier"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Gloria",
+      "slug": "nissan-gloria"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Grand livina",
+      "slug": "nissan-grand-livina"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan GT R",
+      "slug": "nissan-gt-r"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Juke",
+      "slug": "nissan-juke"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Lago",
+      "slug": "nissan-lago"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Laurel",
+      "slug": "nissan-laurel"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Leaf",
+      "slug": "nissan-leaf"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Liberty",
+      "slug": "nissan-liberty"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Livina",
+      "slug": "nissan-livina"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Maxima",
+      "slug": "nissan-maxima"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Micra",
+      "slug": "nissan-micra"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Moco",
+      "slug": "nissan-moco"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Murano",
+      "slug": "nissan-murano"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Navara",
+      "slug": "nissan-navara"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan NV",
+      "slug": "nissan-nv"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Pathfinder",
+      "slug": "nissan-pathfinder"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Patrol",
+      "slug": "nissan-patrol"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Pick up",
+      "slug": "nissan-pick-up"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Pixo",
+      "slug": "nissan-pixo"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Prairie",
+      "slug": "nissan-prairie"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Presage",
+      "slug": "nissan-presage"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan President",
+      "slug": "nissan-president"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Primastar",
+      "slug": "nissan-primastar"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Primera",
+      "slug": "nissan-primera"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Pulsar",
+      "slug": "nissan-pulsar"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Qashqai",
+      "slug": "nissan-qashqai"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Quest",
+      "slug": "nissan-quest"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Rasheen",
+      "slug": "nissan-rasheen"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Rogue",
+      "slug": "nissan-rogue"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Safari",
+      "slug": "nissan-safari"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Sentra",
+      "slug": "nissan-sentra"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Serena",
+      "slug": "nissan-serena"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Silvia",
+      "slug": "nissan-silvia"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Skyline",
+      "slug": "nissan-skyline"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Stagea",
+      "slug": "nissan-stagea"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Sunny",
+      "slug": "nissan-sunny"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Teana",
+      "slug": "nissan-teana"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Terrano",
+      "slug": "nissan-terrano"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Tiida",
+      "slug": "nissan-tiida"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Tino",
+      "slug": "nissan-tino"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Urvan",
+      "slug": "nissan-urvan"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan Vanette",
+      "slug": "nissan-vanette"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan X Terra",
+      "slug": "nissan-x-terra"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Nissan X trail",
+      "slug": "nissan-x-trail"
+    },
+    {
+      "parent_slug": "nissan",
+      "name": "Dòng Nissan khác",
+      "slug": "dong-nissan-khac"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 107",
+      "slug": "peugeot-107"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 205",
+      "slug": "peugeot-205"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 206",
+      "slug": "peugeot-206"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 207",
+      "slug": "peugeot-207"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 208",
+      "slug": "peugeot-208"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 305",
+      "slug": "peugeot-305"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 306",
+      "slug": "peugeot-306"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 307",
+      "slug": "peugeot-307"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 308",
+      "slug": "peugeot-308"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 309",
+      "slug": "peugeot-309"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 404",
+      "slug": "peugeot-404"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 405",
+      "slug": "peugeot-405"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 406",
+      "slug": "peugeot-406"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 408",
+      "slug": "peugeot-408"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 505",
+      "slug": "peugeot-505"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 508",
+      "slug": "peugeot-508"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 605",
+      "slug": "peugeot-605"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 607",
+      "slug": "peugeot-607"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 3008",
+      "slug": "peugeot-3008"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot 5008",
+      "slug": "peugeot-5008"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot Boxer",
+      "slug": "peugeot-boxer"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot J5",
+      "slug": "peugeot-j5"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Peugeot RCZ",
+      "slug": "peugeot-rcz"
+    },
+    {
+      "parent_slug": "peugeot",
+      "name": "Dòng Peugeot khác",
+      "slug": "peugeot-dong-peogeot-khac"
+    },
+    {
+      "parent_slug": "smart",
+      "name": "Smart Coupe",
+      "slug": "smart-coupe"
+    },
+    {
+      "parent_slug": "smart",
+      "name": "Smart Forfour",
+      "slug": "smart-forfour"
+    },
+    {
+      "parent_slug": "smart",
+      "name": "Smart Fortwo",
+      "slug": "smart-fortwo"
+    },
+    {
+      "parent_slug": "smart",
+      "name": "Smart Roadster",
+      "slug": "smart-roadster"
+    },
+    {
+      "parent_slug": "smart",
+      "name": "Dòng Smart khác",
+      "slug": "dong-smart-khac"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Aerio",
+      "slug": "suzuki-aerio"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Alto",
+      "slug": "suzuki-alto"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki APV",
+      "slug": "suzuki-apv"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Balenno",
+      "slug": "suzuki-balenno"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Carry",
+      "slug": "suzuki-carry"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Celerio",
+      "slug": "suzuki-celerio"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Ciaz",
+      "slug": "suzuki-ciaz"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Cultis wagon",
+      "slug": "suzuki-cultis-wagon"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Ertiga",
+      "slug": "suzuki-ertiga"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Grand vitara",
+      "slug": "suzuki-grand-vitara"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Liana",
+      "slug": "suzuki-liana"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Samirai",
+      "slug": "suzuki-samirai"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki SJ",
+      "slug": "suzuki-sj"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Super Carry Truck",
+      "slug": "suzuki-super-carry-truck"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Super Carry Van",
+      "slug": "suzuki-super-carry-van"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Swift",
+      "slug": "suzuki-swift"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Twin",
+      "slug": "suzuki-twin"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Vitara",
+      "slug": "suzuki-vitara"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki Wagon R+",
+      "slug": "suzuki-wagon-r-plus"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Suzuki XL 7",
+      "slug": "suzuki-xl-7"
+    },
+    {
+      "parent_slug": "suzuki",
+      "name": "Dòng Suzuki khác",
+      "slug": "dong-suzuki-khac"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Beetle",
+      "slug": "volkswagen-beetle"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Bora",
+      "slug": "volkswagen-bora"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen California",
+      "slug": "volkswagen-california"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Eos",
+      "slug": "volkswagen-eos"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Golf",
+      "slug": "volkswagen-golf"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Jetta",
+      "slug": "volkswagen-jetta"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Multivan",
+      "slug": "volkswagen-multivan"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen New Beetle",
+      "slug": "volkswagen-new-beetle"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Passat",
+      "slug": "volkswagen-passat"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Phaeton",
+      "slug": "volkswagen-phaeton"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Polo",
+      "slug": "volkswagen-polo"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Routan",
+      "slug": "volkswagen-routan"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Scirocco",
+      "slug": "volkswagen-scirocco"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Sharan",
+      "slug": "volkswagen-sharan"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Solo",
+      "slug": "volkswagen-solo"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Tiguan",
+      "slug": "volkswagen-tiguan"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Touareg",
+      "slug": "volkswagen-touareg"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Transporter",
+      "slug": "volkswagen-transporter"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Volkswagen Vento",
+      "slug": "volkswagen-vento"
+    },
+    {
+      "parent_slug": "volkswagen",
+      "name": "Dòng Volkswagen khác",
+      "slug": "dong-volkswagen-khac"
+    },
+    {
+      "parent_slug": "hang-xe-khac",
+      "name": "Hãng xe khác Dòng xe khác",
+      "slug": "hang-xe-khac-dong-xe-khac"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura CL",
+      "slug": "acura-cl"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura EL",
+      "slug": "acura-el"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura ILX",
+      "slug": "acura-ilx"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura Intergra",
+      "slug": "acura-intergra"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura Legend",
+      "slug": "acura-legend"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura MDX",
+      "slug": "acura-mdx"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura RDX",
+      "slug": "acura-rdx"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura RL",
+      "slug": "acura-rl"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura RLX",
+      "slug": "acura-rlx"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura TL",
+      "slug": "acura-tl"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura TLX",
+      "slug": "acura-tlx"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura TSX",
+      "slug": "acura-tsx"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura Vigor",
+      "slug": "acura-vigor"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Acura ZDX",
+      "slug": "acura-zdx"
+    },
+    {
+      "parent_slug": "acura",
+      "name": "Dòng Acura khác",
+      "slug": "dong-acura-khac"
+    },
+    {
+      "parent_slug": "alfa-romeo",
+      "name": "Alfa Romeo 159",
+      "slug": "alfa-romeo-159"
+    },
+    {
+      "parent_slug": "alfa-romeo",
+      "name": "Alfa Romeo GT",
+      "slug": "alfa-romeo-gt"
+    },
+    {
+      "parent_slug": "alfa-romeo",
+      "name": "Alfa Romeo Spider",
+      "slug": "alfa-romeo-spider"
+    },
+    {
+      "parent_slug": "alfa-romeo",
+      "name": "Dòng Alfa Romeo khác",
+      "slug": "dong-alfa-romeo-khac"
+    },
+    {
+      "parent_slug": "asia",
+      "name": "Dòng Asia khác",
+      "slug": "dong-asia-khac"
+    },
+    {
+      "parent_slug": "aston-martin",
+      "name": "Aston Martin DB11",
+      "slug": "aston-martin-db11"
+    },
+    {
+      "parent_slug": "aston-martin",
+      "name": "Aston Martin DB7",
+      "slug": "aston-martin-db7"
+    },
+    {
+      "parent_slug": "aston-martin",
+      "name": "Aston Martin DB9",
+      "slug": "aston-martin-db9"
+    },
+    {
+      "parent_slug": "aston-martin",
+      "name": "Aston Martin Lagonda",
+      "slug": "aston-martin-lagonda"
+    },
+    {
+      "parent_slug": "aston-martin",
+      "name": "Aston Martin Rapide",
+      "slug": "aston-martin-rapide"
+    },
+    {
+      "parent_slug": "aston-martin",
+      "name": "Aston Martin Vanquish",
+      "slug": "aston-martin-vanquish"
+    },
+    {
+      "parent_slug": "aston-martin",
+      "name": "Aston Martin Vantage",
+      "slug": "aston-martin-vantage"
+    },
+    {
+      "parent_slug": "aston-martin",
+      "name": "Aston Martin Virage",
+      "slug": "aston-martin-virage"
+    },
+    {
+      "parent_slug": "aston-martin",
+      "name": "Aston Martin Zagato",
+      "slug": "aston-martin-zagato"
+    },
+    {
+      "parent_slug": "aston-martin",
+      "name": "Dòng Aston Martin khác",
+      "slug": "dong-aston-martin-khac"
+    },
+    {
+      "parent_slug": "baic",
+      "name": "Baic BJ100 Concept",
+      "slug": "baic-bj100-concept"
+    },
+    {
+      "parent_slug": "baic",
+      "name": "Baic BJ40",
+      "slug": "baic-bj40"
+    },
+    {
+      "parent_slug": "baic",
+      "name": "Baic CC",
+      "slug": "baic-cc"
+    },
+    {
+      "parent_slug": "baic",
+      "name": "Baic D50",
+      "slug": "baic-d50"
+    },
+    {
+      "parent_slug": "baic",
+      "name": "Baic S3",
+      "slug": "baic-s3"
+    },
+    {
+      "parent_slug": "baic",
+      "name": "Baic X65",
+      "slug": "baic-x65"
+    },
+    {
+      "parent_slug": "baic",
+      "name": "Dòng Baic khác",
+      "slug": "dong-baic-khac"
+    },
+    {
+      "parent_slug": "bentley",
+      "name": "Bentley Azure",
+      "slug": "bentley-azure"
+    },
+    {
+      "parent_slug": "bentley",
+      "name": "Bentley Bentayga",
+      "slug": "bentley-bentayga"
+    },
+    {
+      "parent_slug": "bentley",
+      "name": "Bentley Brooklands",
+      "slug": "bentley-brooklands"
+    },
+    {
+      "parent_slug": "bentley",
+      "name": "Bentley Continental",
+      "slug": "bentley-continental"
+    },
+    {
+      "parent_slug": "bentley",
+      "name": "Bentley Flying Spur",
+      "slug": "bentley-flying-spur"
+    },
+    {
+      "parent_slug": "bentley",
+      "name": "Bentley Mulsanne",
+      "slug": "bentley-mulsanne"
+    },
+    {
+      "parent_slug": "bentley",
+      "name": "Dòng Bentley khác",
+      "slug": "dong-bentley-khac"
+    },
+    {
+      "parent_slug": "buick",
+      "name": "Buick Electra",
+      "slug": "buick-electra"
+    },
+    {
+      "parent_slug": "buick",
+      "name": "Buick Lasabre",
+      "slug": "buick-lasabre"
+    },
+    {
+      "parent_slug": "buick",
+      "name": "Buick Regal",
+      "slug": "buick-regal"
+    },
+    {
+      "parent_slug": "buick",
+      "name": "Buick Skylark",
+      "slug": "buick-skylark"
+    },
+    {
+      "parent_slug": "buick",
+      "name": "Dòng Buick khác",
+      "slug": "dong-buick-khac"
+    },
+    {
+      "parent_slug": "byd",
+      "name": "BYD F0",
+      "slug": "byd-f0"
+    },
+    {
+      "parent_slug": "byd",
+      "name": "Dòng BYD khác",
+      "slug": "dong-byd-khac"
+    },
+    {
+      "parent_slug": "cadillac",
+      "name": "Cadillac Allante",
+      "slug": "cadillac-allante"
+    },
+    {
+      "parent_slug": "cadillac",
+      "name": "Cadillac ATS",
+      "slug": "cadillac-ats"
+    },
+    {
+      "parent_slug": "cadillac",
+      "name": "Cadillac Catera",
+      "slug": "cadillac-catera"
+    },
+    {
+      "parent_slug": "cadillac",
+      "name": "Cadillac CT6",
+      "slug": "cadillac-ct6"
+    },
+    {
+      "parent_slug": "cadillac",
+      "name": "Cadillac CTS",
+      "slug": "cadillac-cts"
+    },
+    {
+      "parent_slug": "cadillac",
+      "name": "Cadillac Deville",
+      "slug": "cadillac-deville"
+    },
+    {
+      "parent_slug": "cadillac",
+      "name": "Cadillac Escalade",
+      "slug": "cadillac-escalade"
+    },
+    {
+      "parent_slug": "cadillac",
+      "name": "Cadillac Fleetwood",
+      "slug": "cadillac-fleetwood"
+    },
+    {
+      "parent_slug": "cadillac",
+      "name": "Cadillac Seville",
+      "slug": "cadillac-seville"
+    },
+    {
+      "parent_slug": "cadillac",
+      "name": "Cadillac SRX",
+      "slug": "cadillac-srx"
+    },
+    {
+      "parent_slug": "cadillac",
+      "name": "Cadillac STS",
+      "slug": "cadillac-sts"
+    },
+    {
+      "parent_slug": "cadillac",
+      "name": "Cadillac XT5",
+      "slug": "cadillac-xt5"
+    },
+    {
+      "parent_slug": "cadillac",
+      "name": "Dòng Cadillac khác",
+      "slug": "dong-cadillac-khac"
+    },
+    {
+      "parent_slug": "changan",
+      "name": "Changan CS35",
+      "slug": "changan-cs35"
+    },
+    {
+      "parent_slug": "changan",
+      "name": "Changan CX20",
+      "slug": "changan-cx20"
+    },
+    {
+      "parent_slug": "changan",
+      "name": "Changan Eado",
+      "slug": "changan-eado"
+    },
+    {
+      "parent_slug": "changan",
+      "name": "Changan G50",
+      "slug": "changan-g50"
+    },
+    {
+      "parent_slug": "changan",
+      "name": "Changan Honor",
+      "slug": "changan-honor"
+    },
+    {
+      "parent_slug": "changan",
+      "name": "Dòng Changan khác",
+      "slug": "dong-changan-khac"
+    },
+    {
+      "parent_slug": "chery",
+      "name": "Chery QQ3",
+      "slug": "chery-qq3"
+    },
+    {
+      "parent_slug": "chery",
+      "name": "Dòng Chery khác",
+      "slug": "dong-chery-khac"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler 200",
+      "slug": "chrysler-200"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler 300C",
+      "slug": "chrysler-300c"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler 300M",
+      "slug": "chrysler-300m"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler Cruiser",
+      "slug": "chrysler-cruiser"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler Grand Voyager",
+      "slug": "chrysler-grand-voyager"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler Intrepid",
+      "slug": "chrysler-intrepid"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler Jeep cherokee",
+      "slug": "chrysler-jeep-cherokee"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler LeBaron",
+      "slug": "chrysler-lebaron"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler Neon",
+      "slug": "chrysler-neon"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler New Yorker",
+      "slug": "chrysler-new-yorker"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler PTcruise",
+      "slug": "chrysler-ptcruise"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler Sebring",
+      "slug": "chrysler-sebring"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler Stratus",
+      "slug": "chrysler-stratus"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Chrysler Voyager",
+      "slug": "chrysler-voyager"
+    },
+    {
+      "parent_slug": "chrysler",
+      "name": "Dòng Chrysler khác",
+      "slug": "dong-chrysler-khac"
+    },
+    {
+      "parent_slug": "citroen",
+      "name": "Citroen AX",
+      "slug": "citroen-ax"
+    },
+    {
+      "parent_slug": "citroen",
+      "name": "Citroen C1",
+      "slug": "citroen-c1"
+    },
+    {
+      "parent_slug": "citroen",
+      "name": "Citroen C2",
+      "slug": "citroen-c2"
+    },
+    {
+      "parent_slug": "citroen",
+      "name": "Citroen C3",
+      "slug": "citroen-c3"
+    },
+    {
+      "parent_slug": "citroen",
+      "name": "Citroen CX",
+      "slug": "citroen-cx"
+    },
+    {
+      "parent_slug": "citroen",
+      "name": "Citroen DS3",
+      "slug": "citroen-ds3"
+    },
+    {
+      "parent_slug": "citroen",
+      "name": "Citroen XM",
+      "slug": "citroen-xm"
+    },
+    {
+      "parent_slug": "citroen",
+      "name": "Citroen ZX",
+      "slug": "citroen-zx"
+    },
+    {
+      "parent_slug": "citroen",
+      "name": "Dòng Citroen khác",
+      "slug": "dong-citroen-khac"
+    },
+    {
+      "parent_slug": "dodge",
+      "name": "Dodge Caravan",
+      "slug": "dodge-caravan"
+    },
+    {
+      "parent_slug": "dodge",
+      "name": "Dodge Dakota",
+      "slug": "dodge-dakota"
+    },
+    {
+      "parent_slug": "dodge",
+      "name": "Dodge Durango",
+      "slug": "dodge-durango"
+    },
+    {
+      "parent_slug": "dodge",
+      "name": "Dodge Grand caravan",
+      "slug": "dodge-grand-caravan"
+    },
+    {
+      "parent_slug": "dodge",
+      "name": "Dodge Journey",
+      "slug": "dodge-journey"
+    },
+    {
+      "parent_slug": "dodge",
+      "name": "Dodge Neon",
+      "slug": "dodge-neon"
+    },
+    {
+      "parent_slug": "dodge",
+      "name": "Dodge Ram",
+      "slug": "dodge-ram"
+    },
+    {
+      "parent_slug": "dodge",
+      "name": "Dodge Stealth",
+      "slug": "dodge-stealth"
+    },
+    {
+      "parent_slug": "dodge",
+      "name": "Dodge Viper",
+      "slug": "dodge-viper"
+    },
+    {
+      "parent_slug": "dodge",
+      "name": "Dodge Voyager",
+      "slug": "dodge-voyager"
+    },
+    {
+      "parent_slug": "dodge",
+      "name": "Dòng Dodge khác",
+      "slug": "dong-dodge-khac"
+    },
+    {
+      "parent_slug": "ferrari",
+      "name": "Ferrari 456",
+      "slug": "ferrari-456"
+    },
+    {
+      "parent_slug": "ferrari",
+      "name": "Ferrari 458",
+      "slug": "ferrari-458"
+    },
+    {
+      "parent_slug": "ferrari",
+      "name": "Ferrari 575",
+      "slug": "ferrari-575"
+    },
+    {
+      "parent_slug": "ferrari",
+      "name": "Ferrari California",
+      "slug": "ferrari-california"
+    },
+    {
+      "parent_slug": "ferrari",
+      "name": "Ferrari F 355",
+      "slug": "ferrari-f-355"
+    },
+    {
+      "parent_slug": "ferrari",
+      "name": "Ferrari F 360",
+      "slug": "ferrari-f-360"
+    },
+    {
+      "parent_slug": "ferrari",
+      "name": "Ferrari F 512",
+      "slug": "ferrari-f-512"
+    },
+    {
+      "parent_slug": "ferrari",
+      "name": "Ferrari Maranello",
+      "slug": "ferrari-maranello"
+    },
+    {
+      "parent_slug": "ferrari",
+      "name": "Ferrari Testarossa",
+      "slug": "ferrari-testarossa"
+    },
+    {
+      "parent_slug": "ferrari",
+      "name": "Dòng Ferrari khác",
+      "slug": "dong-ferrari-khac"
+    },
+    {
+      "parent_slug": "fuso",
+      "name": "Fuso Canter",
+      "slug": "fuso-canter"
+    },
+    {
+      "parent_slug": "fuso",
+      "name": "Fuso Fighter",
+      "slug": "fuso-fighter"
+    },
+    {
+      "parent_slug": "fuso",
+      "name": "Fuso FV",
+      "slug": "fuso-fv"
+    },
+    {
+      "parent_slug": "fuso",
+      "name": "Fuso Rosa",
+      "slug": "fuso-rosa"
+    },
+    {
+      "parent_slug": "fuso",
+      "name": "Fuso Tractor",
+      "slug": "fuso-tractor"
+    },
+    {
+      "parent_slug": "fuso",
+      "name": "Dòng Fuso khác",
+      "slug": "dong-fuso-khac"
+    },
+    {
+      "parent_slug": "gaz",
+      "name": "Gaz 69",
+      "slug": "gaz-69"
+    },
+    {
+      "parent_slug": "gaz",
+      "name": "Gaz Gazele",
+      "slug": "gaz-gazele"
+    },
+    {
+      "parent_slug": "gaz",
+      "name": "Gaz Volga",
+      "slug": "gaz-volga"
+    },
+    {
+      "parent_slug": "gaz",
+      "name": "Dòng Gaz khác",
+      "slug": "dong-gaz-khac"
+    },
+    {
+      "parent_slug": "geely",
+      "name": "Geely Emgrand",
+      "slug": "geely-emgrand"
+    },
+    {
+      "parent_slug": "geely",
+      "name": "Geely Englon",
+      "slug": "geely-englon"
+    },
+    {
+      "parent_slug": "geely",
+      "name": "Dòng Geely khác",
+      "slug": "dong-geely-khac"
+    },
+    {
+      "parent_slug": "gmc",
+      "name": "GMC Hummer",
+      "slug": "gmc-hummer"
+    },
+    {
+      "parent_slug": "gmc",
+      "name": "GMC Savana",
+      "slug": "gmc-savana"
+    },
+    {
+      "parent_slug": "gmc",
+      "name": "Dòng GMC khác",
+      "slug": "dong-gmc-khac"
+    },
+    {
+      "parent_slug": "haima",
+      "name": "Haima 2",
+      "slug": "haima-2"
+    },
+    {
+      "parent_slug": "haima",
+      "name": "Haima 3",
+      "slug": "haima-3"
+    },
+    {
+      "parent_slug": "haima",
+      "name": "Haima 7",
+      "slug": "haima-7"
+    },
+    {
+      "parent_slug": "haima",
+      "name": "Haima Freema",
+      "slug": "haima-freema"
+    },
+    {
+      "parent_slug": "haima",
+      "name": "Haima Fstar",
+      "slug": "haima-fstar"
+    },
+    {
+      "parent_slug": "haima",
+      "name": "Haima M3",
+      "slug": "haima-m3"
+    },
+    {
+      "parent_slug": "haima",
+      "name": "Haima M8",
+      "slug": "haima-m8"
+    },
+    {
+      "parent_slug": "haima",
+      "name": "Haima S5",
+      "slug": "haima-s5"
+    },
+    {
+      "parent_slug": "haima",
+      "name": "Haima S7",
+      "slug": "haima-s7"
+    },
+    {
+      "parent_slug": "haima",
+      "name": "Dòng Haima khác",
+      "slug": "dong-haima-khac"
+    },
+    {
+      "parent_slug": "hino",
+      "name": "Hino 300 Series",
+      "slug": "hino-300-series"
+    },
+    {
+      "parent_slug": "hino",
+      "name": "Hino 500 Series",
+      "slug": "hino-500-series"
+    },
+    {
+      "parent_slug": "hino",
+      "name": "Hino 700 Series",
+      "slug": "hino-700-series"
+    },
+    {
+      "parent_slug": "hino",
+      "name": "Dòng Hino khác",
+      "slug": "dong-hino-khac"
+    },
+    {
+      "parent_slug": "hummer",
+      "name": "Hummer H2",
+      "slug": "hummer-h2"
+    },
+    {
+      "parent_slug": "hummer",
+      "name": "Hummer H3",
+      "slug": "hummer-h3"
+    },
+    {
+      "parent_slug": "hummer",
+      "name": "Dòng Hummer khác",
+      "slug": "dong-hummer-khac"
+    },
+    {
+      "parent_slug": "infiniti",
+      "name": "Infiniti EX",
+      "slug": "infiniti-ex"
+    },
+    {
+      "parent_slug": "infiniti",
+      "name": "Infiniti FX",
+      "slug": "infiniti-fx"
+    },
+    {
+      "parent_slug": "infiniti",
+      "name": "Infiniti G35",
+      "slug": "infiniti-g35"
+    },
+    {
+      "parent_slug": "infiniti",
+      "name": "Infiniti G37",
+      "slug": "infiniti-g37"
+    },
+    {
+      "parent_slug": "infiniti",
+      "name": "Infiniti Q45",
+      "slug": "infiniti-q45"
+    },
+    {
+      "parent_slug": "infiniti",
+      "name": "Infiniti Q50",
+      "slug": "infiniti-q50"
+    },
+    {
+      "parent_slug": "infiniti",
+      "name": "Infiniti QX",
+      "slug": "infiniti-qx"
+    },
+    {
+      "parent_slug": "infiniti",
+      "name": "Dòng Infiniti khác",
+      "slug": "dong-infiniti-khac"
+    },
+    {
+      "parent_slug": "jaguar",
+      "name": "Jaguar E Type",
+      "slug": "jaguar-e-type"
+    },
+    {
+      "parent_slug": "jaguar",
+      "name": "Jaguar F PACE",
+      "slug": "jaguar-f-pace"
+    },
+    {
+      "parent_slug": "jaguar",
+      "name": "Jaguar F Type",
+      "slug": "jaguar-f-type"
+    },
+    {
+      "parent_slug": "jaguar",
+      "name": "Jaguar S Type",
+      "slug": "jaguar-s-type"
+    },
+    {
+      "parent_slug": "jaguar",
+      "name": "Jaguar X Type",
+      "slug": "jaguar-x-type"
+    },
+    {
+      "parent_slug": "jaguar",
+      "name": "Jaguar XE",
+      "slug": "jaguar-xe"
+    },
+    {
+      "parent_slug": "jaguar",
+      "name": "Jaguar XF",
+      "slug": "jaguar-xf"
+    },
+    {
+      "parent_slug": "jaguar",
+      "name": "Jaguar XJ series",
+      "slug": "jaguar-xj-series"
+    },
+    {
+      "parent_slug": "jaguar",
+      "name": "Jaguar XK series",
+      "slug": "jaguar-xk-series"
+    },
+    {
+      "parent_slug": "jaguar",
+      "name": "Dòng Jaguar khác",
+      "slug": "dong-jaguar-khac"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada 110",
+      "slug": "lada-110"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada 320",
+      "slug": "lada-320"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada 2104",
+      "slug": "lada-2104"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada 2105",
+      "slug": "lada-2105"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada 2106",
+      "slug": "lada-2106"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada 2107",
+      "slug": "lada-2107"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada 2108",
+      "slug": "lada-2108"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada 2109",
+      "slug": "lada-2109"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada 2112",
+      "slug": "lada-2112"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada 2121",
+      "slug": "lada-2121"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada 4x4",
+      "slug": "lada-4x4"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada Granta",
+      "slug": "lada-granta"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada Kalina",
+      "slug": "lada-kalina"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada Largus",
+      "slug": "lada-largus"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada Niva",
+      "slug": "lada-niva"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada Priora",
+      "slug": "lada-priora"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada Samara",
+      "slug": "lada-samara"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada Vesta",
+      "slug": "lada-vesta"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Lada XRay",
+      "slug": "lada-xray"
+    },
+    {
+      "parent_slug": "lada",
+      "name": "Dòng Lada khác",
+      "slug": "dong-lada-khac"
+    },
+    {
+      "parent_slug": "lamborghini",
+      "name": "Lamborghini Aventador",
+      "slug": "lamborghini-aventador"
+    },
+    {
+      "parent_slug": "lamborghini",
+      "name": "Lamborghini Diablo",
+      "slug": "lamborghini-diablo"
+    },
+    {
+      "parent_slug": "lamborghini",
+      "name": "Lamborghini Gallado",
+      "slug": "lamborghini-gallado"
+    },
+    {
+      "parent_slug": "lamborghini",
+      "name": "Lamborghini Huracan",
+      "slug": "lamborghini-huracan"
+    },
+    {
+      "parent_slug": "lamborghini",
+      "name": "Lamborghini Murcielago",
+      "slug": "lamborghini-murcielago"
+    },
+    {
+      "parent_slug": "lamborghini",
+      "name": "Lamborghini Urus",
+      "slug": "lamborghini-urus"
+    },
+    {
+      "parent_slug": "lamborghini",
+      "name": "Dòng Lamborghini khác",
+      "slug": "dong-lamborghini-khac"
+    },
+    {
+      "parent_slug": "landrover",
+      "name": "LandRover Defender",
+      "slug": "landrover-defender"
+    },
+    {
+      "parent_slug": "landrover",
+      "name": "LandRover Discovery",
+      "slug": "landrover-discovery"
+    },
+    {
+      "parent_slug": "landrover",
+      "name": "LandRover Freelander",
+      "slug": "landrover-freelander"
+    },
+    {
+      "parent_slug": "landrover",
+      "name": "LandRover LR2",
+      "slug": "landrover-lr2"
+    },
+    {
+      "parent_slug": "landrover",
+      "name": "LandRover Range Rover",
+      "slug": "landrover-range-rover"
+    },
+    {
+      "parent_slug": "landrover",
+      "name": "LandRover Range Rover Evoque",
+      "slug": "landrover-range-rover-evoque"
+    },
+    {
+      "parent_slug": "landrover",
+      "name": "LandRover Range Rover Sport",
+      "slug": "landrover-range-rover-sport"
+    },
+    {
+      "parent_slug": "landrover",
+      "name": "LandRover Range Rover Velar",
+      "slug": "landrover-range-rover-velar"
+    },
+    {
+      "parent_slug": "landrover",
+      "name": "LandRover Range Rover Vogue",
+      "slug": "landrover-range-rover-vogue"
+    },
+    {
+      "parent_slug": "landrover",
+      "name": "Dòng LandRover khác",
+      "slug": "dong-landrover-khac"
+    },
+    {
+      "parent_slug": "lifan",
+      "name": "Lifan 520",
+      "slug": "lifan-520"
+    },
+    {
+      "parent_slug": "lifan",
+      "name": "Lifan 620",
+      "slug": "lifan-620"
+    },
+    {
+      "parent_slug": "lifan",
+      "name": "Lifan S5",
+      "slug": "lifan-s5"
+    },
+    {
+      "parent_slug": "lifan",
+      "name": "Dòng Lifan khác",
+      "slug": "dong-lifan-khac"
+    },
+    {
+      "parent_slug": "lincoln",
+      "name": "Lincoln Aviator",
+      "slug": "lincoln-aviator"
+    },
+    {
+      "parent_slug": "lincoln",
+      "name": "Lincoln Continental",
+      "slug": "lincoln-continental"
+    },
+    {
+      "parent_slug": "lincoln",
+      "name": "Lincoln Navigator",
+      "slug": "lincoln-navigator"
+    },
+    {
+      "parent_slug": "lincoln",
+      "name": "Lincoln Town car",
+      "slug": "lincoln-town-car"
+    },
+    {
+      "parent_slug": "lincoln",
+      "name": "Dòng Lincoln khác",
+      "slug": "dong-lincoln-khac"
+    },
+    {
+      "parent_slug": "luxgen",
+      "name": "Luxgen 5",
+      "slug": "luxgen-5"
+    },
+    {
+      "parent_slug": "luxgen",
+      "name": "Luxgen 7 MPV",
+      "slug": "luxgen-7-mpv"
+    },
+    {
+      "parent_slug": "luxgen",
+      "name": "Luxgen 7 SUV",
+      "slug": "luxgen-7-suv"
+    },
+    {
+      "parent_slug": "luxgen",
+      "name": "Luxgen M7",
+      "slug": "luxgen-m7"
+    },
+    {
+      "parent_slug": "luxgen",
+      "name": "Luxgen U6",
+      "slug": "luxgen-u6"
+    },
+    {
+      "parent_slug": "luxgen",
+      "name": "Luxgen U7",
+      "slug": "luxgen-u7"
+    },
+    {
+      "parent_slug": "luxgen",
+      "name": "Dòng Luxgen khác",
+      "slug": "dong-luxgen-khac"
+    },
+    {
+      "parent_slug": "man",
+      "name": "Man CLA",
+      "slug": "man-cla"
+    },
+    {
+      "parent_slug": "man",
+      "name": "Dòng Man khác",
+      "slug": "dong-man-khac"
+    },
+    {
+      "parent_slug": "maserati",
+      "name": "Maserati Ghibli",
+      "slug": "maserati-ghibli"
+    },
+    {
+      "parent_slug": "maserati",
+      "name": "Maserati Gransport",
+      "slug": "maserati-gransport"
+    },
+    {
+      "parent_slug": "maserati",
+      "name": "Maserati Granturismo",
+      "slug": "maserati-granturismo"
+    },
+    {
+      "parent_slug": "maserati",
+      "name": "Maserati Levante",
+      "slug": "maserati-levante"
+    },
+    {
+      "parent_slug": "maserati",
+      "name": "Maserati Quatroporte",
+      "slug": "maserati-quatroporte"
+    },
+    {
+      "parent_slug": "maserati",
+      "name": "Dòng Maserati khác",
+      "slug": "dong-maserati-khac"
+    },
+    {
+      "parent_slug": "maybach",
+      "name": "Maybach 57",
+      "slug": "maybach-57"
+    },
+    {
+      "parent_slug": "maybach",
+      "name": "Maybach 62",
+      "slug": "maybach-62"
+    },
+    {
+      "parent_slug": "maybach",
+      "name": "Maybach S600",
+      "slug": "maybach-s600"
+    },
+    {
+      "parent_slug": "maybach",
+      "name": "Dòng Maybach khác",
+      "slug": "dong-maybach-khac"
+    },
+    {
+      "parent_slug": "mekong",
+      "name": "Mekong Paso",
+      "slug": "mekong-paso"
+    },
+    {
+      "parent_slug": "mekong",
+      "name": "Mekong Premio",
+      "slug": "mekong-premio"
+    },
+    {
+      "parent_slug": "mekong",
+      "name": "Mekong Pronto",
+      "slug": "mekong-pronto"
+    },
+    {
+      "parent_slug": "mekong",
+      "name": "Dòng Mekong khác",
+      "slug": "dong-mekong-khac"
+    },
+    {
+      "parent_slug": "mercury",
+      "name": "Mercury Sable",
+      "slug": "mercury-sable"
+    },
+    {
+      "parent_slug": "mercury",
+      "name": "Mercury Topaz",
+      "slug": "mercury-topaz"
+    },
+    {
+      "parent_slug": "mercury",
+      "name": "Mercury Villager",
+      "slug": "mercury-villager"
+    },
+    {
+      "parent_slug": "mercury",
+      "name": "Dòng Mercury khác",
+      "slug": "dong-mercury-khac"
+    },
+    {
+      "parent_slug": "mg",
+      "name": "MG 5",
+      "slug": "mg-5"
+    },
+    {
+      "parent_slug": "mg",
+      "name": "MG 6",
+      "slug": "mg-6"
+    },
+    {
+      "parent_slug": "mg",
+      "name": "MG 350C",
+      "slug": "mg-350c"
+    },
+    {
+      "parent_slug": "mg",
+      "name": "MG Express",
+      "slug": "mg-express"
+    },
+    {
+      "parent_slug": "mg",
+      "name": "MG ZT",
+      "slug": "mg-zt"
+    },
+    {
+      "parent_slug": "mg",
+      "name": "Dòng MG khác",
+      "slug": "dong-mg-khac"
+    },
+    {
+      "parent_slug": "opel",
+      "name": "Opel Antara",
+      "slug": "opel-antara"
+    },
+    {
+      "parent_slug": "opel",
+      "name": "Opel Astra",
+      "slug": "opel-astra"
+    },
+    {
+      "parent_slug": "opel",
+      "name": "Opel Combo",
+      "slug": "opel-combo"
+    },
+    {
+      "parent_slug": "opel",
+      "name": "Opel Corsa",
+      "slug": "opel-corsa"
+    },
+    {
+      "parent_slug": "opel",
+      "name": "Opel GT",
+      "slug": "opel-gt"
+    },
+    {
+      "parent_slug": "opel",
+      "name": "Opel Omega",
+      "slug": "opel-omega"
+    },
+    {
+      "parent_slug": "opel",
+      "name": "Opel Record",
+      "slug": "opel-record"
+    },
+    {
+      "parent_slug": "opel",
+      "name": "Opel Tigra",
+      "slug": "opel-tigra"
+    },
+    {
+      "parent_slug": "opel",
+      "name": "Opel Vectra",
+      "slug": "opel-vectra"
+    },
+    {
+      "parent_slug": "opel",
+      "name": "Dòng Opel khác",
+      "slug": "dong-opel-khac"
+    },
+    {
+      "parent_slug": "pontiac",
+      "name": "Pontiac Aztek",
+      "slug": "pontiac-aztek"
+    },
+    {
+      "parent_slug": "pontiac",
+      "name": "Pontiac Fiero",
+      "slug": "pontiac-fiero"
+    },
+    {
+      "parent_slug": "pontiac",
+      "name": "Pontiac Firebird",
+      "slug": "pontiac-firebird"
+    },
+    {
+      "parent_slug": "pontiac",
+      "name": "Pontiac Solstice",
+      "slug": "pontiac-solstice"
+    },
+    {
+      "parent_slug": "pontiac",
+      "name": "Pontiac Trans sport",
+      "slug": "pontiac-trans-sport"
+    },
+    {
+      "parent_slug": "pontiac",
+      "name": "Dòng Pontiac khác",
+      "slug": "dong-pontiac-khac"
+    },
+    {
+      "parent_slug": "porsche",
+      "name": "Porsche 911",
+      "slug": "porsche-911"
+    },
+    {
+      "parent_slug": "porsche",
+      "name": "Porsche Boxster",
+      "slug": "porsche-boxster"
+    },
+    {
+      "parent_slug": "porsche",
+      "name": "Porsche Carrera",
+      "slug": "porsche-carrera"
+    },
+    {
+      "parent_slug": "porsche",
+      "name": "Porsche Cayenne",
+      "slug": "porsche-cayenne"
+    },
+    {
+      "parent_slug": "porsche",
+      "name": "Porsche Cayman",
+      "slug": "porsche-cayman"
+    },
+    {
+      "parent_slug": "porsche",
+      "name": "Porsche Macan",
+      "slug": "porsche-macan"
+    },
+    {
+      "parent_slug": "porsche",
+      "name": "Porsche Panamera",
+      "slug": "porsche-panamera"
+    },
+    {
+      "parent_slug": "porsche",
+      "name": "Dòng Porsche khác",
+      "slug": "dong-porsche-khac"
+    },
+    {
+      "parent_slug": "proton",
+      "name": "Proton Arena",
+      "slug": "proton-arena"
+    },
+    {
+      "parent_slug": "proton",
+      "name": "Proton Perdana",
+      "slug": "proton-perdana"
+    },
+    {
+      "parent_slug": "proton",
+      "name": "Proton Tiara",
+      "slug": "proton-tiara"
+    },
+    {
+      "parent_slug": "proton",
+      "name": "Proton Wira",
+      "slug": "proton-wira"
+    },
+    {
+      "parent_slug": "proton",
+      "name": "Dòng Proton khác",
+      "slug": "dong-proton-khac"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault 11",
+      "slug": "renault-11"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault 19",
+      "slug": "renault-19"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault 21",
+      "slug": "renault-21"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault 25",
+      "slug": "renault-25"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Clio",
+      "slug": "renault-clio"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Duster",
+      "slug": "renault-duster"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Fluence",
+      "slug": "renault-fluence"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Kangoo",
+      "slug": "renault-kangoo"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Koleos",
+      "slug": "renault-koleos"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Laguna",
+      "slug": "renault-laguna"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Latitude",
+      "slug": "renault-latitude"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Logan",
+      "slug": "renault-logan"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Megane",
+      "slug": "renault-megane"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Safrane",
+      "slug": "renault-safrane"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Sandero",
+      "slug": "renault-sandero"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Sport Spider",
+      "slug": "renault-sport-spider"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Trafic",
+      "slug": "renault-trafic"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Renault Wind",
+      "slug": "renault-wind"
+    },
+    {
+      "parent_slug": "renault",
+      "name": "Dòng Renault khác",
+      "slug": "renault-dong-renault- khac"
+    },
+    {
+      "parent_slug": "rolls-royce",
+      "name": "Rolls Royce Ghost",
+      "slug": "rolls-royce-ghost"
+    },
+    {
+      "parent_slug": "rolls-royce",
+      "name": "Rolls Royce Park ward",
+      "slug": "rolls-royce-park-ward"
+    },
+    {
+      "parent_slug": "rolls-royce",
+      "name": "Rolls Royce Phantom",
+      "slug": "rolls-royce-phantom"
+    },
+    {
+      "parent_slug": "rolls-royce",
+      "name": "Rolls Royce Wraith",
+      "slug": "rolls-royce-wraith"
+    },
+    {
+      "parent_slug": "rolls-royce",
+      "name": "Dòng Rolls Royce khác",
+      "slug": "dong-rolls-royce-khac"
+    },
+    {
+      "parent_slug": "rover",
+      "name": "Rover 100",
+      "slug": "rover-100"
+    },
+    {
+      "parent_slug": "rover",
+      "name": "Rover 200",
+      "slug": "rover-200"
+    },
+    {
+      "parent_slug": "rover",
+      "name": "Rover 400",
+      "slug": "rover-400"
+    },
+    {
+      "parent_slug": "rover",
+      "name": "Rover 800",
+      "slug": "rover-800"
+    },
+    {
+      "parent_slug": "rover",
+      "name": "Dòng Rover khác",
+      "slug": "dong-rover-khac"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung QM5",
+      "slug": "samsung-qm5"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung SM3",
+      "slug": "samsung-sm3"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung SM5",
+      "slug": "samsung-sm5"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Samsung SM7",
+      "slug": "samsung-sm7"
+    },
+    {
+      "parent_slug": "samsung",
+      "name": "Dòng Samsung khác",
+      "slug": "dong-samsung-khac"
+    },
+    {
+      "parent_slug": "scion",
+      "name": "Scion Tc",
+      "slug": "scion-tc"
+    },
+    {
+      "parent_slug": "scion",
+      "name": "Scion Xd",
+      "slug": "scion-xd"
+    },
+    {
+      "parent_slug": "scion",
+      "name": "Dòng Scion khác",
+      "slug": "dong-scion-khac"
+    },
+    {
+      "parent_slug": "ssangyong",
+      "name": "Ssangyong Actyon",
+      "slug": "ssangyong-actyon"
+    },
+    {
+      "parent_slug": "ssangyong",
+      "name": "Ssangyong Chairman",
+      "slug": "ssangyong-chairman"
+    },
+    {
+      "parent_slug": "ssangyong",
+      "name": "Ssangyong Family",
+      "slug": "ssangyong-family"
+    },
+    {
+      "parent_slug": "ssangyong",
+      "name": "Ssangyong Istana",
+      "slug": "ssangyong-istana"
+    },
+    {
+      "parent_slug": "ssangyong",
+      "name": "Ssangyong Korando",
+      "slug": "ssangyong-korando"
+    },
+    {
+      "parent_slug": "ssangyong",
+      "name": "Ssangyong Kyron",
+      "slug": "ssangyong-kyron"
+    },
+    {
+      "parent_slug": "ssangyong",
+      "name": "Ssangyong Musso",
+      "slug": "ssangyong-musso"
+    },
+    {
+      "parent_slug": "ssangyong",
+      "name": "Ssangyong Rexton",
+      "slug": "ssangyong-rexton"
+    },
+    {
+      "parent_slug": "ssangyong",
+      "name": "Ssangyong Stavic",
+      "slug": "ssangyong-stavic"
+    },
+    {
+      "parent_slug": "ssangyong",
+      "name": "Ssangyong Tivoli",
+      "slug": "ssangyong-tivoli"
+    },
+    {
+      "parent_slug": "ssangyong",
+      "name": "Ssangyong XLV",
+      "slug": "ssangyong-xlv"
+    },
+    {
+      "parent_slug": "ssangyong",
+      "name": "Dòng Ssangyong khác",
+      "slug": "dong-ssangyong-khac"
+    },
+    {
+      "parent_slug": "subaru",
+      "name": "Subaru BRZ",
+      "slug": "subaru-brz"
+    },
+    {
+      "parent_slug": "subaru",
+      "name": "Subaru Forester",
+      "slug": "subaru-forester"
+    },
+    {
+      "parent_slug": "subaru",
+      "name": "Subaru Impreza",
+      "slug": "subaru-impreza"
+    },
+    {
+      "parent_slug": "subaru",
+      "name": "Subaru Legacy",
+      "slug": "subaru-legacy"
+    },
+    {
+      "parent_slug": "subaru",
+      "name": "Subaru Levord",
+      "slug": "subaru-levord"
+    },
+    {
+      "parent_slug": "subaru",
+      "name": "Subaru Outback",
+      "slug": "subaru-outback"
+    },
+    {
+      "parent_slug": "subaru",
+      "name": "Subaru Tribeca",
+      "slug": "subaru-tribeca"
+    },
+    {
+      "parent_slug": "subaru",
+      "name": "Subaru WRX",
+      "slug": "subaru-wrx"
+    },
+    {
+      "parent_slug": "subaru",
+      "name": "Subaru XV",
+      "slug": "subaru-xv"
+    },
+    {
+      "parent_slug": "subaru",
+      "name": "Dòng Subaru khác",
+      "slug": "dong-subaru-khac"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM T1000",
+      "slug": "sym-t1000"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM T880",
+      "slug": "sym-t880"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM V11",
+      "slug": "sym-v11"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "SYM V5",
+      "slug": "sym-v5"
+    },
+    {
+      "parent_slug": "sym",
+      "name": "Dòng SYM khác",
+      "slug": "dong-sym-khac"
+    },
+    {
+      "parent_slug": "tesla",
+      "name": "Tesla 3",
+      "slug": "tesla-3"
+    },
+    {
+      "parent_slug": "tesla",
+      "name": "Tesla S",
+      "slug": "tesla-s"
+    },
+    {
+      "parent_slug": "tesla",
+      "name": "Tesla X",
+      "slug": "tesla-x"
+    },
+    {
+      "parent_slug": "tesla",
+      "name": "Dòng Tesla khác",
+      "slug": "dong-tesla-khac"
+    },
+    {
+      "parent_slug": "thaco",
+      "name": "Thaco Auman",
+      "slug": "thaco-auman"
+    },
+    {
+      "parent_slug": "thaco",
+      "name": "Thaco Aumark",
+      "slug": "thaco-aumark"
+    },
+    {
+      "parent_slug": "thaco",
+      "name": "Thaco Forland",
+      "slug": "thaco-forland"
+    },
+    {
+      "parent_slug": "thaco",
+      "name": "Thaco Foton",
+      "slug": "thaco-foton"
+    },
+    {
+      "parent_slug": "thaco",
+      "name": "Thaco Frontier",
+      "slug": "thaco-frontier"
+    },
+    {
+      "parent_slug": "thaco",
+      "name": "Thaco Mobihome",
+      "slug": "thaco-mobihome"
+    },
+    {
+      "parent_slug": "thaco",
+      "name": "Thaco Ollin",
+      "slug": "thaco-ollin"
+    },
+    {
+      "parent_slug": "thaco",
+      "name": "Thaco Towner",
+      "slug": "thaco-towner"
+    },
+    {
+      "parent_slug": "thaco",
+      "name": "Dòng Thaco khác",
+      "slug": "dong-thaco-khac"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 1200B",
+      "slug": "vinaxuki-1200b"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 1240T",
+      "slug": "vinaxuki-1240t"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 1490T",
+      "slug": "vinaxuki-1490t"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 1980T",
+      "slug": "vinaxuki-1980t"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 1990BA",
+      "slug": "vinaxuki-1990ba"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 2500BA",
+      "slug": "vinaxuki-2500ba"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 3450T",
+      "slug": "vinaxuki-3450t"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 3500BA",
+      "slug": "vinaxuki-3500ba"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 3500TL",
+      "slug": "vinaxuki-3500tl"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 4500BA",
+      "slug": "vinaxuki-4500ba"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 5000BA",
+      "slug": "vinaxuki-5000ba"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 5500TL",
+      "slug": "vinaxuki-5500tl"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 7000BA",
+      "slug": "vinaxuki-7000ba"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki 990T",
+      "slug": "vinaxuki-990t"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki Hafei",
+      "slug": "vinaxuki-hafei"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Vinaxuki Jinbei",
+      "slug": "vinaxuki-jinbei"
+    },
+    {
+      "parent_slug": "vinaxuki",
+      "name": "Dòng Vinaxuki khác",
+      "slug": "dong-vinaxuki-khac"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo 340",
+      "slug": "volvo-340"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo 360",
+      "slug": "volvo-360"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo 460",
+      "slug": "volvo-460"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo 740",
+      "slug": "volvo-740"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo 760",
+      "slug": "volvo-760"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo 850",
+      "slug": "volvo-850"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo 940",
+      "slug": "volvo-940"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo 960",
+      "slug": "volvo-960"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo C70",
+      "slug": "volvo-c70"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo S60",
+      "slug": "volvo-s60"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo S90",
+      "slug": "volvo-s90"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo V70",
+      "slug": "volvo-v70"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo XC60",
+      "slug": "volvo-xc60"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Volvo XC90",
+      "slug": "volvo-xc90"
+    },
+    {
+      "parent_slug": "volvo",
+      "name": "Dòng Volvo khác",
+      "slug": "dong-volvo-khac"
+    },
+    {
+      "parent_slug": "zotye",
+      "name": "Zotye T600",
+      "slug": "zotye-t600"
+    },
+    {
+      "parent_slug": "zotye",
+      "name": "Zotye Z100",
+      "slug": "zotye-z100"
+    },
+    {
+      "parent_slug": "zotye",
+      "name": "Zotye Z300",
+      "slug": "zotye-z300"
+    },
+    {
+      "parent_slug": "zotye",
+      "name": "Zotye Z500",
+      "slug": "zotye-z500"
+    },
+    {
+      "parent_slug": "zotye",
+      "name": "Dòng Zotye khác",
+      "slug": "dong-zotye-khac"
+    },
+    {
+      "parent_slug": "uaz",
+      "name": "UAZ Hunter",
+      "slug": "uaz-hunter"
+    },
+    {
+      "parent_slug": "uaz",
+      "name": "UAZ Patriot",
+      "slug": "uaz-patriot"
+    },
+    {
+      "parent_slug": "uaz",
+      "name": "UAZ Pickup",
+      "slug": "uaz-pickup"
+    },
+    {
+      "parent_slug": "mitsubishi",
+      "name": "Mitsubishi Pajero Sport",
+      "slug": "mitsubishi-pajero-sport"
+    }
+  ]
+}

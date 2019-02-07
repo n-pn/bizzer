@@ -1,0 +1,70 @@
+.main {
+  width: 100%;
+  @include clearfix;
+}
+
+.main .container {
+  position: relative;
+}
+
+$sidebar-size: 20rem + $gutter;
+
+.main-content {
+  padding: 0;
+  width: 100%;
+
+  &._shop {
+    padding: $gutter;
+  }
+
+  @include break-large {
+    padding: $gutter;
+    float: left;
+    width: calc(100% - #{$sidebar-size});
+
+    &._center {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    &._full {
+      width: 100%;
+    }
+  }
+
+  // &._adimage {
+  //   width: 40rem;
+  //   @include screen-max(60rem) { width: 100%; }
+  // }
+
+}
+
+.main-sidebar {
+  display: none;
+
+  @include break-large {
+    display: block;
+    float: right;
+    width: $sidebar-size;
+
+    padding: $gutter;
+    padding-left: 0;
+  }
+
+
+}
+
+.main-title {
+  color: #666;
+  font-size: rem(18);
+  font-weight: normal;
+  margin-bottom: $gutter;
+}
+
+.main-pagi {
+  padding: $gutter;
+  text-align: right;
+  .button {
+    margin-left: $gutter;
+  }
+}

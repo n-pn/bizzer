@@ -1,0 +1,26 @@
+<%= form_for @chset, @action, [as: :submit, class: "submit", id: "submit-form"], fn f -> %>
+  <header class="submit-header">
+    <h1 class="submit-header-title"><%= @label %></h1>
+  </header>
+
+  <section class="submit-content">
+    <h2 class="submit-title">Thông tin cơ bản</h2>
+    <%= render BizzerWeb.Public.WizardView, "_grouping.html", index: 0, chset: @chset, parents: @groupings %>
+    <%= render BizzerWeb.Public.WizardView, "_location.html", index: 1, chset: @chset, parents: @locations %>
+    <%= render BizzerWeb.Public.WizardView, "_usertype.html", index: 2, chset: @chset %>
+    <%= render BizzerWeb.Public.WizardView, "_userneed.html", index: 3, chset: @chset %>
+    <%= render BizzerWeb.Public.WizardView, "_subject.html", index: 4, chset: @chset %>
+    <%= render BizzerWeb.Public.WizardView, "_images.html", index: 5, chset: @chset %>
+    <%= render BizzerWeb.Public.WizardView, "_details.html", index: 6, chset: @chset %>
+    <%= render BizzerWeb.Public.WizardView, "_price.html", index: 7, chset: @chset %>
+    <%= render BizzerWeb.Public.WizardView, "_payment.html", index: 8, chset: @chset %>
+  </section>
+
+  <section class="submit-content" id="submit-properties">
+    <%= render BizzerWeb.Public.WizardView, "_properties.html", assigns %>
+  </section>
+
+  <footer class="submit-footer">
+    <%= submit @label, class: "button _big _primary" %>
+  </footer>
+<% end %>

@@ -1,0 +1,40 @@
+{
+  "grouping_slug": "mua-ban-laptop",
+  "name": "Kích cỡ màn hình",
+  "slug": "kich-co-man-hinh",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "< 9 inch",
+      "slug": "duoi-9-inch"
+    },
+    {
+      "name": "9 - 10.9 inch",
+      "slug": "9-10-9-inch"
+    },
+    {
+      "name": "11 - 12.9 inch",
+      "slug": "11-12-9-inch"
+    },
+    {
+      "name": "13 - 14.9 inch",
+      "slug": "13-14-9-inch"
+    },
+    {
+      "name": "15 - 16.9 inch",
+      "slug": "15-16-9-inch"
+    },
+    {
+      "name": "17 - 18.9 inch",
+      "slug": "17-18-9-inch"
+    },
+    {
+      "name": "19 - 20.9 inch",
+      "slug": "19-20-9-inch"
+    },
+    {
+      "name": ">= 21 inch",
+      "slug": "tren-21-inch"
+    }
+  ]
+}

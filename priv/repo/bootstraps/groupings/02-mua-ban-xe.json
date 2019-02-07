@@ -1,0 +1,26 @@
+{
+  "name": "Mua bán xe",
+  "slug": "mua-ban-xe",
+  "children": [
+    {
+      "name": "Mua bán ô tô",
+      "slug": "mua-ban-o-to"
+    },
+    {
+      "name": "Mua bán xe máy",
+      "slug": "mua-ban-xe-may"
+    },
+    {
+      "name": "Mua bán xe đạp",
+      "slug": "mua-ban-xe-dap"
+    },
+    {
+      "name": "Mua bán xe điện",
+      "slug": "mua-ban-xe-dien"
+    },
+    {
+      "name": "Xe tải, xe khách",
+      "slug": "xe-tai-xe-khach"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "grouping_slug": "viec-lam-toan-thoi-gian",
+  "name": "Giới tính",
+  "slug": "gioi-tinh",
+  "propvals": [
+    {
+      "name": "Nam",
+      "slug": "nam"
+    },
+    {
+      "name": "Nữ",
+      "slug": "nu"
+    },
+    {
+      "name": "Không yêu cầu",
+      "slug": "khong-yeu-cau"
+    }
+  ]
+}

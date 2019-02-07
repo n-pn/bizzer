@@ -1,0 +1,16 @@
+{
+  "grouping_slug": "ngoai-that-cay-canh-ca-canh",
+  "name": "Tình trạng",
+  "slug": "tinh-trang",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Đã sử dụng",
+      "slug": "da-su-dung"
+    },
+    {
+      "name": "Mới",
+      "slug": "moi"
+    }
+  ]
+}

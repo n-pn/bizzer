@@ -1,0 +1,127 @@
+<div class="form-input js-show-filter" data-fid="propkey">
+  <span class="input">Lọc</span>
+</div>
+
+<div id="filter-propkey" class="filter">
+  <div class="filter-wrapper">
+    <header class="filter-header">
+      <h1 class="filter-header-text">Lọc nâng cao</h1>
+      <button class="filter-header-icon js-hide-filter" data-fid="propkey" type="button"><i class="icon fe fe-x"></i></button>
+    </header>
+
+    <section class="filter-parent">
+      <div class="filter-parent-content">
+
+        <div class="filter-common">
+          <div class="filter-label">Khoảng giá</div>
+          <div class="filter-group">
+            <div class="filter-group-child">
+              <input type="number" class="filter-input" name="price_min" id="filter-price-min" placeholder="Thấp nhất" value="<%= @query[:price_min] %>">
+            </div>
+            <div class="filter-group-child">
+              <input type="number" class="filter-input" name="price_max" id="filter-price-max" placeholder="Cao nhất" value="<%= @query[:price_max] %>">
+            </div>
+          </div>
+        </div>
+
+        <div class="filter-common">
+          <div class="filter-label">Sắp xếp theo</div>
+          <input type="hidden" name="sort_by" id="filter-sort_by-value" value="<%= @query[:sort_by] %>">
+
+          <div class="filter-group">
+            <div class="filter-group-child">
+              <button class='filter-link js-update-filter <%= if @query[:sort_by] == :time, do: "_active" %>' data-input="sort_by" data-value="<%= :time %>">
+                <span class="filter-text">Tin mới trước</span>
+                <span class="filter-icon"><i class="icon-check"></i></span>
+                </button>
+            </div>
+            <div class="filter-group-child">
+              <button class='filter-link js-update-filter <%= if @query[:sort_by] == :price, do: "_active" %>' data-input="sort_by" data-value="<%= :price %>">
+                <span class="filter-text">Giá thấp trước</span>
+                <span class="filter-icon"><i class="icon-check"></i></span>
+                </button>
+            </div>
+          </div>
+        </div>
+
+        <%= for {propkey, propval} <- @propkeys do %>
+          <p><span class="filter-label"><%= propkey.name %></span></p>
+          <button type="button" class="filter-input js-show-filter-child" data-fid="propkey" data-cid="propkey-<%= propkey.slug %>">
+            <%= if propval do %>
+              <input type="hidden" name="<%= propkey.slug %>" id="filter-propkey-<%= propkey.slug %>-value" value="<%= propval.slug %>">
+              <span class="filter-print" id="filter-propkey-<%= propkey.slug %>-print" data-placeholder="<%= propkey.name %>"><%= propval.name %></span>
+            <% else %>
+              <input type="hidden" name="<%= propkey.slug %>" id="filter-propkey-<%= propkey.slug %>-value" value="">
+              <span class="filter-print _empty" id="filter-propkey-<%= propkey.slug %>-print" data-placeholder="<%= propkey.name %>"><%= propkey.name %></span>
+            <% end %>
+
+          </button>
+        <% end %>
+
+        <div class="filter-common">
+          <div class="filter-label">Đăng bởi</div>
+          <input type="hidden" name="nguoi-ban" id="filter-user_type-value" value="<%= @query[:user_type] %>">
+          <div class="filter-group">
+            <%= for {name, slug} <- user_types() do %>
+              <div class="filter-group-child">
+                <button class="filter-link js-update-filter <%= if @query[:user_type] == slug, do: "_active" %>" data-input="user_type" data-value="<%= slug %>">
+                  <span class="filter-text"><%= name %></span>
+                  <span class="filter-icon"><i class="icon-check"></i></span>
+                </button>
+              </div>
+            <% end %>
+          </div>
+        </div>
+        <div class="filter-common">
+          <div class="filter-label">Loại tin</div>
+          <input type="hidden" name="dang-tin" id="filter-user_need-value" value="<%= @query[:user_need] %>">
+          <div class="filter-group">
+            <%= for {name, slug} <- user_needs() do %>
+              <div class="filter-group-child">
+                <button class="filter-link js-update-filter <%= if @query[:user_need] == slug, do: "_active" %>" data-input="user_need" data-value="<%= slug %>">
+                  <span class="filter-text"><%= name %></span>
+                  <span class="filter-icon"><i class="icon-check"></i></span>
+                </button>
+              </div>
+
+            <% end %>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-action">
+        <button class="button js-reset-filter" type="button">Bỏ lọc</button>
+        <button class="button _primary js-apply-filter" type="submit">Áp dụng</button>
+      </div>
+    </section>
+
+    <%= for {propkey, value} <- @propkeys do %>
+      <section class="filter-child" id="filter-propkey-<%= propkey.slug %>">
+
+        <div class="filter-child-content">
+          <p><span class="filter-label"><%= propkey.name %></span></p>
+          <div class="filter-special _back">
+            <button class="filter-link js-show-filter-parent" data-fid="propkey" type="button">
+              <span class="filter-text">Trở lại</span>
+              <span class="filter-icon"><i class="icon fe fe-chevron-left"></i></span>
+            </button>
+          </div>
+
+          <%= for propval <- propkey.propvals do %>
+            <button type="button" class="filter-link js-update-filter propkey-<%= propkey.parent_id %> propval-<%= propval.parent_id %> <%= if value && value.id == propval.id, do: "_active" %>"
+              data-fid="propkey"
+              data-input="propkey-<%= propkey.slug %>"
+              data-value="<%= propval.slug %>"
+              data-print="<%= propval.name %>"
+              data-propkey="<%= propkey.id %>"
+              data-propval="<%= propval.id %>"
+            >
+              <span class="filter-text"><%= propval.name %></span>
+              <span class="filter-icon"><i class="icon-check"></i></span>
+            </button>
+          <% end %>
+        </div>
+      </section>
+    <% end %>
+  </div>
+</div>

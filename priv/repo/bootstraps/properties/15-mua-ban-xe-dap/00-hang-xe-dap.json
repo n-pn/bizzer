@@ -1,0 +1,100 @@
+{
+  "grouping_slug": "mua-ban-xe-dap",
+  "name": "Hãng xe đạp",
+  "slug": "hang-xe-dap",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "Ander",
+      "slug": "ander"
+    },
+    {
+      "name": "Asama",
+      "slug": "asama"
+    },
+    {
+      "name": "Baileys",
+      "slug": "baileys"
+    },
+    {
+      "name": "Cannondale",
+      "slug": "cannondale"
+    },
+    {
+      "name": "Fornix",
+      "slug": "fornix"
+    },
+    {
+      "name": "Fury",
+      "slug": "fury"
+    },
+    {
+      "name": "Galaxy",
+      "slug": "galaxy"
+    },
+    {
+      "name": "Giant",
+      "slug": "giant"
+    },
+    {
+      "name": "Jett",
+      "slug": "jett"
+    },
+    {
+      "name": "Martin",
+      "slug": "martin"
+    },
+    {
+      "name": "Maruishi",
+      "slug": "maruishi"
+    },
+    {
+      "name": "Phượng Hoàng",
+      "slug": "phuong-hoang"
+    },
+    {
+      "name": "Royal baby",
+      "slug": "royal-baby"
+    },
+    {
+      "name": "Sportlink",
+      "slug": "sportlink"
+    },
+    {
+      "name": "Starider",
+      "slug": "starider"
+    },
+    {
+      "name": "Stitch",
+      "slug": "stitch"
+    },
+    {
+      "name": "Strongman",
+      "slug": "strongman"
+    },
+    {
+      "name": "Tacke",
+      "slug": "tacke"
+    },
+    {
+      "name": "Thống Nhất",
+      "slug": "thong-nhat"
+    },
+    {
+      "name": "Totem",
+      "slug": "totem"
+    },
+    {
+      "name": "Trinx",
+      "slug": "trinx"
+    },
+    {
+      "name": "Twitter",
+      "slug": "twitter"
+    },
+    {
+      "name": "Khác",
+      "slug": "khac"
+    }
+  ]
+}

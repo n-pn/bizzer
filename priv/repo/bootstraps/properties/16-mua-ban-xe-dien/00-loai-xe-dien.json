@@ -1,0 +1,20 @@
+{
+  "grouping_slug": "mua-ban-xe-dien",
+  "name": "Loại xe điện",
+  "slug": "loai-xe-dien",
+  "query_type": "radiobox",
+  "propvals": [
+    {
+      "name": "Xe đạp điện",
+      "slug": "xe-dap-dien"
+    },
+    {
+      "name": "Xe máy điện",
+      "slug": "xe-may-dien"
+    },
+    {
+      "name": "Xe điện khác",
+      "slug": "xe-dien-khac"
+    }
+  ]
+}

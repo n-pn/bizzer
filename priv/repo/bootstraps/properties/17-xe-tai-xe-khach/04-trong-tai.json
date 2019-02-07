@@ -1,0 +1,84 @@
+{
+  "grouping_slug": "xe-tai-xe-khach",
+  "name": "Trọng tải",
+  "slug": "trong-tai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "< 1 tấn",
+      "slug": "duoi-1-tan"
+    },
+    {
+      "name": "2 tấn",
+      "slug": "2-tan"
+    },
+    {
+      "name": "3 tấn",
+      "slug": "3-tan"
+    },
+    {
+      "name": "4 tấn",
+      "slug": "4-tan"
+    },
+    {
+      "name": "5 tấn",
+      "slug": "5-tan"
+    },
+    {
+      "name": "6 tấn",
+      "slug": "6-tan"
+    },
+    {
+      "name": "7 tấn",
+      "slug": "7-tan"
+    },
+    {
+      "name": "8 tấn",
+      "slug": "8-tan"
+    },
+    {
+      "name": "9 tấn",
+      "slug": "9-tan"
+    },
+    {
+      "name": "10 tấn",
+      "slug": "10-tan"
+    },
+    {
+      "name": "11 tấn",
+      "slug": "11-tan"
+    },
+    {
+      "name": "12 tấn",
+      "slug": "12-tan"
+    },
+    {
+      "name": "13 tấn",
+      "slug": "13-tan"
+    },
+    {
+      "name": "14 tấn",
+      "slug": "14-tan"
+    },
+    {
+      "name": "15 tấn",
+      "slug": "15-tan"
+    },
+    {
+      "name": "16 tấn",
+      "slug": "16-tan"
+    },
+    {
+      "name": "17 tấn",
+      "slug": "17-tan"
+    },
+    {
+      "name": "18 tấn",
+      "slug": "18-tan"
+    },
+    {
+      "name": "> 18 tấn",
+      "slug": "tren-18-tan"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+<header class="wizard-header">
+  <div class="wizard-wrapper">
+    <h1 class="wizard-header-text"><%= @title %></h1>
+    <button class="wizard-header-icon js-hide-wizard"><i class="icon fe fe-x"></i></button>
+  </div>
+</header>

@@ -1,0 +1,3 @@
+<div class="main-content _full _shop">
+  <%= render "form.html", Map.merge(assigns, %{label: "Sửa tin", action: public_submit_path(@conn, :update, @adentry.slug)}) %>
+</div>

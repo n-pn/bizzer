@@ -1,0 +1,32 @@
+{
+  "grouping_slug": "mua-ban-xe-dien",
+  "name": "Động cơ",
+  "slug": "dong-co",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "< 200W",
+      "slug": "duoi-200w"
+    },
+    {
+      "name": "200 - 250W",
+      "slug": "200-250w"
+    },
+    {
+      "name": "251 - 350 W",
+      "slug": "251-350-w"
+    },
+    {
+      "name": "351 - 500 W",
+      "slug": "351-500-w"
+    },
+    {
+      "name": "501 - 1000 W",
+      "slug": "501-1000-w"
+    },
+    {
+      "name": "> 1000 W",
+      "slug": "tren-1000-w"
+    }
+  ]
+}

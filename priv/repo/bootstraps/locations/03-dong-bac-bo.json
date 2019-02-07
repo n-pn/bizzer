@@ -1,0 +1,42 @@
+{
+  "name": "Đông Bắc Bộ",
+  "slug": "dong-bac-bo",
+  "children": [
+    {
+      "name": "Hà Giang",
+      "slug": "ha-giang"
+    },
+    {
+      "name": "Cao Bằng",
+      "slug": "cao-bang"
+    },
+    {
+      "name": "Bắc Kạn",
+      "slug": "bac-kan"
+    },
+    {
+      "name": "Lạng Sơn",
+      "slug": "lang-son"
+    },
+    {
+      "name": "Tuyên Quang",
+      "slug": "tuyen-quang"
+    },
+    {
+      "name": "Thái Nguyên",
+      "slug": "thai-nguyen"
+    },
+    {
+      "name": "Phú Thọ",
+      "slug": "phu-tho"
+    },
+    {
+      "name": "Bắc Giang",
+      "slug": "bac-giang"
+    },
+    {
+      "name": "Quảng Ninh",
+      "slug": "quang-ninh"
+    }
+  ]
+}

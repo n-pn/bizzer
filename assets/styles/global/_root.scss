@@ -1,0 +1,41 @@
+$base-color: $text-primary-color !default;
+$base-font-family: $font-content !default;
+$bgcolor: #fcfcfc !default;
+
+@at-root {
+  @-ms-viewport {
+    width: device-width;
+  }
+}
+
+html {
+  box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -ms-overflow-style: scrollbar;
+  -webkit-tap-highlight-color: rgba(#000, 0);
+
+  font-size: 14px;
+  @include screen-max(359px) { font-size: 12px; }
+  @include break-medium { font-size: 15px; }
+  @include break-large { font-size: 16px; }
+}
+
+*, *:before, *:after { box-sizing: inherit; }
+
+body {
+  width: 100%;
+  min-width: 320px;
+  margin: 0;
+  font-family: $base-font-family;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: $base-color;
+  text-align: left;
+  background-color: $bgcolor;
+}
+
+html, body {
+  height: 100%;
+}

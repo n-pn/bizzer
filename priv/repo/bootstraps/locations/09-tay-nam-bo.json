@@ -1,0 +1,58 @@
+{
+  "name": "Tây Nam Bộ",
+  "slug": "tay-nam-bo",
+  "children": [
+    {
+      "name": "Cần Thơ",
+      "slug": "can-tho"
+    },
+    {
+      "name": "Long An",
+      "slug": "long-an"
+    },
+    {
+      "name": "Tiền Giang",
+      "slug": "tien-giang"
+    },
+    {
+      "name": "Bến Tre",
+      "slug": "ben-tre"
+    },
+    {
+      "name": "Vĩnh Long",
+      "slug": "vinh-long"
+    },
+    {
+      "name": "Trà Vinh",
+      "slug": "tra-vinh"
+    },
+    {
+      "name": "Hậu Giang",
+      "slug": "hau-giang"
+    },
+    {
+      "name": "Sóc Trăng",
+      "slug": "soc-trang"
+    },
+    {
+      "name": "Đồng Tháp",
+      "slug": "dong-thap"
+    },
+    {
+      "name": "An Giang",
+      "slug": "an-giang"
+    },
+    {
+      "name": "Kiên Giang",
+      "slug": "kien-giang"
+    },
+    {
+      "name": "Bạc Liêu",
+      "slug": "bac-lieu"
+    },
+    {
+      "name": "Cà Mau",
+      "slug": "ca-mau"
+    }
+  ]
+}

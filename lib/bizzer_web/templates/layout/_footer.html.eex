@@ -1,0 +1,35 @@
+<div class="footer">
+  <div class="container">
+    <div class="footer-banner">
+      <div class="footer-banner-body">
+        <h2 class="footer-banner-head">Tải ngay VikidTube và VikidFlash</h2>
+        <p class="footer-banner-para">Ứng dụng giáo dục và giải trí hàng đầu cho trẻ em</p>
+        <div class="footer-banner-links">
+          <a href="https://vikid.org/" target="_blank" rel="noopener noreferrer" class="footer-banner-button">Cài đặt ngay</a>
+          <a href="https://play.google.com/store/apps/details?id=com.vikid.vikidtube" target="_blank" rel="noopener noreferrer" class="footer-banner-icon">
+            <img src='<%= static_url(@conn, "/img/logo-vikidtube.png") %>' alt="VikidTube">
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=co.vikid.vikidflash" target="_blank" rel="noopener noreferrer" class="footer-banner-icon">
+            <img src='<%= static_url(@conn, "/img/logo-vikidflash.png") %>' alt="VikidFlash">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-company">
+    <nav class="footer-company-links">
+      <a href="<%= public_support_path(@conn, :about) %>" class="footer-company-link">Về Bizzer Store</a>
+      <a href="<%= public_support_path(@conn, :policy) %>" class="footer-company-link" >Quy chế hoạt động</a>
+      <a href="<%= public_support_path(@conn, :terms) %>" class="footer-company-link">Chính sách bảo mật</a>
+    </nav>
+
+    <div class="footer-company-legal">
+      <img src='<%= static_url(@conn, "/img/bo-cong-thuong.png") %>' alt="Bộ công thương">
+    </div>
+
+    <div class="footer-company-copyright">
+      Copyright 2018 © bizzer.com.vn
+    </div>
+  </div>
+</div>

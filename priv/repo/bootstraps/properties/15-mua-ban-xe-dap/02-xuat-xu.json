@@ -1,0 +1,48 @@
+{
+  "grouping_slug": "mua-ban-xe-dap",
+  "name": "Xuất xứ",
+  "slug": "xuat-xu",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "Nhật Bản",
+      "slug": "nhat-ban"
+    },
+    {
+      "name": "Đài Loan",
+      "slug": "dai-loan"
+    },
+    {
+      "name": "Đức",
+      "slug": "duc"
+    },
+    {
+      "name": "Mỹ",
+      "slug": "my"
+    },
+    {
+      "name": "Pháp",
+      "slug": "phap"
+    },
+    {
+      "name": "Thái Lan",
+      "slug": "thai-lan"
+    },
+    {
+      "name": "Trung Quốc",
+      "slug": "trung-quoc"
+    },
+    {
+      "name": "Viêt Nam",
+      "slug": "viet-nam"
+    },
+    {
+      "name": "Ý",
+      "slug": "y"
+    },
+    {
+      "name": "Khác",
+      "slug": "khac"
+    }
+  ]
+}

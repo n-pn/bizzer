@@ -1,0 +1,26 @@
+.breadcrumb {
+  padding: $gutter;
+  @include break-medium {
+    padding: 0;
+    padding-bottom: $gutter;
+  }
+
+  &-item {
+    &:after {
+      display: inline-block;
+      content: "»";
+      color: #999;
+    }
+    &:last-child:after {
+      display: none;
+    }
+  }
+
+  &-link {
+    color: darken($link-color, 10%);
+    font-family: $font-interface;
+    &:hover {
+      border-bottom: 1px solid $link-color;
+    }
+  }
+}

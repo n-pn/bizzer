@@ -1,0 +1,20 @@
+{
+  "grouping_slug": "mua-ban-xe-may",
+  "name": "Loại xe máy",
+  "slug": "loai-xe-may",
+  "query_type": "radiobox",
+  "propvals": [
+    {
+      "name": "Tay ga",
+      "slug": "tay-ga"
+    },
+    {
+      "name": "Xe số",
+      "slug": "xe-so"
+    },
+    {
+      "name": "Tay côn/Moto",
+      "slug": "tay-con-moto"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<div id="user" class="main-content _profile">
+  <header class="user-header">
+    <h1 class="user-header-title">Sửa thông tin</h1>
+  </header>
+  <section class="user-content">
+    <%= form_for @chset, public_user_path(@conn, :update_profile, next: return_url(@conn)), [as: :user], fn f -> %>
+
+      <div class="form-group">
+        <%= label f, :email, "Email", class: "form-label" %>
+        <%= email_input f, :email, class: "input", placeholder: "Email" %>
+        <%= form_error f, :email %>
+      </div>
+
+      <div class="form-group">
+        <%= label f, :username, "Tên hiển thị", class: "form-label" %>
+        <%= text_input f, :username, class: "input", placeholder: "Nguyễn Văn A" %>
+        <%= form_error f, :username %>
+      </div>
+
+      <div class="form-group">
+        <%= label f, :address, "Địa chỉ", class: "form-label" %>
+        <%= text_input f, :address, class: "input", placeholder: "Địa chỉ liên hệ" %>
+        <%= form_error f, :address %>
+      </div>
+
+      <div class="form-group">
+        <%= submit "Lưu thay đổi", class: "button _submit _big _primary" %>
+      </div>
+    <% end %>
+  </section>
+</div>

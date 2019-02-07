@@ -1,0 +1,5 @@
+<footer class="wizard-footer">
+  <button class="button js-show-wizard" data-wid="<%= @index - 1 %>">Quay lại</button>
+  <button class="button js-hide-wizard">Xem trước</button>
+  <button class="button _primary js-show-wizard" data-wid="<%= @index + 1 %>">Tiếp tục</button>
+</footer>

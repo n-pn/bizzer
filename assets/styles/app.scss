@@ -1,0 +1,48 @@
+/* This file is for your main application css. */
+
+@import "_base/variables";
+@import "_base/functions";
+@import "_base/mixins";
+@import "_base/placeholders";
+
+@import "_mixins/adaptive"; // TODO: Remove
+
+@import "global/root";
+@import "global/link";
+@import "global/form";
+@import "global/table";
+@import "global/typography";
+
+@import "modules/tabs";
+@import "modules/animations";
+@import "modules/icons";
+@import "modules/forms";
+@import "modules/inputs";
+@import "modules/buttons";
+
+@import "specific/container";
+@import "specific/header";
+@import "specific/footer";
+@import "specific/main";
+@import "specific/sidebar";
+@import "specific/adentries";
+
+@import "specific/front";
+@import "specific/query";
+@import "specific/search";
+
+@import "specific/auth";
+
+@import "specific/adimage";
+@import "specific/adentry";
+
+@import "specific/submit";
+@import "specific/wizard";
+@import "specific/output";
+@import "specific/review";
+@import "specific/filter";
+@import "specific/breadcrumb";
+
+@import "specific/shop";
+
+@import "vendor/slick";

@@ -1,0 +1,26 @@
+{
+  "name": "Các loại rao vặt khác",
+  "slug": "cac-loai-rao-vat-khac",
+  "children": [
+    {
+      "name": "Đồ sưu tầm, phim sách game",
+      "slug": "do-suu-tam-phim-sach-game"
+    },
+    {
+      "name": "Đồ thể thao, đồ dã ngoại",
+      "slug": "do-the-thao-do-da-ngoai"
+    },
+    {
+      "name": "Đồ văn phòng, đồ chuyên dụng",
+      "slug": "do-van-phong-do-chuyen-dung"
+    },
+    {
+      "name": "Thú nuôi, phụ kiện thú nuôi",
+      "slug": "thu-nuoi-phu-kien-thu-nuoi"
+    },
+    {
+      "name": "Rao vặt chưa phân loại",
+      "slug": "rao-vat-chua-phan-loai"
+    }
+  ]
+}

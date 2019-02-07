@@ -1,0 +1,80 @@
+{
+  "grouping_slug": "mua-ban-may-tinh-de-ban",
+  "name": "Bộ vi xử lý",
+  "slug": "bo-vi-xu-ly",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "AMD",
+      "slug": "amd"
+    },
+    {
+      "name": "Athlon",
+      "slug": "athlon"
+    },
+    {
+      "name": "Intel Atom",
+      "slug": "intel-atom"
+    },
+    {
+      "name": "Intel Celeron",
+      "slug": "intel-celeron"
+    },
+    {
+      "name": "Intel Core 2 Duo",
+      "slug": "intel-core-2-duo"
+    },
+    {
+      "name": "Intel Core 2 Quad",
+      "slug": "intel-core-2-quad"
+    },
+    {
+      "name": "Intel Core i3",
+      "slug": "intel-core-i3"
+    },
+    {
+      "name": "Intel Core i5",
+      "slug": "intel-core-i5"
+    },
+    {
+      "name": "Intel Core i7",
+      "slug": "intel-core-i7"
+    },
+    {
+      "name": "Intel Core i9",
+      "slug": "intel-core-i9"
+    },
+    {
+      "name": "Intel Pentium",
+      "slug": "intel-pentium"
+    },
+    {
+      "name": "Intel Quark",
+      "slug": "intel-quark"
+    },
+    {
+      "name": "Intel Xeon",
+      "slug": "intel-xeon"
+    },
+    {
+      "name": "Ryzen 3",
+      "slug": "ryzen-3"
+    },
+    {
+      "name": "Ryzen 5",
+      "slug": "ryzen-5"
+    },
+    {
+      "name": "Ryzen 7",
+      "slug": "ryzen-7"
+    },
+    {
+      "name": "Ryzen 9",
+      "slug": "ryzen-9"
+    },
+    {
+      "name": "Khác",
+      "slug": "khac"
+    }
+  ]
+}

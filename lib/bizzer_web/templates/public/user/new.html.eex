@@ -1,0 +1,52 @@
+<div id="auth" class="auth _signup">
+  <header class="auth-header">
+    <h1 class="auth-header-title">Đăng ký</h1>
+  </header>
+  <section class="auth-content">
+    <%= form_for @chset, public_user_path(@conn, :create, next: return_url(@conn)), [as: :user], fn f -> %>
+      <div class="form-group">
+        <%= label f, :phone, "Số điện thoại", class: "form-label" %>
+        <%= telephone_input f, :phone, class: "input", placeholder: "09xxxxxxxx", required: true %>
+        <%= form_error f, :phone %>
+      </div>
+
+      <div class="form-group">
+        <%= label f, :password, "Mật khẩu", class: "form-label" %>
+        <%= password_input f, :password, class: "input", placeholder: "Mật khẩu phải có ít nhất 8 ký tự", required: true %>
+        <%= form_error f, :password %>
+      </div>
+
+      <div class="form-group">
+        <%= label f, :password_confirmation, "Nhập lại mật khẩu", class: "form-label" %>
+        <%= password_input f, :password_confirmation, class: "input", placeholder: "Gõ lại mật khẩu bên trên", required: true %>
+        <%= form_error f, :password_confirmation %>
+      </div>
+
+      <div class="form-group">
+        <%= label f, :email, "Email", class: "form-label" %>
+        <%= email_input f, :email, class: "input", placeholder: "example@google.com" %>
+        <%= form_error f, :email %>
+      </div>
+
+      <div class="form-group">
+        <%= label f, :username, "Tên hiển thị", class: "form-label" %>
+        <%= text_input f, :username, class: "input", placeholder: "Nguyễn Văn A" %>
+        <%= form_error f, :username %>
+      </div>
+
+      <div class="form-group">
+        <%= label f, :address, "Địa chỉ", class: "form-label" %>
+        <%= text_input f, :address, class: "input", placeholder: "Địa chỉ liên hệ" %>
+        <%= form_error f, :address %>
+      </div>
+
+      <div class="form-group">
+        <%= submit "Đăng ký", class: "button _submit _big _primary" %>
+      </div>
+    <% end %>
+
+  </section>
+  <footer class="auth-footer">
+    Đã có tài khoản? <%= link "Đăng nhập", to: public_auth_path @conn, :new, next: return_url(@conn) %>
+  </footer>
+</div>

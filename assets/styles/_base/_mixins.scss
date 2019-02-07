@@ -1,0 +1,60 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin truncate($truncation-boundary) {
+    max-width: $truncation-boundary;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+$break-small: 30em;
+$break-medium: 45em;
+$break-large: 60em;
+
+@mixin screen($min, $max) {
+  @media only screen and (min-width: #{$min}) and (max-width: #{$max}) {
+    @content;
+  }
+}
+
+@mixin screen-min($min) {
+  @media only screen and (min-width: #{$min}) {
+    @content;
+  }
+}
+
+@mixin screen-max($max) {
+  @media only screen and (max-width: #{$max}) {
+    @content;
+  }
+}
+
+@mixin break-small {
+  @include screen-min($break-small) {
+    @content;
+  }
+}
+
+@mixin break-medium {
+  @include screen-min($break-medium) {
+    @content;
+  }
+}
+
+@mixin break-large {
+  @include screen-min($break-large) {
+    @content;
+  }
+}
+
+@mixin break-custom($custom) {
+  @include screen-min($custom) {
+    @content;
+  }
+}

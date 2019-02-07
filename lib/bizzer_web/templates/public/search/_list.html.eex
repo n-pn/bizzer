@@ -1,0 +1,5 @@
+
+<section class="search-content">
+  <%= render BizzerWeb.PartialView, "adentry-list.html", Map.merge(assigns, %{prev_url: prev_url(@conn), next_url: next_url(@conn)}) %>
+
+</section>

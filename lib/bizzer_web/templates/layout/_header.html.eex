@@ -1,0 +1,114 @@
+<a class="header-logo" href="/">
+  <img src='<%= static_url(@conn, "/img/logo.svg") %>' alt="Bizzer">
+</a>
+
+<nav class="header-nav">
+  <ul class="header-list">
+    <li class="header-item">
+      <a class="header-link" href="/tat-ca-chuyen-muc">
+        <span class="header-icon"><i class="icon-search"></i></span>
+        <span class="header-text">Tìm nhanh</span>
+      </a>
+    </li>
+
+    <li class="header-item">
+      <%= if logged_in?(@conn) do %>
+      <a class="header-link" href="<%= public_user_path(@conn, :show, current_user(@conn).slug)  %>">
+      <% else %>
+      <a class="header-link" href="#">
+      <% end %>
+        <span class="header-icon"><i class="icon-user"></i></span>
+        <span class="header-text">Tôi bán</span>
+      </a>
+    </li>
+
+    <li class="header-item">
+      <%= if logged_in?(@conn) do %>
+      <a class="header-link js-load-notif" href="#">
+        <span class="header-icon"><i class="icon-notification"></i></span>
+        <span class="header-text">Thông báo</span>
+      </a>
+      <div class="header-notifs">
+        <div class="header-notifs-body">
+          <header class="notifs-header">
+            <h1 class="notifs-text">Thông báo</h1>
+            <button class="js-hide-notif icon-cancel"></button>
+          </header>
+          <div id="notifs" class="notifs-content">
+            <div class="notif-loading">
+              <i class="icon-loading"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <% else %>
+        <a class="header-link" href="#">
+          <span class="header-icon"><i class="icon-notification"></i></span>
+          <span class="header-text">Thông báo</span>
+        </a>
+      <% end %>
+    </li>
+
+    <li class="header-item">
+      <a class="header-link js-show-menu" href="#">
+        <span class="header-icon"><i class="icon-menu"></i></span>
+        <span class="header-text">Thêm</span>
+      </a>
+
+      <div class="header-dropdown">
+        <div class="header-dropdown-body">
+          <%= if logged_in?(@conn) do %>
+            <a class="header-dropdown-link _primary" href="<%= public_user_path(@conn, :self) %>">
+              <div class="header-dropdown-avatar"><img src='<%= Map.get(@current_user, :avatar_url, static_url(@conn, "/img/avatar.png")) %>' alt=""></div>
+              <div class="header-dropdown-title"><%= @current_user.name || @current_user.phone  %></div>
+            </a>
+            <a class="header-dropdown-link" href="<%= public_shop_path(@conn, :self)%>">Cửa hàng/Chuyên trang</a>
+
+            <a class="header-dropdown-link" href="<%= public_support_path(@conn, :policy) %>">Quy chế hoạt động</a>
+            <a class="header-dropdown-link" href="<%= public_support_path(@conn, :terms) %>">Chính sách bảo mật</a>
+
+            <a class="header-dropdown-link" href="<%=
+            public_user_path(@conn, :edit_profile)%>">Sửa thông tin </a>
+                        <a class="header-dropdown-link" href="<%= public_user_path(@conn, :edit_password)%>">Đổi mật khẩu</a>
+            <a class="header-dropdown-link" href="<%= public_auth_path(@conn, :destroy) %>">Đăng xuất</a>
+          <% else %>
+            <a class="header-dropdown-link _primary" href="<%= public_auth_path(@conn, :new) %>">
+              <div class="header-dropdown-avatar"><img src="/img/avatar.png" alt=""></div>
+              <div class="header-dropdown-title">Đăng nhập/Đăng ký</div>
+            </a>
+            <a class="header-dropdown-link _disable" href="#">Cửa hàng/Chuyên trang</a>
+            <a class="header-dropdown-link" href="<%= public_support_path(@conn, :policy) %>">Quy chế hoạt động</a>
+            <a class="header-dropdown-link" href="<%= public_support_path(@conn, :terms) %>">Chính sách bảo mật</a>
+            <a class="header-dropdown-link _disable" href="#">Đăng xuất</a>
+          <% end %>
+        </div>
+
+      </div>
+    </li>
+
+    <li class="header-item">
+      <%= case user_role(@conn) do %>
+      <% :worker -> %>
+        <a class="header-button" href="<%= admin_adimage_path(@conn, :pick) %>">
+          <span class="header-text">Sửa ảnh</span>
+        </a>
+      <% :editor -> %>
+        <a class="header-button" href="<%= admin_adentry_path(@conn, :pick) %>">
+          <span class="header-text">Duyệt tin</span>
+        </a>
+      <% :admin -> %>
+        <a class="header-button" href="<%= admin_adentry_path(@conn, :pick) %>">
+          <span class="header-text">Duyệt tin</span>
+        </a>
+      <% :member -> %>
+        <a class="header-button" href="<%= public_submit_path(@conn, :new) %>">
+          <span class="header-text">Đăng tin</span>
+        </a>
+      <% _ -> %>
+        <a class="header-button" href="<%= public_auth_path(@conn, :new, next: public_submit_path(@conn, :new)) %>">
+          <span class="header-text">Đăng tin</span>
+        </a>
+      <% end %>
+    </li>
+  </ul>
+</nav>

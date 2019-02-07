@@ -1,0 +1,64 @@
+{
+  "grouping_slug": "mua-ban-laptop",
+  "name": "Hãng laptop",
+  "slug": "hang-laptop",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "Acer",
+      "slug": "acer"
+    },
+    {
+      "name": "Apple",
+      "slug": "apple"
+    },
+    {
+      "name": "Asus",
+      "slug": "asus"
+    },
+    {
+      "name": "Dell",
+      "slug": "dell"
+    },
+    {
+      "name": "HP",
+      "slug": "hp"
+    },
+    {
+      "name": "Lenovo",
+      "slug": "lenovo"
+    },
+    {
+      "name": "LG",
+      "slug": "lg"
+    },
+    {
+      "name": "MSI",
+      "slug": "msi"
+    },
+    {
+      "name": "Panasonic",
+      "slug": "panasonic"
+    },
+    {
+      "name": "Razer",
+      "slug": "razer"
+    },
+    {
+      "name": "Samsung",
+      "slug": "samsung"
+    },
+    {
+      "name": "Sony",
+      "slug": "sony"
+    },
+    {
+      "name": "Toshiba",
+      "slug": "toshiba"
+    },
+    {
+      "name": "Hãng khác",
+      "slug": "hang-khac"
+    }
+  ]
+}

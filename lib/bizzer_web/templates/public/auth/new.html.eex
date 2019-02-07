@@ -1,0 +1,27 @@
+<div id="auth" class="auth _login">
+  <header class="auth-header">
+    <h1 class="auth-header-title">Đăng nhập</h1>
+  </header>
+  <section class="auth-content">
+    <%= form_for @chset, public_auth_path(@conn, :create, next: return_url(@conn)), [as: :user], fn f -> %>
+      <div class="form-group">
+        <%= label f, :phone, "Số điện thoại", class: "form-label" %>
+        <%= telephone_input f, :phone, class: "input", placeholder: "Số điện thoại" %>
+        <%= form_error f, :phone %>
+      </div>
+
+      <div class="form-group">
+        <%= label f, :password, "Mật khẩu", class: "form-label" %>
+        <%= password_input f, :password, class: "input", placeholder: "Mật khẩu" %>
+        <%= form_error f, :password %>
+      </div>
+
+      <div class="form-group">
+        <%= submit "Đăng nhập", class: "button _submit _big _primary" %>
+      </div>
+    <% end %>
+  </section>
+  <footer class="auth-footer">
+    Chưa có tài khoản? <%= link "Tạo tài khoản mới", to: public_user_path @conn, :new, next: return_url(@conn) %>
+  </footer>
+</div>

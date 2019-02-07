@@ -1,0 +1,46 @@
+<%= if @properties != [] do %>
+  <h2 class="submit-title">Thông tin bổ sung</h2>
+<% end %>
+
+<%= for {{propkey, propval}, index} <- Enum.with_index(@properties) do %>
+  <div class="output js-show-wizard" data-wid="<%= 9 + index %>">
+    <label class="output-label" for="propkey-<%= propkey.slug %>"><%= propkey.name %></label>
+    <%= if propval do %>
+      <input type="hidden" name="submit[props][<%= propkey.slug %>]" id="submit-propkey-<%= propkey.slug %>-value" value="<%= propval.slug %>">
+      <div id="output-propkey-<%= propkey.slug %>-print" class="output-print _propkey"><%= propval.name %></div>
+    <% else %>
+      <input type="hidden" name="submit[props][<%= propkey.slug %>]" id="output-propkey-<%= propkey.slug %>-value">
+      <div id="output-propkey-<%= propkey.slug %>-print" class="output-print _propkey _empty">Chọn <%= propkey.name |> String.downcase %></div>
+    <% end %>
+  </div>
+
+  <div id="wizard-<%= index + 9 %>" class="wizard">
+    <%= render "__header.html", title: propkey.name %>
+
+    <section class="wizard-content">
+      <div class="wizard-wrapper">
+        <section class="wizard-parent">
+          <div class="wizard-parent-content">
+            <%= for propval <- propkey.propvals do %>
+              <button type="button"
+                  class="wizard-option js-update-output propkey-<%= propkey.parent_id %> propval-<%= propval.parent_id %>"
+                  data-wid="<%= 9 + index %>"
+                  data-input="propkey-<%= propkey.slug %>"
+                  data-value="<%= propval.slug %>"
+                  data-print="<%= propval.name %>"
+                  data-propkey="<%= propkey.id %>"
+                  data-propval="<%= propval.id %>"
+                >
+                  <span class="wizard-text"><%= propval.name %></span>
+                  <span class="wizard-icon"><i class="icon fe fe-check"></i></span>
+                </button>
+              <% end %>
+            </div>
+          </section>
+        </div>
+    </section>
+
+    <%= render "__footer.html", index: index + 9%>
+  </div>
+
+<% end %>

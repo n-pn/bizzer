@@ -1,0 +1,36 @@
+.submit {
+  padding-bottom: 3rem;
+  &._hide {
+    display: none;
+  }
+}
+
+.submit-header-title {
+  font-size: rem(24);
+  // color: #999;
+  font-family: $font-interface;
+  font-weight: bold;
+  // height: 3rem;
+}
+
+.submit-title {
+  color: #777;
+  font-size: rem(18);
+  font-weight: normal;
+}
+
+.submit-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: $gutter;
+  text-align: center;
+  // background-color: #f8f8f8;
+  box-shadow: 0 -1xp 2px rgba(#000, .2);
+
+  .button {
+    width: 32rem;
+    @include screen-phone { width: 90%; }
+  }
+}

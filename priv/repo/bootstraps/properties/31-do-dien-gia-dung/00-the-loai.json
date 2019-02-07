@@ -1,0 +1,40 @@
+{
+  "grouping_slug": "do-dien-gia-dung",
+  "name": "Thể loại",
+  "slug": "the-loai",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Tủ lạnh",
+      "slug": "tu-lanh"
+    },
+    {
+      "name": "Điều hoà",
+      "slug": "dieu-hoa"
+    },
+    {
+      "name": "Máy giặt",
+      "slug": "may-giat"
+    },
+    {
+      "name": "Quạt điện",
+      "slug": "quat-dien"
+    },
+    {
+      "name": "Đèn điện",
+      "slug": "den-dien"
+    },
+    {
+      "name": "Bếp điện",
+      "slug": "bep-dien"
+    },
+    {
+      "name": "Nồi cơm điện",
+      "slug": "noi-com-dien"
+    },
+    {
+      "name": "Thiết bị khác",
+      "slug": "thiet-bi-khac"
+    }
+  ]
+}

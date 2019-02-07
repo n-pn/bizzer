@@ -1,0 +1,132 @@
+<section class="main-content _full _shop">
+  <article class="shop">
+
+    <section class="shop-image">
+      <div class="shop-cover">
+        <img id="shop_cover_preview" src='<%= @shop.cover_url || "/img/cover.jpg" %>' alt="">
+
+      </div>
+      <div class="shop-avatar">
+        <img id="shop_avatar_preview" src='<%= @shop.avatar_url || "/img/avatar.png" %>' alt="">
+      </div>
+    </section>
+
+    <header class="shop-header">
+      <h1 class="shop-title"><%= @shop.name  %></h1>
+    </header>
+
+    <div class="shop-content">
+      <section class="shop-section _info">
+        <h2 class="shop-subtitle">Thông tin</h2>
+        <div class="shop-meta">
+          <div class="shop-info">Số điện thoại:</div>
+          <div class="shop-phone-button">
+            <span class="front">Hiện số</span>
+            <span class="back"><%= @shop.phone %></span>
+          </div>
+        </div>
+
+        <div class="shop-meta">
+          <span class="shop-info">Địa chỉ:</span>
+          <span class="shop-data _address"><%= @shop.address %></span>
+        </div>
+        <div class="shop-meta">
+          <span class="shop-info">Giới thiệu:</span>
+          <span class="shop-data _details"><%= @shop.details || "N/A" %></span>
+        </div>
+
+        <div class="shop-meta">
+          <span class="shop-info">Ngày tham gia: </span>
+          <span class="shop-data _date"><%= Bizzer.TimeUtil.relative(@shop.inserted_at) %></span>
+        </div>
+      </section>
+
+      <section class="shop-section _data">
+        <h2 class="shop-subtitle">Tin đăng</h2>
+        <div class="shop-list">
+          <%= if length(@adentries) == 0 do %>
+            <div class="search-noresult">
+              <p>Không có tin đăng</p>
+            </div>
+          <% else %>
+            <%= render BizzerWeb.PartialView, "adentry-list.html", Map.merge(assigns, %{prev_url: prev_url(@conn), next_url: next_url(@conn)}) %>
+          <% end %>
+        </div>
+
+        <%= if logged_in?(@conn) && current_user(@conn).id == @shop.user_id do %>
+        <div class="shop-action">
+          <%= case @shop.status do %>
+          <% :pending -> %>
+          <a href="<%= public_shop_path(@conn, :edit) %>" class="button">Sửa thông tin</a>
+          <a href="#" class="js-show-shop-popup button _primary">Kích hoạt cửa hàng</a>
+          <% :shopped -> %>
+          <a href="#" class="js-show-shop-popup button _primary">Kích hoạt cửa hàng</a>
+          <% :running -> %>
+          <a href="<%= public_shop_path(@conn, :edit) %>" class="button _primary">Sửa thông tin</a>
+          <!-- do nothing -->
+          <% _ -> %>
+          <!-- do nothing -->
+          <% end %>
+        </div>
+        <% end %>
+      </section>
+
+    </div>
+  </article>
+
+</section>
+
+<div id="shop_popup" class="shop-popup">
+  <div class="shop-popup-body">
+    <form action="<%= public_shop_path(@conn, :activate) %>" method="post">
+      <header class="shop-popup-header">
+        <span class="shop-popup-title">Thanh toán</span>
+        <i class="icon-cancel js-hide-shop-popup"></i>
+      </header>
+      <section class="shop-popup-content">
+        <input type="hidden" name="_csrf_token" value="<%= Plug.CSRFProtection.get_csrf_token() %>">
+
+        <label class="shop-popup-option">
+          <input type="radio" name="period" value="1">
+          <div class="shop-popup-option-value"><strong>Một tháng</strong> sử dụng</div>
+          <div class="shop-popup-option-price">
+            <span class="shop-popup-option-newprice">Miễn phí</span>
+            <span class="shop-popup-option-oldprice">200.000d</span>
+          </div>
+        </label>
+
+        <label class="shop-popup-option">
+          <input type="radio" name="period" value="3">
+          <div class="shop-popup-option-value"><strong>Ba tháng</strong> sử dụng</div>
+          <div class="shop-popup-option-price">
+            <span class="shop-popup-option-newprice">Miễn phí</span>
+            <span class="shop-popup-option-oldprice">400.000d</span>
+          </div>
+        </label>
+
+        <label class="shop-popup-option">
+          <input type="radio" name="period" value="6">
+          <div class="shop-popup-option-value"><strong>Sáu tháng</strong> sử dụng</div>
+          <div class="shop-popup-option-price">
+            <span class="shop-popup-option-newprice">Miễn phí</span>
+            <span class="shop-popup-option-oldprice">1.000.000d</span>
+          </div>
+        </label>
+
+        <label class="shop-popup-option">
+          <input type="radio" name="period" value="4">
+          <div class="shop-popup-option-value"><strong>Mười hai tháng</strong> sử dụng</div>
+          <div class="shop-popup-option-price">
+            <span class="shop-popup-option-newprice">Miễn phí</span>
+            <span class="shop-popup-option-oldprice">2.000.000d</span>
+          </div>
+        </label>
+      </section>
+
+      <footer class="shop-popup-footer">
+        <button class="button _primary _full js-purchase-shop">Chấp nhận</button>
+      </footer>
+    </form>
+
+  </div>
+</div>

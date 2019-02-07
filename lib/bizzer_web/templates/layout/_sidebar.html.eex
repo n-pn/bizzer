@@ -1,0 +1,10 @@
+<div class="main-sidebar">
+  <aside class="sidebar">
+    <div class="sidebar-banner _small">
+      <img src='<%= static_url(@conn, "/img/sidebar-banner.jpg") %>' alt="Small banner">
+    </div>
+    <div class="sidebar-banner _big">
+      <img src='<%= static_url(@conn, "/img/sidebar-banner.jpg") %>' alt="Big banner">
+    </div>
+  </aside>
+</div>

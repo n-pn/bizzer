@@ -1,0 +1,57 @@
+<div class="form-input js-show-filter" data-fid="location">
+  <span  id="location-print" class="input"><%= @location.name %></span>
+</div>
+
+<div id="filter-location" class="filter <%= if @location.type == :child, do: " _onchild" %>">
+  <div class="filter-wrapper">
+    <header class="filter-header">
+      <h1 class="filter-header-text">Chọn khu vực</h1>
+      <button class="filter-header-icon js-hide-filter" data-fid="location" type="button"><i class="icon fe fe-x"></i></button>
+    </header>
+
+    <section class="filter-parent">
+      <div class="filter-parent-content">
+        <a class='filter-link <%= is_active(@location.slug, "toan-quoc" ) %>'
+            href="<%= public_search_path(@conn, :grouping, @grouping.slug) %>">
+          <span class="filter-text">Toàn quốc</span>
+          <span class="filter-icon"><i class="icon-check"></i></span>
+        </a>
+
+        <%= for parent <- @locations do %>
+          <button type="button" class="filter-link js-show-filter-child" data-fid="location" data-cid="location-<%= parent.slug %>">
+            <span class="filter-text"><%= parent.name %></span>
+            <span class="filter-icon"><i class="icon fe fe-chevron-right"></i></span>
+          </button>
+        <% end %>
+      </div>
+    </section>
+
+    <%= for parent <- @locations do %>
+      <section class="filter-child <%= is_active(@location.parent_id, parent.id) %>" id="filter-location-<%= parent.slug %>">
+
+        <div class="filter-child-content">
+          <div class="filter-special _back">
+            <button class="filter-link js-show-filter-parent" data-fid="location" type="button">
+              <span class="filter-text">Trở lại</span>
+              <span class="filter-icon"><i class="icon fe fe-chevron-left"></i></span>
+            </button>
+          </div>
+
+          <a class="filter-link<%= is_active(@location.id, parent.id) %>"
+             href="<%= public_search_path(@conn, :location, @grouping.slug, parent.slug) %>">
+            <span class="filter-text">Toàn bộ khu vực</span>
+            <span class="filter-icon"><i class="icon-check"></i></span>
+          </a>
+
+          <%= for child <- parent.children do %>
+            <a class="filter-link <%= is_active(@location.id, child.id) %>"
+              href="<%= public_search_path(@conn, :location, @grouping.slug, child.slug) %>">
+              <span class="filter-text"><%= child.name %></span>
+              <span class="filter-icon"><i class="icon-check"></i></span>
+            </a>
+          <% end %>
+        </div>
+      </section>
+    <% end %>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+<section class="main-content">
+  <h3>Tổng quan:</h3>
+  <p>Tổng số ảnh: <strong><%= @adimage_total %></strong>.</p>
+  <p>Ảnh chưa sửa: <strong><%= @adimage_total - @adimage_edited_total %></strong>.</p>
+
+  <h3>Tất cả:</h3>
+  <p>Ảnh đã sửa: <strong><%= @adimage_edited_total %></strong>.</p>
+  <%= for worker <- @workers_edited_total do %>
+  <p>Tên: <strong><%= worker.name %></strong>. Đã sửa: <strong><%= worker.count %></strong> ảnh.</p>
+  <% end %>
+
+  <h3>Một giờ gần nhất:</h3>
+  <p>Ảnh đã sửa: <strong><%= @adimage_edited_this_hour %></strong>.</p>
+  <%= for worker <- @workers_edited_this_hour do %>
+  <p>Tên: <strong><%= worker.name %></strong>. Đã sửa: <strong><%= worker.count %></strong> ảnh.</p>
+  <% end %>
+
+  <h3>Hôm nay:</h3>
+  <p>Ảnh đã sửa: <strong><%= @adimage_edited_this_day %></strong>.</p>
+  <%= for worker <- @workers_edited_this_day do %>
+  <p>Tên: <strong><%= worker.name %></strong>. Đã sửa: <strong><%= worker.count %></strong> ảnh.</p>
+  <% end %>
+
+  <h3>Tuần này:</h3>
+  <p>Ảnh đã sửa: <strong><%= @adimage_edited_this_week %></strong>.</p>
+  <%= for worker <- @workers_edited_this_week do %>
+  <p>Tên: <strong><%= worker.name %></strong>. Đã sửa: <strong><%= worker.count %></strong> ảnh.</p>
+  <% end %>
+
+  <h3>Tháng này:</h3>
+  <p>Ảnh đã sửa: <strong><%= @adimage_edited_this_month %></strong>.</p>
+  <%= for worker <- @workers_edited_this_month do %>
+  <p>Tên: <strong><%= worker.name %></strong>. Đã sửa: <strong><%= worker.count %></strong> ảnh.</p>
+  <% end %>
+
+</section>

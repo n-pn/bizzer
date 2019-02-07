@@ -1,0 +1,26 @@
+{
+  "name": "Thuê nhà đất",
+  "slug": "thue-nha-dat",
+  "children": [
+    {
+      "name": "Thuê căn hộ, chung cư",
+      "slug": "thue-can-ho-chung-cu"
+    },
+    {
+      "name": "Thuê nhà riêng, biệt thự",
+      "slug": "thue-nha-rieng-biet-thu"
+    },
+    {
+      "name": "Thuê văn phòng, cửa hàng",
+      "slug": "thue-van-phong-cua-hang"
+    },
+    {
+      "name": "Thuê phòng trọ, ở ghép",
+      "slug": "thue-phong-tro-o-ghep"
+    },
+    {
+      "name": "Thuê các loại nhà đất khác",
+      "slug": "thue-cac-loai-nha-dat-khac"
+    }
+  ]
+}

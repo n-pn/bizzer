@@ -1,0 +1,83 @@
+.output {
+  border-bottom: 2px solid #ddd;
+  margin: $gutter 0;
+  padding: $gutter/2 $gutter;
+  background-color: #fff;
+
+  &:hover {
+    background-color: #f8f8f8;
+    border-color: $primary-color;
+    cursor: pointer;
+  }
+}
+
+.output-label {
+  font-size: rem(16);
+  color: #999;
+  line-height: 1.5rem;
+  // margin-bottom: $gutter / 2;
+}
+
+.output-print {
+  display: block;
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  line-height: 1.5rem;
+  padding: .5rem 0;
+  min-height: 2.5rem;
+  // margin: $gutter/2 0;
+  color: #444;
+  font-size: 16px;
+
+
+  &._subject { font-size: rem(20); }
+  &._details { line-height: 1.5; }
+  &._price { color: $text-price-color; font-weight: bold; }
+
+
+  &._empty {
+    font-size: 14px;
+    font-style: italic;
+    font-weight: normal;
+    color: #999;
+  }
+}
+
+.output-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: $gutter;
+  text-align: center;
+  .button {
+    min-width: 20rem;
+    width: 50%;
+  }
+}
+
+.output-images {
+  @include clearfix;
+  padding: $gutter / 2 0;
+}
+
+.output-image {
+  float: left;
+  width: 7.5rem;
+  height: 7.5rem;
+  margin: $gutter/2;
+  overflow: hidden;
+  border-radius: 4px;
+  border: 1px solid $border-color;
+  background-color: #fff;
+  &._camera {
+    padding: $gutter;
+  }
+}
+
+.output-error:not(:empty) {
+  color: $error-color;
+  font-size: rem(14);
+}

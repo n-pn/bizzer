@@ -1,0 +1,48 @@
+{
+  "grouping_slug": "mua-ban-o-to",
+  "name": "Xuất xứ ô tô",
+  "slug": "xuat-xu-o-to",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "Việt Nam",
+      "slug": "viet-nam"
+    },
+    {
+      "name": "Ấn Độ",
+      "slug": "an-do"
+    },
+    {
+      "name": "Hàn Quốc",
+      "slug": "han-quoc"
+    },
+    {
+      "name": "Thái Lan",
+      "slug": "thai-lan"
+    },
+    {
+      "name": "Nhật Bản",
+      "slug": "nhat-ban"
+    },
+    {
+      "name": "Trung Quốc",
+      "slug": "trung-quoc"
+    },
+    {
+      "name": "Mỹ",
+      "slug": "my"
+    },
+    {
+      "name": "Đức",
+      "slug": "duc"
+    },
+    {
+      "name": "Đài Loan",
+      "slug": "dai-loan"
+    },
+    {
+      "name": "Nước khác",
+      "slug": "nuoc-khac"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Tây Nguyên",
+  "slug": "tay-nguyen",
+  "children": [
+    {
+      "name": "Kon Tum",
+      "slug": "kon-tum"
+    },
+    {
+      "name": "Gia Lai",
+      "slug": "gia-lai"
+    },
+    {
+      "name": "Đắk Lắk",
+      "slug": "dak-lak"
+    },
+    {
+      "name": "Đắk Nông",
+      "slug": "dak-nong"
+    },
+    {
+      "name": "Lâm Đồng",
+      "slug": "lam-dong"
+    }
+  ]
+}

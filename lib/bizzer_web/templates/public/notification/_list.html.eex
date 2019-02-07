@@ -1,0 +1,32 @@
+<%= if @notifications == [] do %>
+<div class="notif-loading">
+  <p>Không có thông báo mới</p>
+</div>
+<% end %>
+
+<%= for notif <- @notifications do %>
+  <div class="notif _<%= notif.type %>">
+    <header class="notif-header">
+      <span class="header-meta"><i class="fe fe-clock"></i> <%= Bizzer.TimeUtil.relative(notif.inserted_at) %></span>
+    </header>
+    <section class="notif-content">
+      <%= case notif.type do %>
+        <% :accept_adentry -> %>
+          <p>Tin rao vặt <a href="<%= notif.data["adentry_url"] %>"><%= notif.data["adentry_subject"] %></a> của bạn đã được phê duyệt.</p>
+        <% :reject_adentry -> %>
+          <p>Tin rao vặt <a href="<%= notif.data["adentry_url"] %>"><%= notif.data["adentry_subject"] %></a> của bạn đã bị từ chối.</p>
+          <%= if reason = notif.data["reason"] do %>
+            <p>Lý do: <%= reason %></p>
+          <% end %>
+        <% :delete_adentry -> %>
+          <p>Tin rao vặt <a href='<%= notif.data["adentry_url"] %>'><%= notif.data["adentry_subject"] %></a> của bạn đã bị xóa.</p>
+          <%= if reason = notif.data["reason"] do %>
+            <p>Lý do: <%= reason %></p>
+          <% end %>
+        <% :import_adentry -> %>
+          <p>Có khoảng <strong><%= notif.data["entry_count"] %></strong> tin rao vặt và <strong><%= notif.data["image_count"] %></strong> hình ảnh đã được kéo về từ <em><%= notif.data["source"] %></em>.</p>
+      <% end %>
+    </section>
+
+  </div>
+<% end %>

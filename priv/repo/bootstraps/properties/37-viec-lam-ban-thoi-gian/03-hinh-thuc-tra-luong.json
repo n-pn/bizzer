@@ -1,0 +1,24 @@
+{
+  "grouping_slug": "viec-lam-ban-thoi-gian",
+  "name": "Hình thức trả lương",
+  "slug": "hinh-thuc-tra-luong",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Theo giờ",
+      "slug": "theo-gio"
+    },
+    {
+      "name": "Theo ngày",
+      "slug": "theo-ngay"
+    },
+    {
+      "name": "Theo tháng",
+      "slug": "theo-thang"
+    },
+    {
+      "name": "Lương khoán",
+      "slug": "luong-khoan"
+    }
+  ]
+}

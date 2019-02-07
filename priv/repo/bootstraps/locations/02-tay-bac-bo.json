@@ -1,0 +1,30 @@
+{
+  "name": "Tây Bắc Bộ",
+  "slug": "tay-bac-bo",
+  "children": [
+    {
+      "name": "Lào Cai",
+      "slug": "lao-cai"
+    },
+    {
+      "name": "Yên Bái",
+      "slug": "yen-bai"
+    },
+    {
+      "name": "Điện Biên",
+      "slug": "dien-bien"
+    },
+    {
+      "name": "Hòa Bình",
+      "slug": "hoa-binh"
+    },
+    {
+      "name": "Lai Châu",
+      "slug": "lai-chau"
+    },
+    {
+      "name": "Sơn La",
+      "slug": "son-la"
+    }
+  ]
+}

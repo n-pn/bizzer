@@ -1,0 +1,24 @@
+{
+  "grouping_slug": "thue-can-ho-chung-cu",
+  "name": "Loại hình căn hộ",
+  "slug": "loai-hinh-can-ho",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Căn hộ",
+      "slug": "can-ho"
+    },
+    {
+      "name": "Condotel",
+      "slug": "condotel"
+    },
+    {
+      "name": "Duplex",
+      "slug": "duplex"
+    },
+    {
+      "name": "Penthouse",
+      "slug": "penthouse"
+    }
+  ]
+}

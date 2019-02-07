@@ -1,0 +1,24 @@
+<section class="front">
+  <div class="front-body">
+    <a class="front-banner" href="//vikid.org" target="_blank" rel="noopener noreferrer">
+      <img src='<%= static_url(@conn, "/img/banner-vikid.jpg") %>' alt="">
+    </a>
+  </div>
+
+  <div class="front-body">
+    <h2 class="front-title">
+      Khám phá danh mục
+    </h2>
+    <ul class="front-list">
+      <%= for grouping <- @groupings do %>
+        <li class="front-item">
+          <a class="front-link" href="<%= public_search_path(@conn, :grouping, grouping.slug) %>">
+            <img src='<%= static_url(@conn, "/img/groupings/#{grouping.slug}.jpeg") %>' alt="<%= grouping.name %>">
+            <div class="front-text"><%= grouping.name %></div>
+          </a>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+
+</section>

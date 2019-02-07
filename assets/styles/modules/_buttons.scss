@@ -1,0 +1,50 @@
+$button-height: 2.5rem;
+
+.button {
+  display: inline-block;
+
+  background-color: #fff;
+  color: #999;
+  box-shadow: $box-shadow;
+  height: $button-height;
+  line-height: $button-height + .125rem;
+
+  padding: 0 1rem;
+
+  text-transform: uppercase;
+  font-size: rem(14);
+
+  border-radius: 5px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: #eee;
+  }
+
+  &._big {
+    line-height: 3rem;
+    height: 3rem;
+    font-size: 1.1rem;
+    padding: 0 $gutter * 2;
+  }
+
+  &._primary {
+    $bg-color: #2653AF;
+    background: $bg-color;
+    box-shadow: 0px 3px 6px rgba(0, 75, 231, 0.4);
+
+    color: #fff;
+    &:hover {
+      background-color: lighten($bg-color, 5%);
+    }
+  }
+
+  &._submit {
+    display: block;
+    width: 100%;
+  }
+}
+
+.button + .button {
+  margin-left: $gutter;
+}

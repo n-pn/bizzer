@@ -1,0 +1,25 @@
+<div class="output js-show-wizard" data-wid="<%= @index %>">
+  <label class="output-label" for="subject">Tiêu đề</label>
+  <input type="hidden" name="submit[subject]" id="output-subject-value" value="<%= get_value(@chset, :subject) %>">
+  <%= if print = get_print(@chset, :subject) do %>
+    <div id="output-subject-print" class="output-print _subject"><%= print %></div>
+  <% else %>
+    <div id="output-subject-print" class="output-print _subject _empty">Nội dung tiêu đề</div>
+  <% end %>
+  <div id="output-subject-error" class="output-error"><%= get_error(@chset, :subject) %></div>
+</div>
+
+<div id="wizard-<%= @index %>" class="wizard">
+  <%= render "__header.html", title: "Tiêu đề" %>
+
+  <section class="wizard-content">
+    <div class="wizard-wrapper">
+      <div class="wizard-parent">
+        <textarea class="wizard-input _subject js-change-output" data-input="subject"><%= get_value(@chset, :subject) %></textarea>
+        <div class="wizard-guide"></div>
+      </div>
+    </div>
+  </section>
+
+  <%= render "__footer.html", index: @index %>
+</div>

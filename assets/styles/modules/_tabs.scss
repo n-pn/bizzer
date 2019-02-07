@@ -1,0 +1,25 @@
+$tab-height: 2.5rem;
+
+.tabs {
+  @include clearfix;
+  display: block;
+  width: 100%;
+  height: $tab-height;
+  line-height: $tab-height;
+  background-color: #fff;
+  box-shadow: $box-shadow;
+  border-radius: $radius;
+  padding: 0 $gutter;
+}
+
+.tab {
+  display: inline-block;
+  float: left;
+  color: #666;
+  padding: 0 $gutter;
+  height: $tab-height;
+  &._active {
+    color: #2a2a2a;
+    border-bottom: 3px solid $primary-color;
+  }
+}

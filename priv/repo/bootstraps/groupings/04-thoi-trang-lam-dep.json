@@ -1,0 +1,26 @@
+{
+  "name": "Thời trang, làm đẹp",
+  "slug": "thoi-trang-lam-dep",
+  "children": [
+    {
+      "name": "Thời trang mẹ và bé",
+      "slug": "thoi-trang-me-va-be"
+    },
+    {
+      "name": "Thời trang nam nữ",
+      "slug": "thoi-trang-nam-nu"
+    },
+    {
+      "name": "Giày dép, túi xách",
+      "slug": "giay-dep-tui-xach"
+    },
+    {
+      "name": "Nước hoa, mỹ phẩm",
+      "slug": "nuoc-hoa-my-pham"
+    },
+    {
+      "name": "Đồng hồ, trang sức",
+      "slug": "dong-ho-trang-suc"
+    }
+  ]
+}

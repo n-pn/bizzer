@@ -1,0 +1,40 @@
+{
+  "grouping_slug": "mua-ban-xe-dien",
+  "name": "Bảo hành",
+  "slug": "bao-hanh",
+  "query_type": "checkbox",
+  "propvals": [
+    {
+      "name": "Hết bảo hành",
+      "slug": "het-bao-hanh"
+    },
+    {
+      "name": "<3 tháng",
+      "slug": "duoi-3-thang"
+    },
+    {
+      "name": "3 tháng",
+      "slug": "3-thang"
+    },
+    {
+      "name": "6 tháng",
+      "slug": "6-thang"
+    },
+    {
+      "name": "12 tháng",
+      "slug": "12-thang"
+    },
+    {
+      "name": "18 tháng",
+      "slug": "18-thang"
+    },
+    {
+      "name": "24 tháng",
+      "slug": "24-thang"
+    },
+    {
+      "name": "> 24 tháng",
+      "slug": "tren-24-thang"
+    }
+  ]
+}

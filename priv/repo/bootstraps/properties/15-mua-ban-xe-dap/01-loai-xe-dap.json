@@ -1,0 +1,24 @@
+{
+  "grouping_slug": "mua-ban-xe-dap",
+  "name": "Loại xe đạp",
+  "slug": "loai-xe-dap",
+  "query_type": "select",
+  "propvals": [
+    {
+      "name": "Xe đạp thể thao",
+      "slug": "xe-dap-the-thao"
+    },
+    {
+      "name": "Xe đạp trẻ em",
+      "slug": "xe-dap-tre-em"
+    },
+    {
+      "name": "Xe đạp phổ thông",
+      "slug": "xe-dap-pho-thong"
+    },
+    {
+      "name": "Loại xe đạp khác",
+      "slug": "loai-xe-dap-khac"
+    }
+  ]
+}

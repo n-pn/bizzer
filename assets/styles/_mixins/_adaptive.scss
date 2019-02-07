@@ -1,0 +1,39 @@
+$break-phone: 600px;
+$break-tablet: 992px;
+$break-laptop: 1200px;
+
+@mixin screen($min, $max) {
+  @media only screen and (min-width: #{$min}) and (max-width: #{$max}) {
+    @content;
+  }
+}
+
+@mixin screen-min($min) {
+  @media only screen and (min-width: #{$min}) {
+    @content;
+  }
+}
+
+@mixin screen-max($max) {
+  @media only screen and (max-width: #{$max}) {
+    @content;
+  }
+}
+
+@mixin screen-phone {
+  @media only screen and (max-width: $break-phone) {
+    @content;
+  }
+}
+
+@mixin screen-tablet {
+  @media only screen and (max-width: $break-tablet) {
+    @content;
+  }
+}
+
+@mixin screen-laptop {
+  @media only screen and (max-width: $break-laptop) {
+    @content;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Bắc Trung Bộ",
+  "slug": "bac-trung-bo",
+  "children": [
+    {
+      "name": "Thanh Hóa",
+      "slug": "thanh-hoa"
+    },
+    {
+      "name": "Nghệ An",
+      "slug": "nghe-an"
+    },
+    {
+      "name": "Hà Tĩnh",
+      "slug": "ha-tinh"
+    },
+    {
+      "name": "Quảng Bình",
+      "slug": "quang-binh"
+    },
+    {
+      "name": "Quảng Trị",
+      "slug": "quang-tri"
+    },
+    {
+      "name": "Thừa Thiên Huế",
+      "slug": "thua-thien-hue"
+    }
+  ]
+}

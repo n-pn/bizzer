@@ -1,0 +1,28 @@
+{
+  "grouping_slug": "mua-ban-xe-may",
+  "name": "Dung tích xe",
+  "slug": "dung-tich-xe",
+  "query_type": "radiobox",
+  "propvals": [
+    {
+      "name": "Dưới 50 cc",
+      "slug": "duoi-50-cc"
+    },
+    {
+      "name": "50 - 100 cc",
+      "slug": "50-100-cc"
+    },
+    {
+      "name": "100 - 175 cc",
+      "slug": "100-175-cc"
+    },
+    {
+      "name": "Trên 175 cc",
+      "slug": "tren-175-cc"
+    },
+    {
+      "name": "Không biết rõ",
+      "slug": "khong-biet-ro"
+    }
+  ]
+}
